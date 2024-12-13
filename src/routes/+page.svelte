@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<h1>Albums</h1>
+<a href="/jeannette">Jeannette</a>
+
+<style>
+	h1 {
+		text-align: center;
+	}
+	a {
+		display: block;
+		text-align: center;
+		/* margin-top: 1rem; */
+	}
+</style>
