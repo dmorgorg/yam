@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Cordelius';
+	src: url($lib/fonts/Cordelius.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'text';
+	src: url($lib/fonts/AlkesRgIt.TTF) format('truetype');
+}
+
+@font-face {
+	font-family: 'candara';
+	src: url($lib/fonts/Candara.ttf) format('truetype');
+}
