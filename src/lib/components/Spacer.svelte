@@ -1,5 +1,5 @@
 <script>
-	// same values as HomeIcon, just a spacer to keep type title centred
+	// same values as HomeIcon, just a spacer to keep title centred
 	let { fontSize = '4vw', linked = false } = $props();
 	import '$lib/styling/app.css';
 	import '$lib/fonts.css';
