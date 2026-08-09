@@ -25,116 +25,114 @@
 </script>
 
 <div class="outer">
-	<div class="container">
-		<div class="top-matter">
-			<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-			<div class="bird-type">Bird Species</div>
-			<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
-		</div>
-		<div class="home-page-links">
-			<a href="/birds/types/cormorants">
-				<div class="photo-link">
-					<enhanced:img src={blackbird} alt="cormorant" />
-					Blackbirds and allies (2)
-				</div>
-			</a>
-			<a href="/birds/types/coots">
-				<div class="photo-link">
-					<enhanced:img src={coot} alt="coot" />
-					Coots (1)
-				</div>
-			</a>
-			<a href="/birds/types/cormorants">
-				<div class="photo-link">
-					<enhanced:img src={cormorant} alt="cormorant" />
-					Cormorants (2)
-				</div>
-			</a>
-			<a href="/birds/types/cormorants">
-				<div class="photo-link">
-					<enhanced:img src={duck} alt="wood duck" />
-					Ducks and Geese(wood duck) (2)
-				</div>
-			</a>
-			<a href="/birds/types/cormorants">
-				<div class="photo-link">
-					<enhanced:img src={kite} alt="kite" />
-					Eagles, Hawks and Kites (1)
-				</div>
-			</a>
-			<a href="/birds/types/cormorants">
-				<div class="photo-link">
-					<enhanced:img src={egret} alt="egret" />
-					Egrets and Herons (1)
-				</div>
-			</a>
-			<a href="/birds/types/cormorants">
-				<div class="photo-link">
-					<enhanced:img src={finch} alt="finch" />
-					Finches (1)
-				</div>
-			</a>
-			<a href="/birds/types/cormorants">
-				<div class="photo-link">
-					<enhanced:img src={ibis} alt="ibis" />
-					Ibises (1)
-				</div>
-			</a>
-			<a href="/birds/types/cormorants">
-				<div class="photo-link">
-					<enhanced:img src={kingfisher} alt="kingfisher" />
-					Kingfishers (1)
-				</div>
-			</a>
-			<a href="/birds/types/cormorants">
-				<div class="photo-link">
-					<enhanced:img src={owl} alt="owl" />
-					Owls - great horned (1)
-				</div>
-			</a>
-			<a href="/birds/types/cormorants">
-				<div class="photo-link">
-					<enhanced:img src={pelican} alt="pelican" />
-					Pelicans(1)
-				</div>
-			</a>
-			<a href="/birds/types/sandpipers">
-				<div class="photo-link">
-					<enhanced:img src={sandpiper} alt="sandpiper" />
-					Sandpipers(willet) (2)
-				</div>
-			</a>
-			<a href="/birds/types/sandpipers">
-				<div class="photo-link">
-					<enhanced:img src={stilt} alt="stilt" />
-					Stilts (1)
-				</div>
-			</a>
-			<a href="/birds/types/sandpipers">
-				<div class="photo-link">
-					<enhanced:img src={stork} alt="stork" />
-					Storks (1)
-				</div>
-			</a>
-			<a href="/birds/types/sandpipers">
-				<div class="photo-link">
-					<enhanced:img src={tern} alt="tern" />
-					Terns and Gulls (1)
-				</div>
-			</a>
-			<a href="/birds/types/sandpipers">
-				<div class="photo-link">
-					<enhanced:img src={waxwing} alt="waxwing" />
-					Waxwings (1)
-				</div>
-			</a>
-			<a href="/birds/types/sandpipers">
-				<div class="photo-link">
-					<enhanced:img src={woodpecker} alt="woodpecker" />
-					Woodpeckers (1)
-				</div>
-			</a>
-		</div>
+	<div class="top-matter">
+		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
+		<div class="bird-type">Bird Species</div>
+		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
+	</div>
+	<div class="home-page-links">
+		<a href="/birds/types/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={blackbird} alt="cormorant" />
+				Blackbirds and allies (2)
+			</div>
+		</a>
+		<a href="/birds/types/coots">
+			<div class="photo-link">
+				<enhanced:img src={coot} alt="coot" />
+				Coots (1)
+			</div>
+		</a>
+		<a href="/birds/types/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={cormorant} alt="cormorant" />
+				Cormorants (2)
+			</div>
+		</a>
+		<a href="/birds/types/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={duck} alt="wood duck" />
+				Ducks and Geese(wood duck) (2)
+			</div>
+		</a>
+		<a href="/birds/types/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={kite} alt="kite" />
+				Eagles, Hawks and Kites (1)
+			</div>
+		</a>
+		<a href="/birds/types/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={egret} alt="egret" />
+				Egrets and Herons (1)
+			</div>
+		</a>
+		<a href="/birds/types/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={finch} alt="finch" />
+				Finches (1)
+			</div>
+		</a>
+		<a href="/birds/types/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={ibis} alt="ibis" />
+				Ibises (1)
+			</div>
+		</a>
+		<a href="/birds/types/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={kingfisher} alt="kingfisher" />
+				Kingfishers (1)
+			</div>
+		</a>
+		<a href="/birds/types/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={owl} alt="owl" />
+				Owls - great horned (1)
+			</div>
+		</a>
+		<a href="/birds/types/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={pelican} alt="pelican" />
+				Pelicans(1)
+			</div>
+		</a>
+		<a href="/birds/types/sandpipers">
+			<div class="photo-link">
+				<enhanced:img src={sandpiper} alt="sandpiper" />
+				Sandpipers(willet) (2)
+			</div>
+		</a>
+		<a href="/birds/types/sandpipers">
+			<div class="photo-link">
+				<enhanced:img src={stilt} alt="stilt" />
+				Stilts (1)
+			</div>
+		</a>
+		<a href="/birds/types/sandpipers">
+			<div class="photo-link">
+				<enhanced:img src={stork} alt="stork" />
+				Storks (1)
+			</div>
+		</a>
+		<a href="/birds/types/sandpipers">
+			<div class="photo-link">
+				<enhanced:img src={tern} alt="tern" />
+				Terns and Gulls (1)
+			</div>
+		</a>
+		<a href="/birds/types/sandpipers">
+			<div class="photo-link">
+				<enhanced:img src={waxwing} alt="waxwing" />
+				Waxwings (1)
+			</div>
+		</a>
+		<a href="/birds/types/sandpipers">
+			<div class="photo-link">
+				<enhanced:img src={woodpecker} alt="woodpecker" />
+				Woodpeckers (1)
+			</div>
+		</a>
 	</div>
 </div>
 
@@ -144,11 +142,9 @@
 		height: 100%;
 		margin: 0;
 		padding: 0;
+		/* border: 3px solid green; */
 	}
-	.container {
-		height: 100vh;
-		overflow: hidden;
-	}
+
 	.top-matter {
 		display: flex;
 		font-family: cordelius;
@@ -168,10 +164,12 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-evenly;
+		/* overflow-y: auto; */
 		width: 90%;
 		margin-inline: auto;
 		margin-top: 5em;
 		gap: 1em;
+		/* border: 3px solid green; */
 
 		a:link,
 		a:visited,
