@@ -23,7 +23,6 @@
 <style lang="scss">
 	.home-icon {
 		background-color: black;
-		// color: #0f0;
 		color: white;
 		display: inline-block;
 		font-weight: bold;

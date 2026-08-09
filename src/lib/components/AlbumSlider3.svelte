@@ -1,7 +1,7 @@
 <script>
 	import { fade } from 'svelte/transition';
 	let { hIndex, vIndex, imagesArray } = $props();
-	// let mediaEl = $state('');
+	let mediaEl = $state('');
 	let captionWidth = $state('90%');
 
 	const setCaptionWidth = () => {
@@ -62,11 +62,8 @@
 		flex-direction: column;
 		justify-content: center;
 		width: 80%;
-		// height: 100%;
 		margin-inline: auto;
 		padding-top: 1em;
-		// margin-top: 5vh;
-		// background-color: pink;
 	}
 
 	.media {
@@ -84,9 +81,7 @@
 		max-height: 70vh;
 		max-width: 100%;
 		object-fit: contain;
-		width: auto; // required to keep drop shadow in place
-
-		// display: block;
+		width: auto;
 	}
 	.caption {
 		font-family: 'text';

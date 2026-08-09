@@ -56,23 +56,15 @@
 </div>
 
 <style lang="scss">
-	.outer {
-		// border: 1px solid yellow;
-		// background-color: pink;
-		// margin-top: 4em;
-	}
 	.wrapper {
 		align-items: center;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		width: 80%;
-		// height: 75vh;
 		max-height: 70vh;
 		margin-inline: auto;
 		margin-top: max(15vh, 48px);
-		// border: 1px solid red;
-		// overflow: hidden;
 	}
 
 	.media {
@@ -87,7 +79,7 @@
 		max-height: 70vh;
 		max-width: 100%;
 		object-fit: contain;
-		width: auto; // required to keep drop shadow in place
+		width: auto;
 		box-shadow: 0 0 0.5em 0.15em grey;
 		display: block;
 	}

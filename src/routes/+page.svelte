@@ -58,10 +58,7 @@
 
 		.photo-link {
 			font-family: 'text';
-			/* margin-inline: 20px; */
 			font-size: 80%;
-
-			/* background: pink; */
 			text-align: center;
 			width: 25vw;
 		}

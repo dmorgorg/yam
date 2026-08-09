@@ -95,7 +95,6 @@
 		right: 0.75em;
 		border-bottom-left-radius: 0.5vw;
 		text-align: right;
-		// border: 0.2vw solid black;
 		background: white;
 	}
 
@@ -105,7 +104,6 @@
 	}
 	.accentFont {
 		font-family: 'text';
-		// color: green;
 	}
 	.fi {
 		font-family: 'candara';
@@ -127,7 +125,6 @@
 		&:link,
 		&:active {
 			color: grey;
-			// text-decoration: none;
 		}
 	}
 	strike {

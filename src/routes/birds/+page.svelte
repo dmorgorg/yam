@@ -1,5 +1,5 @@
 <script>
-	// import HomeIcon from '$lib/components/HomeIcon.svelte';
+	import HomeIcon from '$lib/components/HomeIcon.svelte';
 	import '$lib/styling/app.css';
 
 	// import { count } from '$lib/data/counts.svelte.js';
@@ -23,13 +23,9 @@
 	import woodpecker from '$lib/images/birds/2026/07/2026-07-09-181356-PR.jpg?enhanced';
 </script>
 
-<!-- <svelte:head>
-	<link rel="icon" href={favicon} />
-</svelte:head> -->
-
 <div class="outer">
 	<div class="container">
-		<!-- <HomeIcon linked="true" /> -->
+		<HomeIcon linked="true" />
 		<div class="home-page-links">
 			<a href="/birds/types/cormorants">
 				<div class="photo-link">
@@ -144,7 +140,6 @@
 		margin: 0;
 		padding: 0;
 	}
-
 	.container {
 		height: 100vh;
 		overflow: hidden;
@@ -167,10 +162,8 @@
 
 		.photo-link {
 			font-family: 'text';
-			/* margin-inline: 20px; */
 			font-size: 80%;
 			margin-bottom: 2em;
-			/* background: pink; */
 			text-align: center;
 			width: 15em;
 			max-width: 16em;

@@ -72,10 +72,7 @@
 
 <style>
 	.container {
-		/* display: flex;
-		flex-direction: column; */
 		height: 100vh;
-		/* justify-content: space-between; */
 	}
 	.top-matter {
 		display: flex;
@@ -87,19 +84,11 @@
 		min-height: 2rem;
 		padding: 0.25em;
 		text-align: left;
-		/* background: yellow; */
 	}
-
-	/* .slider-container {
-		border: 1px solid red;
-	} */
-
 	.nav-controller {
 		position: absolute;
 		bottom: 0em;
 		right: 0.75em;
-		/* border: 1px solid blue; */
-		/* background: blue; */
 	}
 	.bird-type {
 		margin-top: 0.25em;
