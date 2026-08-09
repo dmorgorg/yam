@@ -128,6 +128,7 @@
 		right: 0.75em;
 	}
 	.bird-type {
+		font-size: clamp(12px, 2vw, 20px);
 		margin-top: 0.25em;
 		text-decoration: underline;
 	}

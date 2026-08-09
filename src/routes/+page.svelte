@@ -1,7 +1,7 @@
 <script>
 	import HomeIcon from '$lib/components/HomeIcon.svelte';
 	import favicon from '$lib/assets/camera.png';
-	import homeBird from '$lib/images/birds/2026-07-31-182041-PR.jpg?enhanced';
+	import homeBird from '$lib/images/birds/2026/07/2026-07-31-182041-PR.jpg?enhanced';
 	import homeJeannette from '$lib/images/jeannette/1960.jpg?enhanced';
 	import '$lib/styling/app.css';
 </script>

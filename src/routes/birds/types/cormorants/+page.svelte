@@ -5,51 +5,37 @@
 	import Spacer from '$lib/components/Spacer.svelte';
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 
-	let title = 'Coots';
+	let title = 'Cormorants';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 
 	// american coot
-	import coot01 from '$lib/images/birds/2026/07/2026-07-13-144412.jpg?enhanced';
-	import coot02 from '$lib/images/birds/2026/07/2026-07-13-144243.jpg?enhanced';
-	import coot03 from '$lib/images/birds/2026/07/2026-07-13-144252.jpg?enhanced';
-	import coot04 from '$lib/images/birds/2026/07/2026-07-13-144457.jpg?enhanced';
-	import coot05 from '$lib/images/birds/2026/07/2026-07-13-144541.jpg?enhanced';
-	import coot06 from '$lib/images/birds/2026/07/2026-07-22-170224.jpg?enhanced';
-	import coot07 from '$lib/images/birds/2026/07/2026-07-29-180634-PR.jpg?enhanced';
+	import c01 from '$lib/images/birds/2026/07/2026-07-31-161848-PR.jpg?enhanced';
+	import c02 from '$lib/images/birds/2026/07/2026-07-31-173231-PR.jpg?enhanced';
+	import c03 from '$lib/images/birds/2026/08/2026-08-03-165545-PR.jpg?enhanced';
+	import c04 from '$lib/images/birds/2010s/2012-11-12-083930-PR.jpg?enhanced';
 
 	const imagesArray = [
 		[
 			{
-				image: coot01,
+				image: c01,
 				caption:
-					'Adult <strong>American Coot</strong>. <br/>The coot is not a duck, and does not have webbed feet. <br/>Frank Lake, Alberta. July 2026'
+					'Adult <strong>Double-crested Cormorant</strong>. <br/>Inglewood Bird Sanctuary, Calgary, Alberta. July, 2026'
 			},
 			{
-				image: coot02,
-				caption: 'American Coot chick. <br/> Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: coot03,
-				caption: 'American Coot and juvenile. <br/>Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: coot04,
-				caption: 'American Coot and juvenile. <br/>Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: coot05,
-				caption: 'Juvenile American Coot. <br/> Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: coot06,
+				image: c02,
 				caption:
-					'The somewhat unattractive juvenile American Coot. <br/> Frank Lake, Alberta. July 2026'
+					'<strong>Double-crested Cormorants</strong>. <br/>Inglewood Bird Sanctuary, Calgary, Alberta. July, 2026'
 			},
 			{
-				image: coot07,
-				caption:
-					'Adult American Coot and chick. <br/> Bridlewood Wetlands, Calgary, Alberta. July 2026'
+				image: c03,
+				caption: '<strong>Double-crested Cormorant</strong>. <br/>Weed Lake, Alberta. August, 2026'
+			}
+		],
+		[
+			{
+				image: c04,
+				caption: '<strong>Little Cormorant</strong>. <br/>Odisha, India. November, 2012.'
 			}
 		]
 	];
@@ -73,6 +59,13 @@
 <style>
 	.container {
 		height: 100vh;
+		overflow: hidden;
+	}
+	.slider-container {
+		overflow-y: visible;
+
+		margin-bottom: 2em;
+		padding-bottom: 5em;
 	}
 	.top-matter {
 		display: flex;
@@ -91,6 +84,7 @@
 		right: 0.75em;
 	}
 	.bird-type {
+		font-size: clamp(12px, 2vw, 20px);
 		margin-top: 0.25em;
 		text-decoration: underline;
 	}
