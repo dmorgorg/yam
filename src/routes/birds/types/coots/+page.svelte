@@ -10,46 +10,76 @@
 	let vIndex = $state(0);
 
 	// american coot
-	import coot01 from '$lib/images/birds/2026/07/2026-07-13-144412.jpg?enhanced';
-	import coot02 from '$lib/images/birds/2026/07/2026-07-13-144243.jpg?enhanced';
-	import coot03 from '$lib/images/birds/2026/07/2026-07-13-144252.jpg?enhanced';
-	import coot04 from '$lib/images/birds/2026/07/2026-07-13-144457.jpg?enhanced';
-	import coot05 from '$lib/images/birds/2026/07/2026-07-13-144541.jpg?enhanced';
-	import coot06 from '$lib/images/birds/2026/07/2026-07-22-170224.jpg?enhanced';
-	import coot07 from '$lib/images/birds/2026/07/2026-07-29-180634-PR.jpg?enhanced';
+	import c01 from '$lib/images/birds/2026/07/2026-07-13-144412.jpg?enhanced';
+	import c02 from '$lib/images/birds/2026/07/2026-07-13-144457-PR.jpg?enhanced';
+	import c03 from '$lib/images/birds/2026/07/2026-07-13-144543-PR.jpg?enhanced';
+	// import c04 from '$lib/images/birds/2026/07/2026-07-22-163235.jpg?enhanced';
+	import c05 from '$lib/images/birds/2026/07/2026-07-22-163242.jpg?enhanced';
+	import c06 from '$lib/images/birds/2026/07/2026-07-22-165840.jpg?enhanced';
+	import c07 from '$lib/images/birds/2026/07/2026-07-22-170224.jpg?enhanced';
+	import c08 from '$lib/images/birds/2026/07/2026-07-22-182600.jpg?enhanced';
+	import c09 from '$lib/images/birds/2026/07/2026-07-29-180634-PR.jpg?enhanced';
+	import c10 from '$lib/images/birds/2026/07/2026-07-29-182716-PR.jpg?enhanced';
+	import c11 from '$lib/images/birds/2026/08/2026-08-07-171239-PR.jpg?enhanced';
+	import c12 from '$lib/images/birds/2026/08/2026-08-07-175159-PR.jpg?enhanced';
 
 	const imagesArray = [
 		[
 			{
-				image: coot01,
+				image: c12,
+				caption: 'Adult <strong>American Coot</strong>. <br/>Frank Lake, Alberta. August 2026'
+			},
+			{
+				image: c01,
+				caption: 'Adult <strong>American Coot</strong>.  <br/>Frank Lake, Alberta. July 2026'
+			},
+			{
+				image: c05,
+				caption: 'Adult <strong>American Coot</strong>.  <br/>Frank Lake, Alberta. July 2026'
+			},
+			{
+				image: c11,
+				caption: 'Adult <strong>American Coot</strong>.  <br/>Frank Lake, Alberta. August 2026'
+			},
+			{
+				image: c02,
 				caption:
-					'Adult <strong>American Coot</strong>. <br/>The coot is not a duck, and does not have webbed feet. <br/>Frank Lake, Alberta. July 2026'
+					' <strong>American Coot</strong> chick.  <br/>They leave the nest after one day.<br/>Frank Lake, Alberta. July 2026'
 			},
 			{
-				image: coot02,
-				caption: 'American Coot chick. <br/> Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: coot03,
-				caption: 'American Coot and juvenile. <br/>Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: coot04,
-				caption: 'American Coot and juvenile. <br/>Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: coot05,
-				caption: 'Juvenile American Coot. <br/> Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: coot06,
+				image: c09,
 				caption:
-					'The somewhat unattractive juvenile American Coot. <br/> Frank Lake, Alberta. July 2026'
+					'Adult <strong>American Coot</strong> and chick.  <br/>Bridlewood Meadows, Calgary, Alberta. July 2026'
 			},
 			{
-				image: coot07,
+				image: c03,
 				caption:
-					'Adult American Coot and chick. <br/> Bridlewood Wetlands, Calgary, Alberta. July 2026'
+					'Adult <strong>American Coot</strong> and juvenile.  <br/>Frank Lake, Alberta. July 2026'
+			},
+			{
+				image: c06,
+				caption:
+					'Adult <strong>American Coots</strong> and juvenile.  <br/>Frank Lake, Alberta. July 2026'
+			},
+			{
+				image: c08,
+				caption:
+					'Adult <strong>American Coot</strong> and juvenile.  <br/>Frank Lake, Alberta. July 2026'
+			},
+			{
+				image: c07,
+				caption:
+					'Juvenile <strong>American Coot</strong>. <br/> Not always the most elegant looking... <br/>Frank Lake, Alberta. July 2026'
+			},
+			// {
+			// 	image: c07,
+			// 	caption:
+			// 		'<strong>American Coots</strong>. <br/> Not always the prettiest... <br/>Frank Lake, Alberta. July 2026'
+			// },
+			{
+				image: c10,
+				caption:
+					'<strong>American Coot</strong>. <br/> Not webbed, but lobed feet to aid propulsion <br/>Bridlewood Meadows, Calgary, Alberta. July 2026'
 			}
 		]
 	];

@@ -12,9 +12,10 @@
 <!-- svelte-ignore a11y_click_events_have_key_events -->
 <div class="dropDown cordelius">
 	<div class="title" onclick={toggleDisplay}>
-		Species: <span>
+		<span>
 			{@html displayContent ? '&#9650;' : '&#9660;'}
 		</span>
+		Species:
 	</div>
 	{#if displayContent}
 		<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
