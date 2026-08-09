@@ -1,42 +1,8 @@
 <script>
 	import { fade } from 'svelte/transition';
 	let { hIndex, vIndex, imagesArray } = $props();
-	let mediaEl = $state('');
-	let captionWidth = $state('90%');
-
-	const setCaptionWidth = () => {
-		const img = mediaEl?.querySelector('img');
-		if (!img) return;
-		const measured = Math.round(img.getBoundingClientRect().width * 0.59);
-		captionWidth = measured > 0 ? `${measured}px` : '90%';
-	};
-
-	$effect(() => {
-		hIndex;
-		vIndex;
-		setCaptionWidth();
-	});
-
-	$effect(() => {
-		const img = mediaEl?.querySelector('img');
-		if (!img) return;
-
-		const observer = new ResizeObserver(() => {
-			setCaptionWidth();
-		});
-
-		observer.observe(img);
-		setCaptionWidth();
-
-		return () => observer.disconnect();
-	});
-
-	// svelte-ignore state_referenced_locally
-	// let numberOfSlides = imagesArray.length;
-	// console.log(hIndex + vIndex);
 </script>
 
-<!-- <div class="outer"> -->
 {#key `${hIndex}-${vIndex}`}
 	<div class="wrapper" out:fade={{ duration: 500 }} in:fade={{ duration: 1000, delay: 1000 }}>
 		<!-- <div class="media" bind:this={mediaEl}> -->
@@ -45,11 +11,10 @@
 			sizes="(min-width:1920px) 1800px, (min-width:1080px) 1080px, (min-width:768px) 768px"
 			alt=""
 		/>
-		<div class="caption" style:width={captionWidth}>
+		<div class="caption">
 			({hIndex + 1}.{vIndex + 1})
 			{@html imagesArray[Number(hIndex)][vIndex].caption}
 		</div>
-		<!-- </div> -->
 	</div>
 {/key}
 
@@ -60,17 +25,12 @@
 		align-items: center;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: start;
 		width: 80%;
 		margin-inline: auto;
-		padding-top: 1em;
-	}
-
-	.media {
-		display: inline-flex;
-		flex-direction: column;
-		align-items: center;
-		max-width: 100%;
+		max-height: 80vh;
+		padding-top: 0;
+		overflow: visible;
 	}
 
 	enhanced\:img {
@@ -82,6 +42,7 @@
 		max-width: 100%;
 		object-fit: contain;
 		width: auto;
+		overflow-y: auto;
 	}
 	.caption {
 		font-family: 'text';

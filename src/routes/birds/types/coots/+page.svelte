@@ -103,6 +103,13 @@
 <style>
 	.container {
 		height: 100vh;
+		overflow: hidden;
+	}
+	.slider-container {
+		overflow-y: visible;
+
+		margin-bottom: 2em;
+		padding-bottom: 5em;
 	}
 	.top-matter {
 		display: flex;
