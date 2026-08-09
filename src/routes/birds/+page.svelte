@@ -1,5 +1,6 @@
 <script>
 	import HomeIcon from '$lib/components/HomeIcon.svelte';
+	import Spacer from '$lib/components/Spacer.svelte';
 	import '$lib/styling/app.css';
 
 	// import { count } from '$lib/data/counts.svelte.js';
@@ -25,7 +26,11 @@
 
 <div class="outer">
 	<div class="container">
-		<HomeIcon linked="true" />
+		<div class="top-matter">
+			<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
+			<div class="bird-type">Bird Species</div>
+			<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
+		</div>
 		<div class="home-page-links">
 			<a href="/birds/types/cormorants">
 				<div class="photo-link">
@@ -143,6 +148,21 @@
 	.container {
 		height: 100vh;
 		overflow: hidden;
+	}
+	.top-matter {
+		display: flex;
+		font-family: cordelius;
+		font-size: 175%;
+		font-weight: bold;
+		height: 2em;
+		justify-content: space-between;
+		min-height: 2rem;
+		padding: 0.25em;
+		text-align: left;
+	}
+	.bird-type {
+		margin-top: 0.25em;
+		text-decoration: underline;
 	}
 	.home-page-links {
 		display: flex;

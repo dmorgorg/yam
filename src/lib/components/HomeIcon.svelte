@@ -8,15 +8,13 @@
 	<a href="/">
 		<div class="home-icon cordelius" style="font-size:{fontSize};">
 			<div>YAMNUSKA</div>
-			<div class="dot f-75">dot</div>
-			<div>CA</div>
+			<div class="dotCA"><span class="dot f-75">dot </span>&nbsp;<span> CA</span></div>
 		</div>
 	</a>
 {:else}
 	<div class="home-icon cordelius" style="font-size:{fontSize};">
 		<div>YAMNUSKA</div>
-		<div class="dot f-75">dot</div>
-		<div>CA</div>
+		<div class="dotCA"><span class="dot f-75">dot </span>&nbsp;<span> CA</span></div>
 	</div>
 {/if}
 
@@ -35,6 +33,9 @@
 		.dot {
 			color: gray;
 			margin-block: 5%;
+		}
+		.dotCA {
+			margin-top: 0.25em;
 		}
 	}
 	.cordelius {
