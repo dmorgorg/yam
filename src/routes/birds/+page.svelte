@@ -32,10 +32,10 @@
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 	</div>
 	<div class="home-page-links">
-		<a href="/birds/types/cormorants">
+		<a href="/birds/types/blackbirds">
 			<div class="photo-link">
-				<enhanced:img src={blackbird} alt="cormorant" />
-				Blackbirds and allies (2)
+				<enhanced:img src={blackbird} alt="blackbirds" />
+				Blackbirds, etc. (2)
 			</div>
 		</a>
 		<a href="/birds/types/coots">
@@ -95,7 +95,7 @@
 		<a href="/birds/types/cormorants">
 			<div class="photo-link">
 				<enhanced:img src={pelican} alt="pelican" />
-				Pelicans(1)
+				Pelicans
 			</div>
 		</a>
 		<a href="/birds/types/cormorants">

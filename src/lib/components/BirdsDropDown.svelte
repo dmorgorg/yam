@@ -28,7 +28,7 @@
 			}}
 		>
 			<li>
-				<a href="/birds/types/blackbirds">Blackbirds, etc.</a>
+				<a href="/birds/types/blackbirds">Blackbirds, etc. ({count.blackbirds})</a>
 			</li>
 			<li>
 				<a href="/birds/types/coots">Coots ({count.coots})</a>
