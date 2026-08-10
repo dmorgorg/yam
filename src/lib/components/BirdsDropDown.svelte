@@ -64,6 +64,9 @@
 				<a href="/birds/types/pelicans">Pelicans</a>
 			</li>
 			<li>
+				<a href="/birds/types/plovers">Plovers</a>
+			</li>
+			<li>
 				<a href="/birds/types/sandpipers">Sandpipers, etc.</a>
 			</li>
 			<li>

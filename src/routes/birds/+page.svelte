@@ -16,6 +16,7 @@
 	import kingfisher from '$lib/images/birds/2010s/2012-11-11-095231-PR.jpg?enhanced';
 	import owl from '$lib/images/birds/2010s/2020-07-26-145608-1.jpg?enhanced';
 	import pelican from '$lib/images/birds/2026/07/2026-07-29-182931-PR.jpg?enhanced';
+	import plover from '$lib/images/birds/2026/08/2026-08-07-171909-PR.jpg?enhanced';
 	import sandpiper from '$lib/images/birds/2026/07/2026-07-22-164146-1.jpg?enhanced';
 	import stilt from '$lib/images/birds/2026/08/2026-08-03-164608-PR.jpg?enhanced';
 	import stork from '$lib/images/birds/2010s/2012-10-11-083129-PR.jpg?enhanced';
@@ -95,6 +96,12 @@
 			<div class="photo-link">
 				<enhanced:img src={pelican} alt="pelican" />
 				Pelicans(1)
+			</div>
+		</a>
+		<a href="/birds/types/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={plover} alt="plover" />
+				Plovers
 			</div>
 		</a>
 		<a href="/birds/types/sandpipers">
