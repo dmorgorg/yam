@@ -3,7 +3,7 @@
 	import Spacer from '$lib/components/Spacer.svelte';
 	import '$lib/styling/app.css';
 
-	// import { count } from '$lib/data/counts.svelte.js';
+	import { count } from '$lib/data/counts.svelte.js';
 
 	import blackbird from '$lib/images/birds/2026/07/2026-07-29-181927-PR.jpg?enhanced';
 	import coot from '$lib/images/birds/2026/07/2026-07-29-180634-PR.jpg?enhanced';
@@ -40,7 +40,7 @@
 		<a href="/birds/types/coots">
 			<div class="photo-link">
 				<enhanced:img src={coot} alt="coot" />
-				Coots (1)
+				Coots ({count.coots})
 			</div>
 		</a>
 		<a href="/birds/types/cormorants">

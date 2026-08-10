@@ -1,5 +1,6 @@
 <script>
 	import { slide } from 'svelte/transition';
+	import { count } from '$lib/data/counts.svelte.js';
 	let displayContent = $state(false);
 	let borderColor = $state('red');
 	function toggleDisplay() {
@@ -30,10 +31,10 @@
 				<a href="/birds/types/blackbirds">Blackbirds, etc.</a>
 			</li>
 			<li>
-				<a href="/birds/types/coots">Coots (1)</a>
+				<a href="/birds/types/coots">Coots ({count.coots})</a>
 			</li>
 			<li>
-				<a href="/birds/types/cormorants">Cormorants</a>
+				<a href="/birds/types/cormorants">Cormorants ({count.cormorants})</a>
 			</li>
 			<li>
 				<a href="/birds/types/ducks">Ducks</a>
@@ -42,7 +43,7 @@
 				<a href="/birds/types/eagles">Eagles, Hawks and Kites</a>
 			</li>
 			<li>
-				<a href="/birds/types/egrets">Egrets and Herons</a>
+				<a href="/birds/types/egrets">Egrets and Herons ({count.egrets})</a>
 			</li>
 			<li>
 				<a href="/birds/types/finches">Finches</a>
@@ -66,7 +67,7 @@
 				<a href="/birds/types/sandpipers">Sandpipers, etc.</a>
 			</li>
 			<li>
-				<a href="/birds/types/stilts">Stilts</a>
+				<a href="/birds/types/stilts">Stilts and Avocets ({count.stilts})</a>
 			</li>
 			<li>
 				<a href="/birds/types/terns">Terns and Gulls</a>

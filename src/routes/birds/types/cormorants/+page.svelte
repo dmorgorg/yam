@@ -4,6 +4,7 @@
 	import HomeIcon from '$lib/components/HomeIcon.svelte';
 	import Spacer from '$lib/components/Spacer.svelte';
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
+	import { count } from '$lib/data/counts.svelte.js';
 
 	let title = 'Cormorants';
 	let hIndex = $state(0);
@@ -39,12 +40,14 @@
 			}
 		]
 	];
+
+	count.cormorants = imagesArray.length;
 </script>
 
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title}</div>
+		<div class="bird-type">{title} ({count.cormorants})</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 		<BirdsDropDown />
 	</div>

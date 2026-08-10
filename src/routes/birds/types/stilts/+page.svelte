@@ -6,66 +6,52 @@
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Egrets and Herons';
+	let title = 'Stilts and Avocets';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 
 	// american coot
-	import e01 from '$lib/images/birds/2010s/2012-10-17-094843-PR.jpg?enhanced';
-	import e02 from '$lib/images/birds/2010s/2012-10-17-095021.jpg?enhanced';
-	import e03 from '$lib/images/birds/2010s/2012-11-08-131928-PR.jpg?enhanced';
-	import e04 from '$lib/images/birds/2010s/2012-11-09-113119-PR.jpg?enhanced';
-	import e05 from '$lib/images/birds/2010s/2012-11-27-102436-PR.jpg?enhanced';
-	import e06 from '$lib/images/birds/2010s/2012-11-27-102445-PR-1.jpg?enhanced';
-	import e07 from '$lib/images/birds/2010s/2012-11-14-125335-PR.jpg?enhanced';
+	import s01 from '$lib/images/birds/2026/08/2026-08-03-164608-PR.jpg?enhanced';
+	import s02 from '$lib/images/birds/2026/08/2026-08-07-170550-PR.jpg?enhanced';
+	import s03 from '$lib/images/birds/2026/08/2026-08-06-165118-PR.jpg?enhanced';
+	import s04 from '$lib/images/birds/2026/08/2026-08-06-165313-PR.jpg?enhanced';
+	import s05 from '$lib/images/birds/2026/08/2026-08-06-165333-PR.jpg?enhanced';
 
 	const imagesArray = [
 		[
 			{
-				image: e07,
+				image: s01,
+				caption: '<strong>Black-necked Stilts</strong>. <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: s02,
+				caption: '<strong>Black-necked Stilt</strong>. <br/>Frank Lake, Alberta. August, 2026'
+			}
+		],
+		[
+			{
+				image: s03,
+				caption: '<strong>American Avocet</strong>. <br/>Weed Lake, Alberta. August, 2026.'
+			},
+			{
+				image: s05,
+				caption: '<strong>American Avocet</strong>. <br/>Weed Lake, Alberta. August, 2026.'
+			},
+			{
+				image: s04,
 				caption:
-					'Non-breeding <strong>Little Egrets</strong> and an Indian Pond-Heron. <br/>Odisha, India. October, 2012'
-			}
-		],
-		[
-			{
-				image: e01,
-				caption: 'Non-breeding <strong>Medium Egret</strong>. <br/>Odisha, India. October, 2012'
-			},
-			{
-				image: e02,
-				caption: 'Non-breeding <strong>Medium Egrets</strong>. <br/>Odisha, India. July, 2026'
-			}
-		],
-		[
-			{
-				image: e04,
-				caption: '<strong>Great Egret</strong>. <br/>Odisha, India. November, 2012'
-			}
-		],
-		[
-			{
-				image: e05,
-				caption: '<strong>Eastern Cattle-Egret</strong>. <br/>Odisha, India. November, 2012'
-			},
-			{
-				image: e06,
-				caption: '<strong>Eastern Cattle-Egret</strong>. <br/>Odisha, India. November, 2012'
-			},
-			{
-				image: e03,
-				caption: '<strong>Eastern Cattle-Egret</strong>. <br/>Odisha, India. November, 2012'
+					'<strong>American Avocets</strong> with young. <br/>Weed Lake, Alberta. August, 2026.'
 			}
 		]
 	];
 
-	count.egrets = imagesArray.length;
+	count.stilts = imagesArray.length;
 </script>
 
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title} ({count.egrets})</div>
+		<div class="bird-type">{title} ({count.cormorants})</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 		<BirdsDropDown />
 	</div>
