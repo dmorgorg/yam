@@ -134,7 +134,7 @@
 				Waxwings (1)
 			</div>
 		</a>
-		<a href="/birds/types/sandpipers">
+		<a href="/birds/types/woodpeckers">
 			<div class="photo-link">
 				<enhanced:img src={woodpecker} alt="woodpecker" />
 				Woodpeckers (1)
