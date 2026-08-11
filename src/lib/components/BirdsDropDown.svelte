@@ -28,58 +28,58 @@
 			}}
 		>
 			<li>
-				<a href="/birds/types/blackbirds">Blackbirds, etc. ({count.blackbirds})</a>
+				<a href="/birds/blackbirds">Blackbirds, etc. ({count.blackbirds})</a>
 			</li>
 			<li>
-				<a href="/birds/types/coots">Coots ({count.coots})</a>
+				<a href="/birds/coots">Coots ({count.coots})</a>
 			</li>
 			<li>
-				<a href="/birds/types/cormorants">Cormorants ({count.cormorants})</a>
+				<a href="/birds/cormorants">Cormorants ({count.cormorants})</a>
 			</li>
 			<li>
-				<a href="/birds/types/ducks">Ducks</a>
+				<a href="/birds/ducks">Ducks ({count.ducks})</a>
 			</li>
 			<li>
-				<a href="/birds/types/eagles">Eagles, Hawks and Kites</a>
+				<a href="/birds/eagles">Eagles, Hawks and Kites ({count.eagles})</a>
 			</li>
 			<li>
-				<a href="/birds/types/egrets">Egrets and Herons ({count.egrets})</a>
+				<a href="/birds/egrets">Egrets and Herons ({count.egrets})</a>
 			</li>
 			<li>
-				<a href="/birds/types/finches">Finches</a>
+				<a href="/birds/finches">Finches ({count.finches})</a>
 			</li>
 			<li>
-				<a href="/birds/types/grebes">Grebes</a>
+				<a href="/birds/grebes">Grebes ({count.grebes})</a>
 			</li>
 			<li>
-				<a href="/birds/types/ibises">Ibises</a>
+				<a href="/birds/ibises">Ibises ({count.ibises})</a>
 			</li>
 			<li>
-				<a href="/birds/types/kingfishers">King<span class="fi">fi</span>shers</a>
+				<a href="/birds/kingfishers">King<span class="fi">fi</span>shers ({count.kingfishers})</a>
 			</li>
 			<li>
-				<a href="/birds/types/owls">Owls</a>
+				<a href="/birds/owls">Owls ({count.owls})</a>
 			</li>
 			<li>
-				<a href="/birds/types/pelicans">Pelicans</a>
+				<a href="/birds/pelicans">Pelicans ({count.pelicans})</a>
 			</li>
 			<li>
-				<a href="/birds/types/plovers">Plovers</a>
+				<a href="/birds/plovers">Plovers ({count.plovers})</a>
 			</li>
 			<li>
-				<a href="/birds/types/sandpipers">Sandpipers, etc.</a>
+				<a href="/birds/sandpipers">Sandpipers, etc. ({count.sandpipers})</a>
 			</li>
 			<li>
-				<a href="/birds/types/stilts">Stilts and Avocets ({count.stilts})</a>
+				<a href="/birds/stilts">Stilts and Avocets ({count.stilts})</a>
 			</li>
 			<li>
-				<a href="/birds/types/terns">Terns and Gulls</a>
+				<a href="/birds/terns">Terns and Gulls ({count.terns})</a>
 			</li>
 			<li>
-				<a href="/birds/types/waxwings">Waxwings</a>
+				<a href="/birds/waxwings">Waxwings ({count.waxwings})</a>
 			</li>
 			<li>
-				<a href="/birds/types/woodpeckers">Woodpeckers</a>
+				<a href="/birds/woodpeckers">Woodpeckers ({count.woodpeckers})</a>
 			</li>
 		</ul>
 	{/if}

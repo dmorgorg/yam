@@ -32,112 +32,113 @@
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 	</div>
 	<div class="home-page-links">
-		<a href="/birds/types/blackbirds">
+		<a href="/birds/blackbirds">
 			<div class="photo-link">
 				<enhanced:img src={blackbird} alt="blackbirds" />
-				Blackbirds, etc. (2)
+				Blackbirds, etc. ({count.blackbirds})
 			</div>
 		</a>
-		<a href="/birds/types/coots">
+		<a href="/birds/coots">
 			<div class="photo-link">
 				<enhanced:img src={coot} alt="coot" />
 				Coots ({count.coots})
 			</div>
 		</a>
-		<a href="/birds/types/cormorants">
+		<a href="/birds/cormorants">
 			<div class="photo-link">
 				<enhanced:img src={cormorant} alt="cormorant" />
-				Cormorants (2)
+				Cormorants ({count.cormorants})
 			</div>
 		</a>
-		<a href="/birds/types/cormorants">
+		<a href="/birds/cormorants">
 			<div class="photo-link">
 				<enhanced:img src={duck} alt="wood duck" />
-				Ducks and Geese(wood duck) (2)
+				Ducks and Geese(wood duck) ({count.ducks})
 			</div>
 		</a>
-		<a href="/birds/types/cormorants">
+		<a href="/birds/cormorants">
 			<div class="photo-link">
 				<enhanced:img src={kite} alt="kite" />
-				Eagles, Hawks and Kites (1)
+				Eagles, Hawks and Kites ({count.eagles})
 			</div>
 		</a>
-		<a href="/birds/types/cormorants">
+		<a href="/birds/cormorants">
 			<div class="photo-link">
 				<enhanced:img src={egret} alt="egret" />
-				Egrets and Herons (1)
+				Egrets and Herons ({count.egrets})
 			</div>
 		</a>
-		<a href="/birds/types/cormorants">
+		<a href="/birds/cormorants">
 			<div class="photo-link">
 				<enhanced:img src={finch} alt="finch" />
-				Finches (1)
+				Finches ({count.finches})
 			</div>
 		</a>
-		<a href="/birds/types/cormorants">
-			<div class="photo-link">
-				<enhanced:img src={ibis} alt="ibis" />
-				Ibises (1)
-			</div>
-		</a>
-		<a href="/birds/types/cormorants">
-			<div class="photo-link">
-				<enhanced:img src={kingfisher} alt="kingfisher" />
-				Kingfishers (1)
-			</div>
-		</a>
-		<a href="/birds/types/cormorants">
-			<div class="photo-link">
-				<enhanced:img src={owl} alt="owl" />
-				Owls - great horned (1)
-			</div>
-		</a>
-		<a href="/birds/types/cormorants">
-			<div class="photo-link">
-				<enhanced:img src={pelican} alt="pelican" />
-				Pelicans
-			</div>
-		</a>
-		<a href="/birds/types/cormorants">
-			<div class="photo-link">
-				<enhanced:img src={plover} alt="plover" />
-				Plovers
-			</div>
-		</a>
-		<a href="/birds/types/sandpipers">
-			<div class="photo-link">
-				<enhanced:img src={sandpiper} alt="sandpiper" />
-				Sandpipers(willet) (2)
-			</div>
-		</a>
-		<a href="/birds/types/sandpipers">
-			<div class="photo-link">
-				<enhanced:img src={stilt} alt="stilt" />
-				Stilts (1)
-			</div>
-		</a>
-		<a href="/birds/types/sandpipers">
-			<div class="photo-link">
-				<enhanced:img src={stork} alt="stork" />
-				Storks (1)
-			</div>
-		</a>
-		<a href="/birds/types/sandpipers">
+		<a href="/birds/sandpipers">
 			<div class="photo-link">
 				<enhanced:img src={tern} alt="tern" />
-				Terns and Gulls (1)
+				Gulls and Terns ({count.gulls})
 			</div>
 		</a>
-		<a href="/birds/types/sandpipers">
+		<a href="/birds/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={ibis} alt="ibis" />
+				Ibises ({count.ibises})
+			</div>
+		</a>
+		<a href="/birds/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={kingfisher} alt="kingfisher" />
+				Kingfishers ({count.kingfishers})
+			</div>
+		</a>
+		<a href="/birds/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={owl} alt="owl" />
+				Owls - great horned ({count.owls})
+			</div>
+		</a>
+		<a href="/birds/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={pelican} alt="pelican" />
+				Pelicans ({count.pelicans})
+			</div>
+		</a>
+		<a href="/birds/cormorants">
+			<div class="photo-link">
+				<enhanced:img src={plover} alt="plover" />
+				Plovers ({count.plovers})
+			</div>
+		</a>
+		<a href="/birds/sandpipers">
+			<div class="photo-link">
+				<enhanced:img src={sandpiper} alt="sandpiper" />
+				Sandpipers(willet) ({count.sandpipers})
+			</div>
+		</a>
+		<a href="/birds/sandpipers">
+			<div class="photo-link">
+				<enhanced:img src={stilt} alt="stilt" />
+				Stilts ({count.stilts})
+			</div>
+		</a>
+		<a href="/birds/sandpipers">
+			<div class="photo-link">
+				<enhanced:img src={stork} alt="stork" />
+				Storks ({count.storks})
+			</div>
+		</a>
+
+		<a href="/birds/sandpipers">
 			<div class="photo-link">
 				<enhanced:img src={waxwing} alt="waxwing" />
-				Waxwings (1)
+				Waxwings ({count.waxwings})
 			</div>
 		</a>
-		<a href="/birds/types/woodpeckers">
+		<a href="/birds/woodpeckers">
 			<div class="photo-link">
 				<enhanced:img src={woodpecker} alt="woodpecker" />
-				Woodpeckers (1)
+				Woodpeckers ({count.woodpeckers})
 			</div>
 		</a>
 	</div>
