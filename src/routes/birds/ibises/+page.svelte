@@ -6,34 +6,39 @@
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Gulls and Terns';
+	let title = 'Ibises';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 
 	// american coot
-	import g01 from '$lib/images/birds/2026/07/2026-07-22-164955.jpg?enhanced';
-	import g02 from '$lib/images/birds/2026/07/2026-07-22-165002.jpg?enhanced';
+	import ib01 from '$lib/images/birds/2026/07/2026-07-13-153349-PR.jpg?enhanced';
+	import ib02 from '$lib/images/birds/2026/07/2026-07-22-170608.jpg?enhanced';
+	import ib03 from '$lib/images/birds/2026/07/2026-07-22-170837.jpg?enhanced';
 
 	const imagesArray = [
 		[
 			{
-				image: g01,
-				caption: "Juvenile <strong>Bonaparte's Gull</strong> <br/>Frank Lake, Alberta. July, 2026"
+				image: ib01,
+				caption: '<strong>White-faced Ibis</strong> <br/>Frank Lake, Alberta. July, 2026'
 			},
 			{
-				image: g02,
-				caption: "Juvenile <strong>Bonaparte's Gull</strong> <br/>Frank Lake, Alberta. July, 2026"
+				image: ib02,
+				caption: '<strong>White-faced Ibis</strong> <br/>Frank Lake, Alberta. July, 2026'
+			},
+			{
+				image: ib03,
+				caption: '<strong>White-faced Ibises</strong> <br/>Frank Lake, Alberta. July, 2026'
 			}
 		]
 	];
 
-	count.gulls = imagesArray.length;
+	count.ibises = imagesArray.length;
 </script>
 
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title} ({count.gulls})</div>
+		<div class="bird-type">{title} ({count.ibises})</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 		<BirdsDropDown />
 	</div>

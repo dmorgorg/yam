@@ -14,7 +14,7 @@
 	import c01 from '$lib/images/birds/2026/07/2026-07-13-144412.jpg?enhanced';
 	import c02 from '$lib/images/birds/2026/07/2026-07-13-144457-PR.jpg?enhanced';
 	import c03 from '$lib/images/birds/2026/07/2026-07-13-144543-PR.jpg?enhanced';
-	// import c04 from '$lib/images/birds/2026/07/2026-07-22-163235.jpg?enhanced';
+	import c04 from '$lib/images/birds/2026/07/2026-07-29-193153-PR.jpg?enhanced';
 	import c05 from '$lib/images/birds/2026/07/2026-07-22-163242.jpg?enhanced';
 	import c06 from '$lib/images/birds/2026/07/2026-07-22-165840.jpg?enhanced';
 	import c07 from '$lib/images/birds/2026/07/2026-07-22-170224.jpg?enhanced';
@@ -50,12 +50,17 @@
 			{
 				image: c09,
 				caption:
-					'Adult <strong>American Coot</strong> and chick.  <br/>Bridlewood Meadows, Calgary, Alberta. July 2026'
+					'Adult <strong>American Coot</strong> and chick.  <br/>Bridlewood Wetlands, Calgary, Alberta. July 2026'
 			},
 			{
 				image: c03,
 				caption:
 					'Adult <strong>American Coot</strong> and juvenile.  <br/>Frank Lake, Alberta. July 2026'
+			},
+			{
+				image: c04,
+				caption:
+					'Juvenile <strong>American Coot</strong>.  <br/>Bridlewood Wetlands, Calgary. July 2026'
 			},
 			{
 				image: c06,
@@ -72,15 +77,11 @@
 				caption:
 					'Juvenile <strong>American Coot</strong>. <br/> Not always the most elegant looking... <br/>Frank Lake, Alberta. July 2026'
 			},
-			// {
-			// 	image: c07,
-			// 	caption:
-			// 		'<strong>American Coots</strong>. <br/> Not always the prettiest... <br/>Frank Lake, Alberta. July 2026'
-			// },
+
 			{
 				image: c10,
 				caption:
-					'<strong>American Coot</strong>. <br/> Not webbed, but lobed feet to aid propulsion <br/>Bridlewood Meadows, Calgary, Alberta. July 2026'
+					'<strong>American Coot</strong>. <br/> Not webbed, but lobed feet to aid propulsion <br/>Bridlewood Wetlands, Calgary, Alberta. July 2026'
 			}
 		]
 	];

@@ -6,34 +6,48 @@
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Gulls and Terns';
+	let title = 'Pelicans';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 
 	// american coot
-	import g01 from '$lib/images/birds/2026/07/2026-07-22-164955.jpg?enhanced';
-	import g02 from '$lib/images/birds/2026/07/2026-07-22-165002.jpg?enhanced';
+	import p01 from '$lib/images/birds/2026/07/2026-07-13-150619-PR.jpg?enhanced';
+	import p02 from '$lib/images/birds/2026/07/2026-07-13-145801-PR.jpg?enhanced';
+	import p03 from '$lib/images/birds/2026/07/2026-07-29-183053-PR.jpg?enhanced';
+	import p04 from '$lib/images/birds/2026/07/2026-07-29-182931-PR.jpg?enhanced';
 
 	const imagesArray = [
 		[
 			{
-				image: g01,
-				caption: "Juvenile <strong>Bonaparte's Gull</strong> <br/>Frank Lake, Alberta. July, 2026"
+				image: p01,
+				caption:
+					'<strong>American White Pelican</strong> and gulls <br/>Frank Lake, Alberta. July, 2026'
 			},
 			{
-				image: g02,
-				caption: "Juvenile <strong>Bonaparte's Gull</strong> <br/>Frank Lake, Alberta. July, 2026"
+				image: p02,
+				caption:
+					'<strong>American White Pelicans</strong> and gulls <br/>Frank Lake, Alberta. July, 2026'
+			},
+			{
+				image: p03,
+				caption:
+					'<strong>American White Pelican</strong> incoming! <br/>Bridlewood Wetlands, Calgary. July, 2026'
+			},
+			{
+				image: p04,
+				caption:
+					'<strong>American White Pelicans</strong><br/>Bridlewood Wetlands, Calgary. July, 2026'
 			}
 		]
 	];
 
-	count.gulls = imagesArray.length;
+	count.pelicans = imagesArray.length;
 </script>
 
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title} ({count.gulls})</div>
+		<div class="bird-type">{title} ({count.pelicans})</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 		<BirdsDropDown />
 	</div>

@@ -17,6 +17,7 @@
 	import bb04 from '$lib/images/birds/2026/07/2026-07-13-150819-PR.jpg?enhanced';
 	import bb05 from '$lib/images/birds/2026/07/2026-07-29-181919-PR.jpg?enhanced';
 	import bb06 from '$lib/images/birds/2026/07/2026-07-29-181845-PR.jpg?enhanced';
+	import bb07 from '$lib/images/birds/2026/07/2026-07-13-150723-PR.jpg?enhanced';
 
 	const imagesArray = [
 		[
@@ -39,12 +40,18 @@
 				caption: '<strong>Red-winged Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
 			},
 			{
-				image: bb05,
+				image: bb07,
 				caption: '<strong>Red-winged Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
 			},
 			{
+				image: bb05,
+				caption:
+					'<strong>Red-winged Blackbird</strong>. <br/>Bridlewood Wetlands, Calgary. July, 2026'
+			},
+			{
 				image: bb06,
-				caption: '<strong>Red-winged Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
+				caption:
+					'<strong>Red-winged Blackbird</strong>. <br/>Bridlewood Wetlands, Calgary. July, 2026'
 			}
 		]
 	];

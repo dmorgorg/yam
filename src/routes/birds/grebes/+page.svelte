@@ -6,34 +6,29 @@
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Gulls and Terns';
+	let title = 'Grebes';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 
-	// american coot
-	import g01 from '$lib/images/birds/2026/07/2026-07-22-164955.jpg?enhanced';
-	import g02 from '$lib/images/birds/2026/07/2026-07-22-165002.jpg?enhanced';
+	// grebes
+	import g01 from '$lib/images/birds/2026/07/2026-07-29-183328-PR.jpg?enhanced';
 
 	const imagesArray = [
 		[
 			{
-				image: g01,
-				caption: "Juvenile <strong>Bonaparte's Gull</strong> <br/>Frank Lake, Alberta. July, 2026"
-			},
-			{
-				image: g02,
-				caption: "Juvenile <strong>Bonaparte's Gull</strong> <br/>Frank Lake, Alberta. July, 2026"
+				image: p01,
+				caption: '<strong>Red-necked Grebe</strong><br/>Bridlewood Wetlands, Calgary. July, 2026'
 			}
 		]
 	];
 
-	count.gulls = imagesArray.length;
+	count.grebes = imagesArray.length;
 </script>
 
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title} ({count.gulls})</div>
+		<div class="bird-type">{title} ({count.grebes})</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 		<BirdsDropDown />
 	</div>

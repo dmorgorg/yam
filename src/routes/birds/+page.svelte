@@ -147,10 +147,10 @@
 <style>
 	.outer {
 		background: white;
-		height: 100%;
+		height: 100vh;
 		margin: 0;
+		overflow-y: auto;
 		padding: 0;
-		/* border: 3px solid green; */
 	}
 
 	.top-matter {

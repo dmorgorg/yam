@@ -1,25 +1,25 @@
 html,
 body {
-	box-sizing: border-box;
-	margin: 0;
-	overflow-y: hidden;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
 }
 
 *,
 *:before,
 *:after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .albumTitle {
-	position: absolute;
-	font-family: cordelius;
-	font-size: 137.5%;
-	font-weight: bold;
-	top: clamp(10px, 0.875vw, 25px);
-	left: 50%;
-	text-align: center;
-	transform: translate(-50%, 0);
-	width: 70%;
-} /*# sourceMappingURL=app.css.map */
+  position: absolute;
+  font-family: cordelius;
+  font-size: 137.5%;
+  font-weight: bold;
+  top: clamp(10px, 0.875vw, 25px);
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, 0);
+  width: 70%;
+}/*# sourceMappingURL=app.css.map */
