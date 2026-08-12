@@ -6,56 +6,29 @@
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Blackbirds, etc.';
+	let title = 'Gulls and Terns';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 
 	// american coot
-	import bb01 from '$lib/images/birds/2026/07/2026-07-13-145838-PR.jpg?enhanced';
-	import bb02 from '$lib/images/birds/2026/07/2026-07-22-171219.jpg?enhanced';
-	import bb03 from '$lib/images/birds/2026/07/2026-07-22-171239.jpg?enhanced';
-	import bb04 from '$lib/images/birds/2026/07/2026-07-13-150819-PR.jpg?enhanced';
-	import bb05 from '$lib/images/birds/2026/07/2026-07-29-181919-PR.jpg?enhanced';
-	import bb06 from '$lib/images/birds/2026/07/2026-07-29-181845-PR.jpg?enhanced';
+	import g01 from '$lib/images/birds/2026/07/2026-07-22-164955.jpg?enhanced';
 
 	const imagesArray = [
 		[
 			{
-				image: bb01,
-				caption: '<strong>Yellow-headed Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
-			},
-			{
-				image: bb02,
-				caption: '<strong>Yellow-headed Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
-			},
-			{
-				image: bb03,
-				caption: '<strong>Yellow-headed Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
-			}
-		],
-		[
-			{
-				image: bb04,
-				caption: '<strong>Red-winged Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
-			},
-			{
-				image: bb05,
-				caption: '<strong>Red-winged Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
-			},
-			{
-				image: bb06,
-				caption: '<strong>Red-winged Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
+				image: g01,
+				caption: "Juvenile <strong>Bonaparte's Gull</strong> <br/>Frank Lake, Alberta. July, 2026"
 			}
 		]
 	];
 
-	count.blackbirds = imagesArray.length;
+	count.gulls = imagesArray.length;
 </script>
 
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title} ({count.blackbirds})</div>
+		<div class="bird-type">{title} ({count.egrets})</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 		<BirdsDropDown />
 	</div>

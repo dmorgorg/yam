@@ -62,7 +62,7 @@
 				Eagles, Hawks and Kites ({count.eagles})
 			</div>
 		</a>
-		<a href="/birds/cormorants">
+		<a href="/birds/egrets">
 			<div class="photo-link">
 				<enhanced:img src={egret} alt="egret" />
 				Egrets and Herons ({count.egrets})
@@ -74,7 +74,7 @@
 				Finches ({count.finches})
 			</div>
 		</a>
-		<a href="/birds/sandpipers">
+		<a href="/birds/gulls">
 			<div class="photo-link">
 				<enhanced:img src={tern} alt="tern" />
 				Gulls and Terns ({count.gulls})
@@ -104,7 +104,7 @@
 				Pelicans ({count.pelicans})
 			</div>
 		</a>
-		<a href="/birds/cormorants">
+		<a href="/birds/plovers">
 			<div class="photo-link">
 				<enhanced:img src={plover} alt="plover" />
 				Plovers ({count.plovers})
@@ -113,10 +113,10 @@
 		<a href="/birds/sandpipers">
 			<div class="photo-link">
 				<enhanced:img src={sandpiper} alt="sandpiper" />
-				Sandpipers(willet) ({count.sandpipers})
+				Sandpipers ({count.sandpipers})
 			</div>
 		</a>
-		<a href="/birds/sandpipers">
+		<a href="/birds/stilts">
 			<div class="photo-link">
 				<enhanced:img src={stilt} alt="stilt" />
 				Stilts ({count.stilts})

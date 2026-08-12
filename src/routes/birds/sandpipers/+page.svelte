@@ -4,61 +4,65 @@
 	import HomeIcon from '$lib/components/HomeIcon.svelte';
 	import Spacer from '$lib/components/Spacer.svelte';
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
+	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Coots';
+	let title = 'Sandpipers';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 
 	// american coot
-	import coot01 from '$lib/images/birds/2026/07/2026-07-13-144412.jpg?enhanced';
-	import coot02 from '$lib/images/birds/2026/07/2026-07-13-144243.jpg?enhanced';
-	import coot03 from '$lib/images/birds/2026/07/2026-07-13-144252.jpg?enhanced';
-	import coot04 from '$lib/images/birds/2026/07/2026-07-13-144457.jpg?enhanced';
-	import coot05 from '$lib/images/birds/2026/07/2026-07-13-144541.jpg?enhanced';
-	import coot06 from '$lib/images/birds/2026/07/2026-07-22-170224.jpg?enhanced';
-	import coot07 from '$lib/images/birds/2026/07/2026-07-29-180634-PR.jpg?enhanced';
+	import s01 from '$lib/images/birds/2026/07/2026-07-22-164146.jpg?enhanced';
+	import s03 from '$lib/images/birds/2026/07/2026-07-22-165105.jpg?enhanced';
+	import s02 from '$lib/images/birds/2026/07/2026-07-22-164934.jpg?enhanced';
+	import s05 from '$lib/images/birds/2026/07/2026-07-22-165919.jpg?enhanced';
+	import s04 from '$lib/images/birds/2026/07/2026-07-22-170138.jpg?enhanced';
+	import s06 from '$lib/images/birds/2026/07/2026-07-22-163630.jpg?enhanced';
+	import s07 from '$lib/images/birds/2026/07/2026-07-22-163720.jpg?enhanced';
 
 	const imagesArray = [
 		[
 			{
-				image: coot01,
+				image: s01,
+				caption: '<strong>Willet</strong>. <br/>Frank Lake, Alberta. July 2026'
+			},
+			{
+				image: s02,
+				caption: '<strong>Willet</strong>. <br/>Frank Lake, Alberta. July 2026'
+			},
+			{
+				image: s03,
 				caption:
-					'Adult <strong>American Coot</strong>. <br/>The coot is not a duck, and does not have webbed feet. <br/>Frank Lake, Alberta. July 2026'
+					"<strong>Willet</strong> (and a juvenile <strong>Wilson's Phalarope</strong>). <br/>Frank Lake, Alberta. July 2026"
+			}
+		],
+		[
+			{
+				image: s07,
+				caption: "Juvenile <strong>Wilson's Phalarope</strong>. <br/>Frank Lake, Alberta. July 2026"
 			},
 			{
-				image: coot02,
-				caption: 'American Coot chick. <br/> Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: coot03,
-				caption: 'American Coot and juvenile. <br/>Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: coot04,
-				caption: 'American Coot and juvenile. <br/>Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: coot05,
-				caption: 'Juvenile American Coot. <br/> Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: coot06,
+				image: s05,
 				caption:
-					'The somewhat unattractive juvenile American Coot. <br/> Frank Lake, Alberta. July 2026'
+					"Juvenile <strong>Wilson's Phalaropes</strong>. <br/>Frank Lake, Alberta. July 2026"
 			},
 			{
-				image: coot07,
-				caption:
-					'Adult American Coot and chick. <br/> Bridlewood Wetlands, Calgary, Alberta. July 2026'
+				image: s06,
+				caption: "Juvenile <strong>Wilson's Phalarope</strong>. <br/>Frank Lake, Alberta. July 2026"
+			},
+			{
+				image: s04,
+				caption: "Juvenile <strong>Wilson's Phalarope</strong>. <br/>Frank Lake, Alberta. July 2026"
 			}
 		]
 	];
+
+	count.sandpipers = imagesArray.length;
 </script>
 
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title}</div>
+		<div class="bird-type">{title}, etc. ({count.sandpipers})</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 		<BirdsDropDown />
 	</div>

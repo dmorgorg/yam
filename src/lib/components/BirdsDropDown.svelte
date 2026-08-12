@@ -52,6 +52,9 @@
 				<a href="/birds/grebes">Grebes ({count.grebes})</a>
 			</li>
 			<li>
+				<a href="/birds/gulls">Gulls and Terns ({count.gulls})</a>
+			</li>
+			<li>
 				<a href="/birds/ibises">Ibises ({count.ibises})</a>
 			</li>
 			<li>
@@ -72,9 +75,7 @@
 			<li>
 				<a href="/birds/stilts">Stilts and Avocets ({count.stilts})</a>
 			</li>
-			<li>
-				<a href="/birds/terns">Terns and Gulls ({count.terns})</a>
-			</li>
+
 			<li>
 				<a href="/birds/waxwings">Waxwings ({count.waxwings})</a>
 			</li>

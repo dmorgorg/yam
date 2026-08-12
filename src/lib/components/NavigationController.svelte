@@ -54,8 +54,8 @@
 	}
 	.controls {
 		position: absolute;
-		width: 8vh;
-		height: 8vh;
+		width: clamp(2rem, 7vh, 3rem);
+		height: clamp(2rem, 7vh, 3rem);
 		bottom: 5vh;
 		right: 3vh;
 	}
@@ -89,7 +89,7 @@
 		/* color: red; */
 		cursor: pointer;
 		border: none;
-		font-size: clamp(12px, 3.5vh, 30px);
+		font-size: clamp(20px, 3.5vh, 30px);
 		margin: 0;
 		outline: inherit;
 		padding: 0;
