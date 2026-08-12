@@ -50,10 +50,10 @@
 				Cormorants ({count.cormorants})
 			</div>
 		</a>
-		<a href="/birds/cormorants">
+		<a href="/birds/ducks">
 			<div class="photo-link">
 				<enhanced:img src={duck} alt="wood duck" />
-				Ducks and Geese(wood duck) ({count.ducks})
+				Ducks and Geese ({count.ducks})
 			</div>
 		</a>
 		<a href="/birds/cormorants">
@@ -80,7 +80,7 @@
 				Gulls and Terns ({count.gulls})
 			</div>
 		</a>
-		<a href="/birds/cormorants">
+		<a href="/birds/ibises">
 			<div class="photo-link">
 				<enhanced:img src={ibis} alt="ibis" />
 				Ibises ({count.ibises})
@@ -98,7 +98,7 @@
 				Owls - great horned ({count.owls})
 			</div>
 		</a>
-		<a href="/birds/cormorants">
+		<a href="/birds/pelicans">
 			<div class="photo-link">
 				<enhanced:img src={pelican} alt="pelican" />
 				Pelicans ({count.pelicans})

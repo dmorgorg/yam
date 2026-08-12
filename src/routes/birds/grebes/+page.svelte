@@ -12,12 +12,25 @@
 
 	// grebes
 	import g01 from '$lib/images/birds/2026/07/2026-07-29-183328-PR.jpg?enhanced';
+	import g02 from '$lib/images/birds/2026/07/2026-07-29-193141-PR.jpg?enhanced';
+	import g03 from '$lib/images/birds/2026/07/2026-07-29-193221-PR.jpg?enhanced';
 
 	const imagesArray = [
 		[
 			{
-				image: p01,
-				caption: '<strong>Red-necked Grebe</strong><br/>Bridlewood Wetlands, Calgary. July, 2026'
+				image: g01,
+				caption:
+					'Juvenile <strong>Red-necked Grebe</strong><br/>Bridlewood Wetlands, Calgary. July, 2026'
+			},
+			{
+				image: g02,
+				caption:
+					'Juvenile <strong>Red-necked Grebe</strong>. <br/>Bridlewood Wetlands, Calgary. July, 2026'
+			},
+			{
+				image: g03,
+				caption:
+					'<strong>Red-necked Grebe</strong> juveniles. <br/>Bridlewood Wetlands, Calgary. July, 2026'
 			}
 		]
 	];

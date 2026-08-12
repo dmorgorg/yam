@@ -23,6 +23,8 @@
 	import c10 from '$lib/images/birds/2026/07/2026-07-29-182716-PR.jpg?enhanced';
 	import c11 from '$lib/images/birds/2026/08/2026-08-07-171239-PR.jpg?enhanced';
 	import c12 from '$lib/images/birds/2026/08/2026-08-07-175159-PR.jpg?enhanced';
+	import c13 from '$lib/images/birds/2026/07/2026-07-29-191057-PR.jpg?enhanced';
+	import c14 from '$lib/images/birds/2026/07/2026-07-29-193707-PR.jpg?enhanced';
 
 	const imagesArray = [
 		[
@@ -59,6 +61,16 @@
 			},
 			{
 				image: c04,
+				caption:
+					'Juvenile <strong>American Coot</strong>.  <br/>Bridlewood Wetlands, Calgary. July 2026'
+			},
+			{
+				image: c13,
+				caption:
+					'Juvenile <strong>American Coot</strong>.  <br/>Bridlewood Wetlands, Calgary. July 2026'
+			},
+			{
+				image: c14,
 				caption:
 					'Juvenile <strong>American Coot</strong>.  <br/>Bridlewood Wetlands, Calgary. July 2026'
 			},
