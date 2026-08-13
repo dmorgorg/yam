@@ -10,7 +10,7 @@
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 
-	// american coot
+	// ducks
 	import d01 from '$lib/images/birds/2026/07/2026-07-29-183849-PR.jpg?enhanced';
 	import d02 from '$lib/images/birds/2026/07/2026-07-29-191632-PR.jpg?enhanced';
 	import d03 from '$lib/images/birds/2026/07/2026-07-29-192358-PR.jpg?enhanced';
@@ -18,8 +18,21 @@
 	import d05 from '$lib/images/birds/2026/07/2026-07-31-163044-PR.jpg?enhanced';
 	import d06 from '$lib/images/birds/2026/07/2026-07-31-164350-PR.jpg?enhanced';
 	import d07 from '$lib/images/birds/2026/07/2026-07-31-175724-PR.jpg?enhanced';
+	import d08 from '$lib/images/birds/2026/08/2026-08-03-165354-PR.jpg?enhanced';
+	import d09 from '$lib/images/birds/2026/08/2026-08-03-165355-PR.jpg?enhanced';
+	import d10 from '$lib/images/birds/2026/08/2026-08-06-165827-PR.jpg?enhanced';
 
 	const imagesArray = [
+		[
+			{
+				image: d08,
+				caption: 'Female <strong>Gadwall</strong> <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d09,
+				caption: 'Female <strong>Gadwall</strong> <br/>Weed Lake, Alberta. August, 2026'
+			}
+		],
 		[
 			{
 				image: d01,
@@ -32,15 +45,16 @@
 			{
 				image: d03,
 				caption: 'Female <strong>Mallard</strong> <br/>Bridlewood Wetlands, Calgary. July, 2026'
-			},
-			{
-				image: d04,
-				caption:
-					'Male <strong>Mallards</strong>, immature on the left. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
 			}
 		],
 		[
 			{
+				image: d10,
+				caption: '<strong>Northern Shoveler</strong> <br/>Weed Lake, Alberta. August, 2026'
+			}
+		],
+		[
+			({
 				image: d06,
 				caption:
 					'An eclipse male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
@@ -49,7 +63,7 @@
 				image: d05,
 				caption:
 					'An eclipse male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
-			}
+			})
 		],
 		[
 			{

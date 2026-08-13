@@ -12,6 +12,7 @@
 	import kite from '$lib/images/birds/2010s/2012-11-12-082245-PR.jpg?enhanced';
 	import egret from '$lib/images/birds/2010s/2012-10-17-094843-PR.jpg?enhanced';
 	import finch from '$lib/images/birds/2026/07/2026-07-31-181733-PR.jpg?enhanced';
+	import grebe from '$lib/images/birds/2026/07/2026-07-29-183328-PR.jpg?enhanced';
 	import ibis from '$lib/images/birds/2026/07/2026-07-22-170847.jpg?enhanced';
 	import kingfisher from '$lib/images/birds/2010s/2012-11-11-095231-PR.jpg?enhanced';
 	import owl from '$lib/images/birds/2010s/2020-07-26-145608-1.jpg?enhanced';
@@ -80,6 +81,12 @@
 				Gulls and Terns ({count.gulls})
 			</div>
 		</a>
+		<a href="/birds/grebes">
+			<div class="photo-link">
+				<enhanced:img src={grebe} alt="grebe" />
+				Grebes ({count.grebes})
+			</div>
+		</a>
 		<a href="/birds/ibises">
 			<div class="photo-link">
 				<enhanced:img src={ibis} alt="ibis" />
@@ -95,7 +102,7 @@
 		<a href="/birds/cormorants">
 			<div class="photo-link">
 				<enhanced:img src={owl} alt="owl" />
-				Owls - great horned ({count.owls})
+				Owls({count.owls})
 			</div>
 		</a>
 		<a href="/birds/pelicans">

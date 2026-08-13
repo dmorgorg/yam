@@ -6,42 +6,52 @@
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Gulls and Terns';
+	let title = 'Finches';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 
-	// american coot
-	import g01 from '$lib/images/birds/2026/07/2026-07-22-164955.jpg?enhanced';
-	import g02 from '$lib/images/birds/2026/07/2026-07-22-165002.jpg?enhanced';
-	import g03 from '$lib/images/birds/2026/08/2026-08-03-165914-PR.jpg?enhanced';
+	// grebes
+	import f01 from '$lib/images/birds/2025/2025-02-09-115712-PR.jpg?enhanced';
+	import f02 from '$lib/images/birds/2025/2025-02-09-115718-PR.jpg?enhanced';
+	import f03 from '$lib/images/birds/2025/2025-02-09-115748-PR.jpg?enhanced';
+	import f04 from '$lib/images/birds/2025/2025-02-09-115811-PR.jpg?enhanced';
+	import f05 from '$lib/images/birds/2026/07/2026-07-31-181733-PR.jpg?enhanced';
 
 	const imagesArray = [
 		[
 			{
-				image: g03,
+				image: f05,
 				caption:
-					'<strong>Caspian Tern</strong> (Apparently rare.)<br/>Weed Lake, Alberta. August, 2026'
+					'<strong>American Goldfinch</strong><br/> Inglewood Bird Sanctuary, Calgary. February, 2025'
 			}
 		],
 		[
 			{
-				image: g01,
-				caption: "Juvenile <strong>Bonaparte's Gull</strong> <br/>Frank Lake, Alberta. July, 2026"
+				image: f01,
+				caption: 'Adult male <strong>Redpoll</strong><br/> Calgary. February, 2025'
 			},
 			{
-				image: g02,
-				caption: "Juvenile <strong>Bonaparte's Gull</strong> <br/>Frank Lake, Alberta. July, 2026"
+				image: f02,
+				caption: 'Adult male <strong>Redpoll</strong><br/> Calgary. February, 2025'
+			},
+			{
+				image: f03,
+				caption: 'Female or immature <strong>Redpoll</strong><br/> Calgary. February, 2025'
+			},
+			{
+				image: f04,
+				caption: 'Female or immature <strong>Redpolls</strong><br/> Calgary. February, 2025'
 			}
 		]
 	];
 
-	count.gulls = imagesArray.length;
+	count.finches = imagesArray.length;
 </script>
 
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title} ({count.gulls})</div>
+		<div class="bird-type">{title} ({count.finches})</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 		<BirdsDropDown />
 	</div>
