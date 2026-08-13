@@ -3,6 +3,9 @@
 	import Spacer from '$lib/components/Spacer.svelte';
 	import '$lib/styling/app.css';
 
+	const fileMap = import.meta.glob('$lib/images/birds/**/*.jpg', { query: '?url', eager: true });
+	console.log(fileMap);
+
 	import { count } from '$lib/data/counts.svelte.js';
 
 	import blackbird from '$lib/images/birds/2026/07/2026-07-29-181927-PR.jpg?enhanced';

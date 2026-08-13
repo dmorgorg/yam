@@ -21,6 +21,10 @@
 	import d08 from '$lib/images/birds/2026/08/2026-08-03-165354-PR.jpg?enhanced';
 	import d09 from '$lib/images/birds/2026/08/2026-08-03-165355-PR.jpg?enhanced';
 	import d10 from '$lib/images/birds/2026/08/2026-08-06-165827-PR.jpg?enhanced';
+	import d11 from '$lib/images/birds/2026/07/2026-07-30-184319-PR.jpg?enhanced';
+	import d12 from '$lib/images/birds/2026/07/2026-07-13-165427-2-PR.jpg?enhanced';
+	import d13 from '$lib/images/birds/2026/07/2026-07-29-182620-PR.jpg?enhanced';
+	import d14 from '$lib/images/birds/2026/07/2026-07-13-165907-PR.jpg?enhanced';
 
 	const imagesArray = [
 		[
@@ -33,6 +37,7 @@
 				caption: 'Female <strong>Gadwall</strong> <br/>Weed Lake, Alberta. August, 2026'
 			}
 		],
+
 		[
 			{
 				image: d01,
@@ -49,8 +54,35 @@
 		],
 		[
 			{
+				image: d07,
+				caption:
+					'Immature <strong>Common Mergansers</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
+			}
+		],
+		[
+			{
 				image: d10,
 				caption: '<strong>Northern Shoveler</strong> <br/>Weed Lake, Alberta. August, 2026'
+			}
+		],
+		[
+			{
+				image: d12,
+				caption: '<strong>Ruddy Duck</strong> <br/>Frank Lake, Alberta. July, 2026'
+			},
+			{
+				image: d14,
+				caption: '<strong>Ruddy Duck</strong> <br/>Frank Lake, Alberta. July, 2026'
+			},
+			{
+				image: d13,
+				caption: '<strong>Ruddy Duck</strong>lings <br/>Bridlewood Wetlands, Alberta. July, 2026'
+			}
+		],
+		[
+			{
+				image: d11,
+				caption: '<strong>Lesser Scaup</strong> <br/>Big Hill Springs PP, Alberta. July, 2026'
 			}
 		],
 		[
@@ -64,13 +96,6 @@
 				caption:
 					'An eclipse male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
 			})
-		],
-		[
-			{
-				image: d07,
-				caption:
-					'Immature <strong>Common Mergansers</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
-			}
 		]
 	];
 
