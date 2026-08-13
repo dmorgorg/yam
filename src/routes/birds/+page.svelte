@@ -3,9 +3,6 @@
 	import Spacer from '$lib/components/Spacer.svelte';
 	import '$lib/styling/app.css';
 
-	const fileMap = import.meta.glob('$lib/images/birds/**/*.jpg', { query: '?url', eager: true });
-	console.log(fileMap);
-
 	import { count } from '$lib/data/counts.svelte.js';
 
 	import blackbird from '$lib/images/birds/2026/07/2026-07-29-181927-PR.jpg?enhanced';
@@ -32,7 +29,7 @@
 <div class="outer">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">Bird Species</div>
+		<div class="bird-type">Bird Species Groupings</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 	</div>
 	<div class="home-page-links">
@@ -72,7 +69,7 @@
 				Egrets and Herons ({count.egrets})
 			</div>
 		</a>
-		<a href="/birds/cormorants">
+		<a href="/birds/finches">
 			<div class="photo-link">
 				<enhanced:img src={finch} alt="finch" />
 				Finches ({count.finches})

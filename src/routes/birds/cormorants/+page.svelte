@@ -1,22 +1,11 @@
-<script>
-	import AlbumSlider3 from '$lib/components/AlbumSlider3.svelte';
-	import NavigationController from '$lib/components/NavigationController.svelte';
-	import HomeIcon from '$lib/components/HomeIcon.svelte';
-	import Spacer from '$lib/components/Spacer.svelte';
-	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
-	import { count } from '$lib/data/counts.svelte.js';
-
-	let title = 'Cormorants';
-	let hIndex = $state(0);
-	let vIndex = $state(0);
-
+<script module>
 	// american coot
 	import c01 from '$lib/images/birds/2026/07/2026-07-31-161848-PR.jpg?enhanced';
 	import c02 from '$lib/images/birds/2026/07/2026-07-31-173231-PR.jpg?enhanced';
 	import c03 from '$lib/images/birds/2026/08/2026-08-03-165545-PR.jpg?enhanced';
 	import c04 from '$lib/images/birds/2010s/2012-11-12-083930-PR.jpg?enhanced';
 
-	const imagesArray = [
+	export const imagesArray = [
 		[
 			{
 				image: c01,
@@ -40,8 +29,19 @@
 			}
 		]
 	];
+</script>
 
-	count.cormorants = imagesArray.length;
+<script>
+	import AlbumSlider3 from '$lib/components/AlbumSlider3.svelte';
+	import NavigationController from '$lib/components/NavigationController.svelte';
+	import HomeIcon from '$lib/components/HomeIcon.svelte';
+	import Spacer from '$lib/components/Spacer.svelte';
+	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
+	import { count } from '$lib/data/counts.svelte.js';
+
+	let title = 'Cormorants';
+	let hIndex = $state(0);
+	let vIndex = $state(0);
 </script>
 
 <div class="container">

@@ -1,15 +1,4 @@
-<script>
-	import AlbumSlider3 from '$lib/components/AlbumSlider3.svelte';
-	import NavigationController from '$lib/components/NavigationController.svelte';
-	import HomeIcon from '$lib/components/HomeIcon.svelte';
-	import Spacer from '$lib/components/Spacer.svelte';
-	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
-	import { count } from '$lib/data/counts.svelte.js';
-
-	let title = 'Finches';
-	let hIndex = $state(0);
-	let vIndex = $state(0);
-
+<script module>
 	// grebes
 	import f01 from '$lib/images/birds/2025/2025-02-09-115712-PR.jpg?enhanced';
 	import f02 from '$lib/images/birds/2025/2025-02-09-115718-PR.jpg?enhanced';
@@ -17,7 +6,7 @@
 	import f04 from '$lib/images/birds/2025/2025-02-09-115811-PR.jpg?enhanced';
 	import f05 from '$lib/images/birds/2026/07/2026-07-31-181733-PR.jpg?enhanced';
 
-	const imagesArray = [
+	export const imagesArray = [
 		[
 			{
 				image: f05,
@@ -44,8 +33,19 @@
 			}
 		]
 	];
+</script>
 
-	count.finches = imagesArray.length;
+<script>
+	import AlbumSlider3 from '$lib/components/AlbumSlider3.svelte';
+	import NavigationController from '$lib/components/NavigationController.svelte';
+	import HomeIcon from '$lib/components/HomeIcon.svelte';
+	import Spacer from '$lib/components/Spacer.svelte';
+	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
+	import { count } from '$lib/data/counts.svelte.js';
+
+	let title = 'Finches';
+	let hIndex = $state(0);
+	let vIndex = $state(0);
 </script>
 
 <div class="container">

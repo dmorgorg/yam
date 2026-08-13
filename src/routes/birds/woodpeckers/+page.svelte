@@ -1,22 +1,11 @@
-<script>
-	import AlbumSlider3 from '$lib/components/AlbumSlider3.svelte';
-	import NavigationController from '$lib/components/NavigationController.svelte';
-	import HomeIcon from '$lib/components/HomeIcon.svelte';
-	import Spacer from '$lib/components/Spacer.svelte';
-	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
-	import { count } from '$lib/data/counts.svelte.js';
-
-	let title = 'Woodpeckers';
-	let hIndex = $state(0);
-	let vIndex = $state(0);
-
+<script module>
 	// woodpeckers
 	import w01 from '$lib/images/birds/2026/04/2026-04-07-134657.jpg?enhanced';
 	import w02 from '$lib/images/birds/2026/07/2026-07-09-181354-PR.jpg?enhanced';
 	import w03 from '$lib/images/birds/2026/07/2026-07-09-181359-PR.jpg?enhanced';
 	import w04 from '$lib/images/birds/2026/07/2026-07-09-181437-PR.jpg?enhanced';
 
-	const imagesArray = [
+	export const imagesArray = [
 		[
 			{
 				image: w02,
@@ -37,8 +26,19 @@
 			}
 		]
 	];
+</script>
 
-	count.woodpeckers = imagesArray.length;
+<script>
+	import AlbumSlider3 from '$lib/components/AlbumSlider3.svelte';
+	import NavigationController from '$lib/components/NavigationController.svelte';
+	import HomeIcon from '$lib/components/HomeIcon.svelte';
+	import Spacer from '$lib/components/Spacer.svelte';
+	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
+	import { count } from '$lib/data/counts.svelte.js';
+
+	let title = 'Woodpeckers';
+	let hIndex = $state(0);
+	let vIndex = $state(0);
 </script>
 
 <div class="container">

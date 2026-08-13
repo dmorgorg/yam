@@ -1,21 +1,10 @@
-<script>
-	import AlbumSlider3 from '$lib/components/AlbumSlider3.svelte';
-	import NavigationController from '$lib/components/NavigationController.svelte';
-	import HomeIcon from '$lib/components/HomeIcon.svelte';
-	import Spacer from '$lib/components/Spacer.svelte';
-	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
-	import { count } from '$lib/data/counts.svelte.js';
-
-	let title = 'Gulls and Terns';
-	let hIndex = $state(0);
-	let vIndex = $state(0);
-
+<script module>
 	// american coot
 	import g01 from '$lib/images/birds/2026/07/2026-07-22-164955.jpg?enhanced';
 	import g02 from '$lib/images/birds/2026/07/2026-07-22-165002.jpg?enhanced';
 	import g03 from '$lib/images/birds/2026/08/2026-08-03-165914-PR.jpg?enhanced';
 
-	const imagesArray = [
+	export const imagesArray = [
 		[
 			{
 				image: g03,
@@ -34,8 +23,19 @@
 			}
 		]
 	];
+</script>
 
-	count.gulls = imagesArray.length;
+<script>
+	import AlbumSlider3 from '$lib/components/AlbumSlider3.svelte';
+	import NavigationController from '$lib/components/NavigationController.svelte';
+	import HomeIcon from '$lib/components/HomeIcon.svelte';
+	import Spacer from '$lib/components/Spacer.svelte';
+	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
+	import { count } from '$lib/data/counts.svelte.js';
+
+	let title = 'Gulls and Terns';
+	let hIndex = $state(0);
+	let vIndex = $state(0);
 </script>
 
 <div class="container">

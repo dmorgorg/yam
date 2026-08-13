@@ -1,15 +1,4 @@
-<script>
-	import AlbumSlider3 from '$lib/components/AlbumSlider3.svelte';
-	import NavigationController from '$lib/components/NavigationController.svelte';
-	import HomeIcon from '$lib/components/HomeIcon.svelte';
-	import Spacer from '$lib/components/Spacer.svelte';
-	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
-	import { count } from '$lib/data/counts.svelte.js';
-
-	let title = 'Blackbirds, etc.';
-	let hIndex = $state(0);
-	let vIndex = $state(0);
-
+<script module>
 	// american coot
 	import bb01 from '$lib/images/birds/2026/07/2026-07-13-145838-PR.jpg?enhanced';
 	import bb02 from '$lib/images/birds/2026/07/2026-07-22-171219.jpg?enhanced';
@@ -19,7 +8,7 @@
 	import bb06 from '$lib/images/birds/2026/07/2026-07-29-181845-PR.jpg?enhanced';
 	import bb07 from '$lib/images/birds/2026/07/2026-07-13-150723-PR.jpg?enhanced';
 
-	const imagesArray = [
+	export const imagesArray = [
 		[
 			{
 				image: bb01,
@@ -55,8 +44,19 @@
 			}
 		]
 	];
+</script>
 
-	count.blackbirds = imagesArray.length;
+<script>
+	import AlbumSlider3 from '$lib/components/AlbumSlider3.svelte';
+	import NavigationController from '$lib/components/NavigationController.svelte';
+	import HomeIcon from '$lib/components/HomeIcon.svelte';
+	import Spacer from '$lib/components/Spacer.svelte';
+	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
+	import { count } from '$lib/data/counts.svelte.js';
+
+	let title = 'Blackbirds, etc.';
+	let hIndex = $state(0);
+	let vIndex = $state(0);
 </script>
 
 <div class="container">
