@@ -1,12 +1,17 @@
 <script module>
-	// eagles, hawks and kites
-	import owl01 from '$lib/images/birds/2010s/2020-07-26-145608-1.jpg?enhanced';
+	// parakeets
+	import p01 from '$lib/images/birds/2023/2023-03-18-154434-PR.jpg?enhanced';
+	import p02 from '$lib/images/birds/2023/2023-03-18-183603-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
 			{
-				image: owl01,
-				caption: '<strong>Great Horned Owl</strong><br/>Alberta, Canada. July, 2020.'
+				image: p01,
+				caption: '<strong>Rose-ringed Parakeet</strong><br/>London, England. March, 2023.'
+			},
+			{
+				image: p02,
+				caption: '<strong>Rose-ringed Parakeet</strong><br/>London, England. March, 2023.'
 			}
 		]
 	];
@@ -20,7 +25,7 @@
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Owls';
+	let title = 'Parakeets';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 </script>
@@ -28,7 +33,7 @@
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title} ({count.owls})</div>
+		<div class="bird-type">{title} ({count.parakeets})</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 		<BirdsDropDown />
 	</div>

@@ -16,6 +16,7 @@
 	import ibis from '$lib/images/birds/2026/07/2026-07-22-170847.jpg?enhanced';
 	import kingfisher from '$lib/images/birds/2010s/2012-11-11-095231-PR.jpg?enhanced';
 	import owl from '$lib/images/birds/2010s/2020-07-26-145608-1.jpg?enhanced';
+	import parakeet from '$lib/images/birds/2023/2023-03-18-183603-PR.jpg?enhanced';
 	import pelican from '$lib/images/birds/2026/07/2026-07-29-182931-PR.jpg?enhanced';
 	import plover from '$lib/images/birds/2026/08/2026-08-07-171909-PR.jpg?enhanced';
 	import sandpiper from '$lib/images/birds/2026/07/2026-07-22-164146-1.jpg?enhanced';
@@ -105,6 +106,12 @@
 				Owls({count.owls})
 			</div>
 		</a>
+		<a href="/birds/parakeets">
+			<div class="photo-link">
+				<enhanced:img src={parakeet} alt="parakeet" />
+				Parakeets ({count.parakeets})
+			</div>
+		</a>
 		<a href="/birds/pelicans">
 			<div class="photo-link">
 				<enhanced:img src={pelican} alt="pelican" />
@@ -126,7 +133,7 @@
 		<a href="/birds/stilts">
 			<div class="photo-link">
 				<enhanced:img src={stilt} alt="stilt" />
-				Stilts ({count.stilts})
+				Stilts and Avocets ({count.stilts})
 			</div>
 		</a>
 		<a href="/birds/storks">

@@ -64,6 +64,9 @@
 				<a href="/birds/owls">Owls ({count.owls})</a>
 			</li>
 			<li>
+				<a href="/birds/parakeets">Parakeets ({count.parakeets})</a>
+			</li>
+			<li>
 				<a href="/birds/pelicans">Pelicans ({count.pelicans})</a>
 			</li>
 			<li>

@@ -7,23 +7,13 @@
 	import s04 from '$lib/images/birds/2026/07/2026-07-22-170138.jpg?enhanced';
 	import s06 from '$lib/images/birds/2026/07/2026-07-22-163630.jpg?enhanced';
 	import s07 from '$lib/images/birds/2026/07/2026-07-22-163720.jpg?enhanced';
+	import s08 from '$lib/images/birds/2026/08/2026-08-03-165506-PR.jpg?enhanced';
+	import s09 from '$lib/images/birds/2026/08/2026-08-06-172158-PR.jpg?enhanced';
+	import s10 from '$lib/images/birds/2026/08/2026-08-06-172155-PR.jpg?enhanced';
+	import s11 from '$lib/images/birds/2026/08/2026-08-06-173524-PR.jpg?enhanced';
+	import s12 from '$lib/images/birds/2026/08/2026-08-06-181032-PR.jpg?enhanced';
 
 	export const imagesArray = [
-		[
-			{
-				image: s01,
-				caption: '<strong>Willet</strong>. <br/>Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: s02,
-				caption: '<strong>Willet</strong>. <br/>Frank Lake, Alberta. July 2026'
-			},
-			{
-				image: s03,
-				caption:
-					"<strong>Willet</strong> (and a juvenile <strong>Wilson's Phalarope</strong>). <br/>Frank Lake, Alberta. July 2026"
-			}
-		],
 		[
 			{
 				image: s07,
@@ -41,6 +31,46 @@
 			{
 				image: s04,
 				caption: "Juvenile <strong>Wilson's Phalarope</strong>. <br/>Frank Lake, Alberta. July 2026"
+			}
+		],
+		[
+			{
+				image: s09,
+				caption: '<strong>Spotted Sandpiper</strong>. <br/>Weed Lake, Alberta. August 2026'
+			},
+			{
+				image: s10,
+				caption: '<strong>Spotted Sandpiper</strong>. <br/>Weed Lake, Alberta. August 2026'
+			}
+		],
+		[
+			{
+				image: s01,
+				caption: '<strong>Willet</strong>. <br/>Frank Lake, Alberta. July 2026'
+			},
+			{
+				image: s02,
+				caption: '<strong>Willet</strong>. <br/>Frank Lake, Alberta. July 2026'
+			},
+			{
+				image: s03,
+				caption:
+					"<strong>Willet</strong> (and a juvenile <strong>Wilson's Phalarope</strong>). <br/>Frank Lake, Alberta. July 2026"
+			},
+			{
+				image: s08,
+				caption: '<strong>Willet</strong> <br/>Weed Lake, Alberta. August 2026'
+			}
+		],
+
+		[
+			{
+				image: s11,
+				caption: '<strong>Lesser/Greater Yellowlegs</strong>. <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: s12,
+				caption: '<strong>Lesser/Greater Yellowlegs</strong>. <br/>Weed Lake, Alberta. August, 2026'
 			}
 		]
 	];

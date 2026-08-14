@@ -14,6 +14,8 @@
 	import d12 from '$lib/images/birds/2026/07/2026-07-13-165427-2-PR.jpg?enhanced';
 	import d13 from '$lib/images/birds/2026/07/2026-07-29-182620-PR.jpg?enhanced';
 	import d14 from '$lib/images/birds/2026/07/2026-07-13-165907-PR.jpg?enhanced';
+	import d15 from '$lib/images/birds/2026/08/2026-08-06-173227-PR.jpg?enhanced';
+	import d16 from '$lib/images/birds/2026/08/2026-08-06-172510-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -24,6 +26,10 @@
 			{
 				image: d09,
 				caption: 'Female <strong>Gadwall</strong> <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d15,
+				caption: 'Female <strong>Gadwall</strong> and young. <br/>Weed Lake, Alberta. August, 2026'
 			}
 		],
 
@@ -52,6 +58,10 @@
 			{
 				image: d10,
 				caption: '<strong>Northern Shoveler</strong> <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d16,
+				caption: '<strong>Northern Shoveler</strong>s <br/>Weed Lake, Alberta. August, 2026'
 			}
 		],
 		[
@@ -75,7 +85,7 @@
 			}
 		],
 		[
-			({
+			{
 				image: d06,
 				caption:
 					'An eclipse male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
@@ -84,7 +94,7 @@
 				image: d05,
 				caption:
 					'An eclipse male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
-			})
+			}
 		]
 	];
 </script>
