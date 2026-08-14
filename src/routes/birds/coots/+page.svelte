@@ -14,6 +14,8 @@
 	import c12 from '$lib/images/birds/2026/08/2026-08-07-175159-PR.jpg?enhanced';
 	import c13 from '$lib/images/birds/2026/07/2026-07-29-191057-PR.jpg?enhanced';
 	import c14 from '$lib/images/birds/2026/07/2026-07-29-193707-PR.jpg?enhanced';
+	import c15 from '$lib/images/birds/2026/07/2026-07-29-180502-PR.jpg?enhanced';
+	import c16 from '$lib/images/birds/2026/07/2026-07-29-193440-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -44,6 +46,11 @@
 					'Adult <strong>American Coot</strong> and chick.  <br/>Bridlewood Wetlands, Calgary, Alberta. July 2026'
 			},
 			{
+				image: c15,
+				caption:
+					'Adult <strong>American Coot</strong> and chick.  <br/>Bridlewood Wetlands, Calgary, Alberta. July 2026'
+			},
+			{
 				image: c03,
 				caption:
 					'Adult <strong>American Coot</strong> and juvenile.  <br/>Frank Lake, Alberta. July 2026'
@@ -64,6 +71,11 @@
 					'Juvenile <strong>American Coot</strong>.  <br/>Bridlewood Wetlands, Calgary. July 2026'
 			},
 			{
+				image: c16,
+				caption:
+					'Juvenile <strong>American Coots</strong>.  <br/>Bridlewood Wetlands, Calgary. July 2026'
+			},
+			{
 				image: c06,
 				caption:
 					'Adult <strong>American Coots</strong> and juvenile.  <br/>Frank Lake, Alberta. July 2026'
@@ -82,7 +94,7 @@
 			{
 				image: c10,
 				caption:
-					'<strong>American Coot</strong>. <br/> Not webbed, but lobed feet to aid propulsion <br/>Bridlewood Wetlands, Calgary, Alberta. July 2026'
+					'Juvenile <strong>American Coot</strong>. <br/> Not webbed, but lobed feet to aid propulsion <br/>Bridlewood Wetlands, Calgary, Alberta. July 2026'
 			}
 		]
 	];

@@ -22,14 +22,14 @@
 	import stilt from '$lib/images/birds/2026/08/2026-08-03-164608-PR.jpg?enhanced';
 	import stork from '$lib/images/birds/2010s/2012-10-11-083129-PR.jpg?enhanced';
 	import tern from '$lib/images/birds/2026/08/2026-08-03-165914-PR.jpg?enhanced';
-	import waxwing from '$lib/images/birds/2026/07/2026-07-31-181837-PR.jpg?enhanced';
+	import waxwing from '$lib/images/birds/2026/07/2026-07-31-181837-1-PR.jpg?enhanced';
 	import woodpecker from '$lib/images/birds/2026/07/2026-07-09-181356-PR.jpg?enhanced';
 </script>
 
 <div class="outer">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">Bird Species Groupings</div>
+		<div class="bird-type">Species Groupings</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 	</div>
 	<div class="home-page-links">
@@ -136,7 +136,7 @@
 			</div>
 		</a>
 
-		<a href="/birds/sandpipers">
+		<a href="/birds/waxwings">
 			<div class="photo-link">
 				<enhanced:img src={waxwing} alt="waxwing" />
 				Waxwings ({count.waxwings})
