@@ -1,12 +1,17 @@
 <script module>
 	// kingfishers
-	import k01 from '$lib/images/birds/2010s/2012-11-12-082245-PR.jpg?enhanced';
+	import k01 from '$lib/images/birds/2010s/2012-11-11-095231-PR.jpg?enhanced';
+	import k02 from '$lib/images/birds/2010s/2012-11-11-095425-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
 			{
 				image: k01,
-				caption: '<strong>Brahminy Kite</strong><br/>Odisha, India. November, 2012.'
+				caption: '<strong>White-throated Kingfisher</strong><br/>Odisha, India. November, 2012.'
+			},
+			{
+				image: k02,
+				caption: '<strong>White-throated Kingfisher</strong><br/>Odisha, India. November, 2012.'
 			}
 		]
 	];
