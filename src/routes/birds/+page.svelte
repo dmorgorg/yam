@@ -129,7 +129,7 @@
 				Stilts ({count.stilts})
 			</div>
 		</a>
-		<a href="/birds/sandpipers">
+		<a href="/birds/storks">
 			<div class="photo-link">
 				<enhanced:img src={stork} alt="stork" />
 				Storks ({count.storks})

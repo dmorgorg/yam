@@ -26,6 +26,7 @@
 		font-weight: bold;
 		line-height: 0.75em;
 		padding: 0.4em;
+		text-align: right;
 
 		.f-75 {
 			font-size: 75%;
