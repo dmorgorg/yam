@@ -57,7 +57,7 @@
 				Ducks and Geese ({count.ducks})
 			</div>
 		</a>
-		<a href="/birds/cormorants">
+		<a href="/birds/eagles">
 			<div class="photo-link">
 				<enhanced:img src={kite} alt="kite" />
 				Eagles, Hawks and Kites ({count.eagles})
@@ -93,13 +93,13 @@
 				Ibises ({count.ibises})
 			</div>
 		</a>
-		<a href="/birds/cormorants">
+		<a href="/birds/kingfishers">
 			<div class="photo-link">
 				<enhanced:img src={kingfisher} alt="kingfisher" />
 				Kingfishers ({count.kingfishers})
 			</div>
 		</a>
-		<a href="/birds/cormorants">
+		<a href="/birds/owls">
 			<div class="photo-link">
 				<enhanced:img src={owl} alt="owl" />
 				Owls({count.owls})
