@@ -30,7 +30,7 @@
 <div class="outer">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">Species Groupings</div>
+		<div class="bird-type">Species Families</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 	</div>
 	<div class="home-page-links">

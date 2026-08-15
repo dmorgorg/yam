@@ -5,6 +5,8 @@
 	import f03 from '$lib/images/birds/2025/2025-02-09-115748-PR.jpg?enhanced';
 	import f04 from '$lib/images/birds/2025/2025-02-09-115811-PR.jpg?enhanced';
 	import f05 from '$lib/images/birds/2026/07/2026-07-31-181733-PR.jpg?enhanced';
+	import f06 from '$lib/images/birds/2024/2024-01-19-032635-PR.jpg?enhanced';
+	import f07 from '$lib/images/birds/2024/2024-01-19-032548-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -12,6 +14,25 @@
 				image: f05,
 				caption:
 					'<strong>American Goldfinch</strong><br/> Inglewood Bird Sanctuary, Calgary. February, 2025'
+			}
+		],
+		[
+			{
+				image: f06,
+				caption:
+					'<strong>Scaly-breasted Munias</strong>, left (immature) and right (adult). <br/> Columbo, Sri Lanka. January, 2024.'
+			},
+			{
+				image: f07,
+				caption:
+					'Adult <strong>Scaly-breasted Munias</strong><br/> Columbo, Sri Lanka. January, 2024.'
+			}
+		],
+		[
+			{
+				image: f07,
+				caption:
+					'<strong>White-rumped Munia</strong> centre. <br/> Columbo, Sri Lanka. January, 2024.'
 			}
 		],
 		[
