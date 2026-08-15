@@ -3,8 +3,25 @@
 	import ib01 from '$lib/images/birds/2026/07/2026-07-13-153349-PR.jpg?enhanced';
 	import ib02 from '$lib/images/birds/2026/07/2026-07-22-170608.jpg?enhanced';
 	import ib03 from '$lib/images/birds/2026/07/2026-07-22-170837.jpg?enhanced';
+	import ib04 from '$lib/images/birds/2024/2024-02-09-220408-PR.jpg?enhanced';
+	import ib05 from '$lib/images/birds/2024/2024-02-09-220430-PR.jpg?enhanced';
+	import ib06 from '$lib/images/birds/2024/2024-02-09-220520-PR.jpg?enhanced';
 
 	export const imagesArray = [
+		[
+			{
+				image: ib04,
+				caption: '<strong>Black-headed Ibis</strong> <br/>Sri Lanka. February, 2024'
+			},
+			{
+				image: ib05,
+				caption: '<strong>Black-headed Ibis</strong> <br/>Sri Lanka. February, 2024'
+			},
+			{
+				image: ib06,
+				caption: '<strong>Black-headed Ibises</strong> <br/>Sri Lanka. February, 2024'
+			}
+		],
 		[
 			{
 				image: ib01,

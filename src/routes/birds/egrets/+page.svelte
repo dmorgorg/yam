@@ -7,6 +7,7 @@
 	import e05 from '$lib/images/birds/2010s/2012-11-27-102436-PR.jpg?enhanced';
 	import e06 from '$lib/images/birds/2010s/2012-11-27-102445-PR-1.jpg?enhanced';
 	import e07 from '$lib/images/birds/2010s/2012-11-14-125335-PR.jpg?enhanced';
+	import e08 from '$lib/images/birds/2024/2024-02-09-011119-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -44,6 +45,12 @@
 			{
 				image: e03,
 				caption: '<strong>Eastern Cattle-Egret</strong>. <br/>Odisha, India. November, 2012'
+			}
+		],
+		[
+			{
+				image: e08,
+				caption: '<strong>Indian Pond Heron</strong>. <br/>Sri Lanka. February, 2024'
 			}
 		]
 	];
