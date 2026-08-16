@@ -27,6 +27,7 @@
 				displayContent = false;
 			}}
 		>
+			<li>Alberta</li>
 			<li>
 				<a href="/birds/blackbirds">Blackbirds, etc. ({count.blackbirds})</a>
 			</li>
@@ -42,9 +43,9 @@
 			<li>
 				<a href="/birds/eagles">Eagles, Hawks and Kites ({count.eagles})</a>
 			</li>
-			<li>
+			<!-- <li>
 				<a href="/birds/egrets">Egrets and Herons ({count.egrets})</a>
-			</li>
+			</li> -->
 			<li>
 				<a href="/birds/finches">Finches ({count.finches})</a>
 			</li>
@@ -63,9 +64,9 @@
 			<li>
 				<a href="/birds/owls">Owls ({count.owls})</a>
 			</li>
-			<li>
+			<!-- <li>
 				<a href="/birds/parakeets">Parakeets ({count.parakeets})</a>
-			</li>
+			</li> -->
 			<li>
 				<a href="/birds/pelicans">Pelicans ({count.pelicans})</a>
 			</li>
@@ -84,6 +85,13 @@
 			</li>
 			<li>
 				<a href="/birds/woodpeckers">Woodpeckers ({count.woodpeckers})</a>
+			</li>
+			<hr />
+			<li>
+				<a href="/birds/woodpeckers">India ({count.woodpeckers})</a>
+			</li>
+			<li>
+				<a href="/birds/xSriLanka">Sri Lanka ({count.xSriLanka})</a>
 			</li>
 		</ul>
 	{/if}
@@ -115,7 +123,7 @@
 		font-family: 'text';
 	}
 	.fi {
-		font-family: 'candara';
+		font-family: 'text';
 	}
 
 	.list {

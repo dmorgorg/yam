@@ -16,7 +16,7 @@
 	import ibis from '$lib/images/birds/2026/07/2026-07-22-170847.jpg?enhanced';
 	import kingfisher from '$lib/images/birds/2010s/2012-11-11-095231-PR.jpg?enhanced';
 	import owl from '$lib/images/birds/2010s/2020-07-26-145608-1.jpg?enhanced';
-	import parakeet from '$lib/images/birds/2023/2023-03-18-183603-PR.jpg?enhanced';
+	import parakeet from '$lib/images/birds/2024/2024-01-19-032700-PR.jpg?enhanced';
 	import pelican from '$lib/images/birds/2026/07/2026-07-29-182931-PR.jpg?enhanced';
 	import plover from '$lib/images/birds/2026/08/2026-08-07-171909-PR.jpg?enhanced';
 	import sandpiper from '$lib/images/birds/2026/07/2026-07-22-164146-1.jpg?enhanced';
@@ -64,12 +64,12 @@
 				Eagles, Hawks and Kites ({count.eagles})
 			</div>
 		</a>
-		<a href="/birds/egrets">
+		<!-- <a href="/birds/egrets">
 			<div class="photo-link">
 				<enhanced:img src={egret} alt="egret" />
 				Egrets and Herons ({count.egrets})
 			</div>
-		</a>
+		</a> -->
 		<a href="/birds/finches">
 			<div class="photo-link">
 				<enhanced:img src={finch} alt="finch" />
@@ -106,12 +106,12 @@
 				Owls({count.owls})
 			</div>
 		</a>
-		<a href="/birds/parakeets">
+		<!-- <a href="/birds/parakeets">
 			<div class="photo-link">
 				<enhanced:img src={parakeet} alt="parakeet" />
 				Parakeets ({count.parakeets})
 			</div>
-		</a>
+		</a> -->
 		<a href="/birds/pelicans">
 			<div class="photo-link">
 				<enhanced:img src={pelican} alt="pelican" />
@@ -155,10 +155,24 @@
 				Woodpeckers ({count.woodpeckers})
 			</div>
 		</a>
+		<hr />
+		<a href="/birds/xSriLanka">
+			<div class="photo-link">
+				<enhanced:img src={parakeet} alt="parakeet" />
+				Sri Lanka ({count.xSriLanka})
+			</div>
+		</a>
 	</div>
 </div>
 
 <style>
+	hr {
+		background-color: gray;
+		margin-top: 0;
+		margin-bottom: 2em;
+		height: 0.25em;
+		width: 90%;
+	}
 	.outer {
 		background: white;
 		height: 100vh;
@@ -170,6 +184,7 @@
 	.top-matter {
 		display: flex;
 		font-family: cordelius;
+		/* font-family: text; */
 		font-size: 175%;
 		font-weight: bold;
 		height: 2em;

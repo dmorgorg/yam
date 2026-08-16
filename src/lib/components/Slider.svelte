@@ -48,9 +48,9 @@
 				}}
 				class:current={i === currentSlide}
 				class:onedown={i === currentSlide - 1}
-				class:twodown={i === currentSlide - 2}
+				// class:twodown={i === currentSlide - 2}
 				class:oneup={i === currentSlide + 1}
-				class:twoup={i === currentSlide + 2}
+				// class:twoup={i === currentSlide + 2}
 			></button>
 		{/each}
 	</div>

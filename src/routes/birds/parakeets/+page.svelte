@@ -2,38 +2,16 @@
 	// parakeets
 	import p01 from '$lib/images/birds/2023/2023-03-18-154434-PR.jpg?enhanced';
 	import p02 from '$lib/images/birds/2023/2023-03-18-183603-PR.jpg?enhanced';
-	import p03 from '$lib/images/birds/2024/2024-01-19-032700-PR.jpg?enhanced';
-	import p04 from '$lib/images/birds/2024/2024-01-19-032757-PR.jpg?enhanced';
-	import p05 from '$lib/images/birds/2024/2024-01-19-033722-PR.jpg?enhanced';
-	import p06 from '$lib/images/birds/2024/2024-01-19-033832-PR.jpg?enhanced';
 
 	export const imagesArray = [
-		[
-			{
-				image: p01,
-				caption: '<strong>Rose-ringed Parakeet</strong><br/>London, England. March, 2023.'
-			},
-			{
-				image: p02,
-				caption: '<strong>Rose-ringed Parakeet</strong><br/>London, England. March, 2023.'
-			},
-			{
-				image: p03,
-				caption: '<strong>Rose-ringed Parakeet</strong><br/>Columbo, Sri Lanka. January 2024'
-			},
-			{
-				image: p04,
-				caption: '<strong>Rose-ringed Parakeet</strong><br/>Columbo, Sri Lanka. January 2024'
-			},
-			{
-				image: p05,
-				caption: '<strong>Rose-ringed Parakeet</strong><br/>Columbo, Sri Lanka. January 2024'
-			},
-			{
-				image: p06,
-				caption: '<strong>Rose-ringed Parakeet</strong><br/>Columbo, Sri Lanka. January 2024'
-			}
-		]
+		{
+			image: p01,
+			caption: '<strong>Rose-ringed Parakeet</strong><br/>London, England. March, 2023.'
+		},
+		{
+			image: p02,
+			caption: '<strong>Rose-ringed Parakeet</strong><br/>London, England. March, 2023.'
+		}
 	];
 </script>
 
