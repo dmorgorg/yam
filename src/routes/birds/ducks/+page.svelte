@@ -20,6 +20,7 @@
 	import d18 from '$lib/images/birds/2026/08/2026-08-14-182156-PR.jpg?enhanced';
 	import d19 from '$lib/images/birds/2026/08/2026-08-14-181821-PR.jpg?enhanced';
 	import d20 from '$lib/images/birds/2026/08/2026-08-14-181732-PR.jpg?enhanced';
+	import d21 from '$lib/images/birds/2026/08/2026-08-12-162215-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -54,6 +55,11 @@
 				image: d20,
 				caption:
 					'Female <strong>Mallard</strong> and chicks (with female Ruddy Duck) <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d21,
+				caption:
+					'Female <strong>Mallard</strong> and chick <br/>Pearce Estate Park, Calgary. August, 2026'
 			}
 		],
 		[

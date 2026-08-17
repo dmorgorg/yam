@@ -3,6 +3,7 @@
 	import c01 from '$lib/images/birds/2026/07/2026-07-31-161848-PR.jpg?enhanced';
 	import c02 from '$lib/images/birds/2026/07/2026-07-31-173231-PR.jpg?enhanced';
 	import c03 from '$lib/images/birds/2026/08/2026-08-03-165545-PR.jpg?enhanced';
+	import c04 from '$lib/images/birds/2026/08/2026-08-12-170626-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -19,6 +20,11 @@
 			{
 				image: c03,
 				caption: '<strong>Double-crested Cormorant</strong>. <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: c04,
+				caption:
+					'<strong>Double-crested Cormorant</strong>. <br/>Harvey Passage, Calgary. August, 2026'
 			}
 		]
 	];

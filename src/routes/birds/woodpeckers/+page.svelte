@@ -4,6 +4,7 @@
 	import w02 from '$lib/images/birds/2026/07/2026-07-09-181354-PR.jpg?enhanced';
 	import w03 from '$lib/images/birds/2026/07/2026-07-09-181359-PR.jpg?enhanced';
 	import w04 from '$lib/images/birds/2026/07/2026-07-09-181437-PR.jpg?enhanced';
+	import w05 from '$lib/images/birds/2026/08/2026-08-12-175455-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -18,6 +19,10 @@
 			{
 				image: w04,
 				caption: '<strong>Northern Flicker</strong>. <br/>Calgary, Alberta. July, 2026'
+			},
+			{
+				image: w05,
+				caption: '<strong>Northern Flicker</strong>. <br/>Pearce Estate Park, Calgary. August, 2026'
 			},
 			{
 				image: w01,

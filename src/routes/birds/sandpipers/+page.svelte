@@ -16,6 +16,7 @@
 	import s14 from '$lib/images/birds/2026/08/2026-08-14-174651-PR.jpg?enhanced';
 	import s15 from '$lib/images/birds/2026/08/2026-08-14-174454-PR.jpg?enhanced';
 	import s16 from '$lib/images/birds/2026/08/2026-08-14-174430-PR.jpg?enhanced';
+	import s17 from '$lib/images/birds/2026/08/2026-08-12-162826-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -49,6 +50,13 @@
 			{
 				image: s16,
 				caption: '<strong>Least Sandpiper</strong>. <br/>Weed Lake, Alberta. August 2026'
+			}
+		],
+		[
+			{
+				image: s17,
+				caption:
+					'<strong>Solitary Sandpiper</strong>. <br/>Pearce Estate Park, Calgary. August 2026'
 			}
 		],
 		[

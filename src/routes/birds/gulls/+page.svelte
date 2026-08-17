@@ -5,6 +5,9 @@
 	import g03 from '$lib/images/birds/2026/08/2026-08-03-165914-PR.jpg?enhanced';
 	import g04 from '$lib/images/birds/2026/08/2026-08-14-192242-PR.jpg?enhanced';
 	import g05 from '$lib/images/birds/2026/08/2026-08-14-192247-PR.jpg?enhanced';
+	import g06 from '$lib/images/birds/2026/08/2026-08-12-171404-PR.jpg?enhanced';
+	import g07 from '$lib/images/birds/2026/08/2026-08-12-165851-PR.jpg?enhanced';
+	import g08 from '$lib/images/birds/2026/08/2026-08-12-165231-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -25,6 +28,21 @@
 			{
 				image: g05,
 				caption: "<strong>Franklin's Gulls</strong> <br/>Calgary, Alberta. August, 2026"
+			}
+		],
+		[
+			{
+				image: g06,
+				caption: '<strong>Ring-billed Gull</strong> <br/>Harvey Passage, Calgary. August, 2026'
+			},
+			{
+				image: g07,
+				caption: '<strong>Ring-billed Gull</strong> <br/>Harvey Passage, Calgary. August, 2026'
+			},
+			{
+				image: g08,
+				caption:
+					'Non-breeding adult <strong>Ring-billed Gull</strong> <br/>Harvey Passage, Calgary. August, 2026'
 			}
 		],
 		[
