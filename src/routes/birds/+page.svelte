@@ -13,6 +13,7 @@
 	import egret from '$lib/images/birds/2010s/2012-10-17-094843-PR.jpg?enhanced';
 	import finch from '$lib/images/birds/2026/07/2026-07-31-181733-PR.jpg?enhanced';
 	import grebe from '$lib/images/birds/2026/07/2026-07-29-183328-PR.jpg?enhanced';
+	import hawk from '$lib/images/birds/2026/08/2026-08-15-172737-PR.jpg?enhanced';
 	import ibis from '$lib/images/birds/2026/07/2026-07-22-170847.jpg?enhanced';
 	import kingfisher from '$lib/images/birds/2010s/2012-11-11-095231-PR.jpg?enhanced';
 	import owl from '$lib/images/birds/2010s/2020-07-26-145608-1.jpg?enhanced';
@@ -60,26 +61,15 @@
 		</a>
 		<a href="/birds/eagles">
 			<div class="photo-link">
-				<enhanced:img src={kite} alt="kite" />
-				Eagles, Hawks and Kites ({count.eagles})
+				<enhanced:img src={hawk} alt="kite" />
+				Eagles and Hawks ({count.eagles})
 			</div>
 		</a>
-		<!-- <a href="/birds/egrets">
-			<div class="photo-link">
-				<enhanced:img src={egret} alt="egret" />
-				Egrets and Herons ({count.egrets})
-			</div>
-		</a> -->
+
 		<a href="/birds/finches">
 			<div class="photo-link">
 				<enhanced:img src={finch} alt="finch" />
 				Finches ({count.finches})
-			</div>
-		</a>
-		<a href="/birds/gulls">
-			<div class="photo-link">
-				<enhanced:img src={tern} alt="tern" />
-				Gulls and Terns ({count.gulls})
 			</div>
 		</a>
 		<a href="/birds/grebes">
@@ -88,18 +78,24 @@
 				Grebes ({count.grebes})
 			</div>
 		</a>
+		<a href="/birds/gulls">
+			<div class="photo-link">
+				<enhanced:img src={tern} alt="tern" />
+				Gulls and Terns ({count.gulls})
+			</div>
+		</a>
 		<a href="/birds/ibises">
 			<div class="photo-link">
 				<enhanced:img src={ibis} alt="ibis" />
 				Ibises ({count.ibises})
 			</div>
 		</a>
-		<a href="/birds/kingfishers">
+		<!-- <a href="/birds/kingfishers">
 			<div class="photo-link">
 				<enhanced:img src={kingfisher} alt="kingfisher" />
 				Kingfishers ({count.kingfishers})
 			</div>
-		</a>
+		</a> -->
 		<a href="/birds/owls">
 			<div class="photo-link">
 				<enhanced:img src={owl} alt="owl" />
@@ -136,13 +132,12 @@
 				Stilts and Avocets ({count.stilts})
 			</div>
 		</a>
-		<a href="/birds/storks">
+		<!-- <a href="/birds/storks">
 			<div class="photo-link">
 				<enhanced:img src={stork} alt="stork" />
 				Storks ({count.storks})
 			</div>
-		</a>
-
+		</a> -->
 		<a href="/birds/waxwings">
 			<div class="photo-link">
 				<enhanced:img src={waxwing} alt="waxwing" />
@@ -156,6 +151,12 @@
 			</div>
 		</a>
 		<hr />
+		<a href="/birds/xIndia">
+			<div class="photo-link">
+				<enhanced:img src={egret} alt="egret" />
+				India ({count.xIndia})
+			</div>
+		</a>
 		<a href="/birds/xSriLanka">
 			<div class="photo-link">
 				<enhanced:img src={parakeet} alt="parakeet" />

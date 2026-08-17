@@ -9,8 +9,15 @@
 	import ib05 from '$lib/images/birds/2024/2024-02-09-220430-PR.jpg?enhanced';
 	import ib06 from '$lib/images/birds/2024/2024-02-09-220520-PR.jpg?enhanced';
 	import e08 from '$lib/images/birds/2024/2024-02-09-011119-PR.jpg?enhanced';
+	import sl09 from '$lib/images/birds/2024/2024-02-10-223737-PR.jpg?enhanced';
 
 	export const imagesArray = [
+		[
+			{
+				image: sl09,
+				caption: '<strong>Great Egrets</strong>. <br/>Sri Lanka. February, 2024'
+			}
+		],
 		[
 			{
 				image: e08,

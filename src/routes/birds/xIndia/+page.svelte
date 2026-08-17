@@ -7,9 +7,24 @@
 	import e05 from '$lib/images/birds/2010s/2012-11-27-102436-PR.jpg?enhanced';
 	import e06 from '$lib/images/birds/2010s/2012-11-27-102445-PR-1.jpg?enhanced';
 	import e07 from '$lib/images/birds/2010s/2012-11-14-125335-PR.jpg?enhanced';
-	import e08 from '$lib/images/birds/2024/2024-02-09-011119-PR.jpg?enhanced';
+	import c04 from '$lib/images/birds/2010s/2012-11-12-083930-PR.jpg?enhanced';
+	import k01 from '$lib/images/birds/2010s/2012-11-12-082245-PR.jpg?enhanced';
+	import k02 from '$lib/images/birds/2010s/2012-11-12-082216-PR.jpg?enhanced';
+	import k03 from '$lib/images/birds/2010s/2012-11-12-082319-PR.jpg?enhanced';
+	import india01 from '$lib/images/birds/2010s/2012-11-11-095231-PR.jpg?enhanced';
+	import india02 from '$lib/images/birds/2010s/2012-11-11-095425-PR.jpg?enhanced';
+	import s01 from '$lib/images/birds/2010s/2012-10-11-083129-PR.jpg?enhanced';
+	import s02 from '$lib/images/birds/2010s/2012-10-11-083113-PR.jpg?enhanced';
+	import s03 from '$lib/images/birds/2010s/2012-10-11-083227-PR.jpg?enhanced';
+	import s04 from '$lib/images/birds/2010s/2012-10-11-130627-PR.jpg?enhanced';
 
 	export const imagesArray = [
+		[
+			{
+				image: c04,
+				caption: '<strong>Little Cormorant</strong>. <br/>Odisha, India. November, 2012.'
+			}
+		],
 		[
 			{
 				image: e07,
@@ -49,8 +64,46 @@
 		],
 		[
 			{
-				image: e08,
-				caption: '<strong>Indian Pond Heron</strong>. <br/>Sri Lanka. February, 2024'
+				image: india01,
+				caption: '<strong>White-throated Kingfisher</strong><br/>Odisha, India. November, 2012.'
+			},
+			{
+				image: india02,
+				caption: '<strong>White-throated Kingfisher</strong><br/>Odisha, India. November, 2012.'
+			}
+		],
+
+		[
+			{
+				image: k01,
+				caption: '<strong>Brahminy Kite</strong><br/>Odisha, India. November, 2012.'
+			},
+			{
+				image: k02,
+				caption: '<strong>Brahminy Kite</strong><br/>Odisha, India. November, 2012.'
+			},
+			{
+				image: k03,
+				caption: '<strong>Brahminy Kite</strong><br/>Odisha, India. November, 2012.'
+			}
+		],
+		[
+			{
+				image: s01,
+				caption: '<strong>Asian Openbill</strong> <br/>West Bengal, India. October, 2012.'
+			},
+			{
+				image: s02,
+				caption:
+					'<strong>Asian Openbill</strong> and a young one <br/>West Bengal, India. October, 2012.'
+			},
+			{
+				image: s03,
+				caption: 'Juvenile <strong>Asian Openbill</strong> <br/>West Bengal, India. October, 2012.'
+			},
+			{
+				image: s04,
+				caption: '<strong>Asian Openbill</strong>s <br/>West Bengal, India. October, 2012.'
 			}
 		]
 	];
@@ -64,7 +117,7 @@
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Egrets and Herons';
+	let title = 'India';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 </script>
@@ -72,7 +125,7 @@
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title} ({count.egrets})</div>
+		<div class="bird-type">{title} ({count.xIndia})</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 		<BirdsDropDown />
 	</div>

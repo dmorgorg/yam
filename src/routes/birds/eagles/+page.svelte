@@ -1,22 +1,17 @@
 <script module>
-	// eagles, hawks and kites
-	import e01 from '$lib/images/birds/2010s/2012-11-12-082245-PR.jpg?enhanced';
-	import e02 from '$lib/images/birds/2010s/2012-11-12-082216-PR.jpg?enhanced';
-	import e03 from '$lib/images/birds/2010s/2012-11-12-082319-PR.jpg?enhanced';
+	// eagles, hawks
+	import h01 from '$lib/images/birds/2026/08/2026-08-15-172737-PR.jpg?enhanced';
+	import h02 from '$lib/images/birds/2026/08/2026-08-15-172735-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
 			{
-				image: e01,
-				caption: '<strong>Brahminy Kite</strong><br/>Odisha, India. November, 2012.'
+				image: h01,
+				caption: "<strong>Swainson's Hawk</strong>. <br/>nr Namaka Lake, Alberta. August, 2026."
 			},
 			{
-				image: e02,
-				caption: '<strong>Brahminy Kite</strong><br/>Odisha, India. November, 2012.'
-			},
-			{
-				image: e03,
-				caption: '<strong>Brahminy Kite</strong><br/>Odisha, India. November, 2012.'
+				image: h02,
+				caption: "<strong>Swainson's Hawk</strong>. <br/>nr Namaka Lake, Alberta. August, 2026."
 			}
 		]
 	];
@@ -30,7 +25,7 @@
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Eagles, Hawks and Kites';
+	let title = 'Eagles and Hawks';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 </script>

@@ -38,10 +38,10 @@
 				<a href="/birds/cormorants">Cormorants ({count.cormorants})</a>
 			</li>
 			<li>
-				<a href="/birds/ducks">Ducks ({count.ducks})</a>
+				<a href="/birds/ducks">Ducks and Geese ({count.ducks})</a>
 			</li>
 			<li>
-				<a href="/birds/eagles">Eagles, Hawks and Kites ({count.eagles})</a>
+				<a href="/birds/eagles">Eagles and Hawks ({count.eagles})</a>
 			</li>
 			<!-- <li>
 				<a href="/birds/egrets">Egrets and Herons ({count.egrets})</a>
@@ -58,9 +58,9 @@
 			<li>
 				<a href="/birds/ibises">Ibises ({count.ibises})</a>
 			</li>
-			<li>
+			<!-- <li>
 				<a href="/birds/kingfishers">King<span class="fi">fi</span>shers ({count.kingfishers})</a>
-			</li>
+			</li> -->
 			<li>
 				<a href="/birds/owls">Owls ({count.owls})</a>
 			</li>
