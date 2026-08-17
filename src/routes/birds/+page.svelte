@@ -12,6 +12,7 @@
 	import kite from '$lib/images/birds/2010s/2012-11-12-082245-PR.jpg?enhanced';
 	import egret from '$lib/images/birds/2010s/2012-10-17-094843-PR.jpg?enhanced';
 	import finch from '$lib/images/birds/2026/07/2026-07-31-181733-PR.jpg?enhanced';
+	import flycatcher from '$lib/images/birds/2026/08/2026-08-14-165135-PR.jpg?enhanced';
 	import grebe from '$lib/images/birds/2026/07/2026-07-29-183328-PR.jpg?enhanced';
 	import hawk from '$lib/images/birds/2026/08/2026-08-15-172737-PR.jpg?enhanced';
 	import ibis from '$lib/images/birds/2026/07/2026-07-22-170847.jpg?enhanced';
@@ -70,6 +71,12 @@
 			<div class="photo-link">
 				<enhanced:img src={finch} alt="finch" />
 				Finches ({count.finches})
+			</div>
+		</a>
+		<a href="/birds/flycatchers">
+			<div class="photo-link">
+				<enhanced:img src={flycatcher} alt="flycatcher" />
+				Flycatchers ({count.flycatchers})
 			</div>
 		</a>
 		<a href="/birds/grebes">

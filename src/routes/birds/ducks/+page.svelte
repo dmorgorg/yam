@@ -16,6 +16,10 @@
 	import d14 from '$lib/images/birds/2026/07/2026-07-13-165907-PR.jpg?enhanced';
 	import d15 from '$lib/images/birds/2026/08/2026-08-06-173227-PR.jpg?enhanced';
 	import d16 from '$lib/images/birds/2026/08/2026-08-06-172510-PR.jpg?enhanced';
+	import d17 from '$lib/images/birds/2026/08/2026-08-14-182007-PR.jpg?enhanced';
+	import d18 from '$lib/images/birds/2026/08/2026-08-14-182156-PR.jpg?enhanced';
+	import d19 from '$lib/images/birds/2026/08/2026-08-14-181821-PR.jpg?enhanced';
+	import d20 from '$lib/images/birds/2026/08/2026-08-14-181732-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -45,6 +49,11 @@
 			{
 				image: d03,
 				caption: 'Female <strong>Mallard</strong> <br/>Bridlewood Wetlands, Calgary. July, 2026'
+			},
+			{
+				image: d20,
+				caption:
+					'Female <strong>Mallard</strong> and chicks (with female Ruddy Duck) <br/>Weed Lake, Alberta. August, 2026'
 			}
 		],
 		[
@@ -66,6 +75,16 @@
 		],
 		[
 			{
+				image: d17,
+				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d18,
+				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. August, 2026'
+			}
+		],
+		[
+			{
 				image: d12,
 				caption: '<strong>Ruddy Duck</strong> <br/>Frank Lake, Alberta. July, 2026'
 			},
@@ -76,6 +95,11 @@
 			{
 				image: d13,
 				caption: '<strong>Ruddy Duck</strong>lings <br/>Bridlewood Wetlands, Alberta. July, 2026'
+			},
+			{
+				image: d19,
+				caption:
+					'Male <strong>Ruddy Duck</strong> (centre) and female (right). Female Northern Shoveler (left) <br/>Weed Lake, Alberta. August, 2026'
 			}
 		],
 		[

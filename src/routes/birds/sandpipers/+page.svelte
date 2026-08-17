@@ -12,6 +12,10 @@
 	import s10 from '$lib/images/birds/2026/08/2026-08-06-172155-PR.jpg?enhanced';
 	import s11 from '$lib/images/birds/2026/08/2026-08-06-173524-PR.jpg?enhanced';
 	import s12 from '$lib/images/birds/2026/08/2026-08-06-181032-PR.jpg?enhanced';
+	import s13 from '$lib/images/birds/2026/08/2026-08-14-180944-PR.jpg?enhanced';
+	import s14 from '$lib/images/birds/2026/08/2026-08-14-174651-PR.jpg?enhanced';
+	import s15 from '$lib/images/birds/2026/08/2026-08-14-174454-PR.jpg?enhanced';
+	import s16 from '$lib/images/birds/2026/08/2026-08-14-174430-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -35,11 +39,29 @@
 		],
 		[
 			{
+				image: s14,
+				caption: '<strong>Least Sandpiper</strong>. <br/>Weed Lake, Alberta. August 2026'
+			},
+			{
+				image: s15,
+				caption: '<strong>Least Sandpiper</strong>. <br/>Weed Lake, Alberta. August 2026'
+			},
+			{
+				image: s16,
+				caption: '<strong>Least Sandpiper</strong>. <br/>Weed Lake, Alberta. August 2026'
+			}
+		],
+		[
+			{
 				image: s09,
 				caption: '<strong>Spotted Sandpiper</strong>. <br/>Weed Lake, Alberta. August 2026'
 			},
 			{
 				image: s10,
+				caption: '<strong>Spotted Sandpiper</strong>. <br/>Weed Lake, Alberta. August 2026'
+			},
+			{
+				image: s13,
 				caption: '<strong>Spotted Sandpiper</strong>. <br/>Weed Lake, Alberta. August 2026'
 			}
 		],

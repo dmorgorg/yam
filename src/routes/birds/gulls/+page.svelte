@@ -3,15 +3,10 @@
 	import g01 from '$lib/images/birds/2026/07/2026-07-22-164955.jpg?enhanced';
 	import g02 from '$lib/images/birds/2026/07/2026-07-22-165002.jpg?enhanced';
 	import g03 from '$lib/images/birds/2026/08/2026-08-03-165914-PR.jpg?enhanced';
+	import g04 from '$lib/images/birds/2026/08/2026-08-14-192242-PR.jpg?enhanced';
+	import g05 from '$lib/images/birds/2026/08/2026-08-14-192247-PR.jpg?enhanced';
 
 	export const imagesArray = [
-		[
-			{
-				image: g03,
-				caption:
-					'<strong>Caspian Tern</strong> (Apparently rare.)<br/>Weed Lake, Alberta. August, 2026'
-			}
-		],
 		[
 			{
 				image: g01,
@@ -20,6 +15,23 @@
 			{
 				image: g02,
 				caption: "Juvenile <strong>Bonaparte's Gull</strong> <br/>Frank Lake, Alberta. July, 2026"
+			}
+		],
+		[
+			{
+				image: g04,
+				caption: "<strong>Franklin's Gulls</strong> <br/>Calgary, Alberta. August, 2026"
+			},
+			{
+				image: g05,
+				caption: "<strong>Franklin's Gulls</strong> <br/>Calgary, Alberta. August, 2026"
+			}
+		],
+		[
+			{
+				image: g03,
+				caption:
+					'<strong>Caspian Tern</strong> (Apparently rare.)<br/>Weed Lake, Alberta. August, 2026'
 			}
 		]
 	];

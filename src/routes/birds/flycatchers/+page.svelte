@@ -1,45 +1,19 @@
 <script module>
-	// american coot
-	import s01 from '$lib/images/birds/2026/08/2026-08-03-164608-PR.jpg?enhanced';
-	import s02 from '$lib/images/birds/2026/08/2026-08-07-170550-PR.jpg?enhanced';
-	import s03 from '$lib/images/birds/2026/08/2026-08-06-165118-PR.jpg?enhanced';
-	import s04 from '$lib/images/birds/2026/08/2026-08-06-165313-PR.jpg?enhanced';
-	import s05 from '$lib/images/birds/2026/08/2026-08-06-165333-PR.jpg?enhanced';
-	import s06 from '$lib/images/birds/2026/08/2026-08-14-180337-PR.jpg?enhanced';
-	import s07 from '$lib/images/birds/2026/08/2026-08-14-180317-PR.jpg?enhanced';
+	// grebes
+	import fly01 from '$lib/images/birds/2026/08/2026-08-14-165124-PR.jpg?enhanced';
+	import fly02 from '$lib/images/birds/2026/08/2026-08-14-165135-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
 			{
-				image: s01,
-				caption: '<strong>Black-necked Stilts</strong>. <br/>Weed Lake, Alberta. August, 2026'
-			},
-			{
-				image: s02,
-				caption: '<strong>Black-necked Stilt</strong>. <br/>Frank Lake, Alberta. August, 2026'
-			},
-			{
-				image: s07,
-				caption: '<strong>Black-necked Stilt</strong>. <br/>Weed Lake, Alberta. August, 2026'
+				image: fly01,
+				caption: '<strong>Eastern Kingbird</strong><br/> Weed Lake, Alberta. August, 2026'
 			}
 		],
 		[
 			{
-				image: s03,
-				caption: '<strong>American Avocet</strong>. <br/>Weed Lake, Alberta. August, 2026.'
-			},
-			{
-				image: s05,
-				caption: '<strong>American Avocet</strong>. <br/>Weed Lake, Alberta. August, 2026.'
-			},
-			{
-				image: s04,
-				caption:
-					'<strong>American Avocets</strong> with young. <br/>Weed Lake, Alberta. August, 2026.'
-			},
-			{
-				image: s06,
-				caption: 'Adult <strong>American Avocet</strong>. <br/>Weed Lake, Alberta. August, 2026.'
+				image: fly02,
+				caption: '<strong>Western Kingbird</strong><br/> Weed Lake, Alberta. August, 2026'
 			}
 		]
 	];
@@ -53,7 +27,7 @@
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Stilts and Avocets';
+	let title = 'Flycatchers';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 </script>
@@ -61,7 +35,7 @@
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title} ({count.cormorants})</div>
+		<div class="bird-type">{title} ({count.flycatchers})</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 		<BirdsDropDown />
 	</div>
