@@ -105,12 +105,7 @@
 				Ibises ({count.ibises})
 			</div>
 		</a>
-		<!-- <a href="/birds/kingfishers">
-			<div class="photo-link">
-				<enhanced:img src={kingfisher} alt="kingfisher" />
-				Kingfishers ({count.kingfishers})
-			</div>
-		</a> -->
+
 		<a href="/birds/osprey">
 			<div class="photo-link">
 				<enhanced:img src={osprey} alt="osprey" />
@@ -123,12 +118,7 @@
 				Owls ({count.owls})
 			</div>
 		</a>
-		<!-- <a href="/birds/parakeets">
-			<div class="photo-link">
-				<enhanced:img src={parakeet} alt="parakeet" />
-				Parakeets ({count.parakeets})
-			</div>
-		</a> -->
+
 		<a href="/birds/pelicans">
 			<div class="photo-link">
 				<enhanced:img src={pelican} alt="pelican" />
@@ -153,12 +143,7 @@
 				Stilts and Avocets ({count.stilts})
 			</div>
 		</a>
-		<!-- <a href="/birds/storks">
-			<div class="photo-link">
-				<enhanced:img src={stork} alt="stork" />
-				Storks ({count.storks})
-			</div>
-		</a> -->
+
 		<a href="/birds/waxwings">
 			<div class="photo-link">
 				<enhanced:img src={waxwing} alt="waxwing" />
