@@ -1,39 +1,13 @@
 <script module>
 	// grebes
-	import g01 from '$lib/images/birds/2026/07/2026-07-29-183328-PR.jpg?enhanced';
-	import g02 from '$lib/images/birds/2026/07/2026-07-29-193141-PR.jpg?enhanced';
-	import g03 from '$lib/images/birds/2026/07/2026-07-29-193221-PR.jpg?enhanced';
-	import g04 from '$lib/images/birds/2026/08/2026-08-17-184236-PR.jpg?enhanced';
-	import g05 from '$lib/images/birds/2026/08/2026-08-17-184256-PR.jpg?enhanced';
+	import h01 from '$lib/images/birds/2026/08/2026-08-17-172555-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
 			{
-				image: g04,
+				image: h01,
 				caption:
-					'<strong>Pied-billed Grebe</strong><br/>Lafarge Meadows, Fish Creek PP, Calgary. August, 2026'
-			},
-			{
-				image: g05,
-				caption:
-					'<strong>Pied-billed Grebe</strong><br/>Lafarge Meadows, Fish Creek PP, Calgary. August, 2026'
-			}
-		],
-		[
-			{
-				image: g01,
-				caption:
-					'Juvenile <strong>Red-necked Grebe</strong><br/>Bridlewood Wetlands, Calgary. July, 2026'
-			},
-			{
-				image: g02,
-				caption:
-					'Juvenile <strong>Red-necked Grebe</strong>. <br/>Bridlewood Wetlands, Calgary. July, 2026'
-			},
-			{
-				image: g03,
-				caption:
-					'<strong>Red-necked Grebe</strong> juveniles. <br/>Bridlewood Wetlands, Calgary. July, 2026'
+					'<strong>Great Blue Heron</strong><br/>Lafarge Meadows, Fish Creek PP, Calgary. August, 2026'
 			}
 		]
 	];
@@ -47,7 +21,7 @@
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Grebes';
+	let title = 'Herons';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 </script>
@@ -55,7 +29,7 @@
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title} ({count.grebes})</div>
+		<div class="bird-type">{title} ({count.herons})</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 		<BirdsDropDown />
 	</div>

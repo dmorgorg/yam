@@ -15,9 +15,11 @@
 	import flycatcher from '$lib/images/birds/2026/08/2026-08-14-165124-PR.jpg?enhanced';
 	import grebe from '$lib/images/birds/2026/07/2026-07-29-183328-PR.jpg?enhanced';
 	import hawk from '$lib/images/birds/2026/08/2026-08-15-172737-PR.jpg?enhanced';
+	import heron from '$lib/images/birds/2026/08/2026-08-17-172555-PR.jpg?enhanced';
 	import ibis from '$lib/images/birds/2026/07/2026-07-22-170847.jpg?enhanced';
 	import kingfisher from '$lib/images/birds/2010s/2012-11-11-095231-PR.jpg?enhanced';
 	import owl from '$lib/images/birds/2010s/2020-07-26-145608-1.jpg?enhanced';
+	import osprey from '$lib/images/birds/2026/08/2026-08-17-170311-PR.jpg?enhanced';
 	import parakeet from '$lib/images/birds/2024/2024-01-19-032700-PR.jpg?enhanced';
 	import pelican from '$lib/images/birds/2026/07/2026-07-29-182931-PR.jpg?enhanced';
 	import plover from '$lib/images/birds/2026/08/2026-08-07-171909-PR.jpg?enhanced';
@@ -91,6 +93,12 @@
 				Gulls and Terns ({count.gulls})
 			</div>
 		</a>
+		<a href="/birds/herons">
+			<div class="photo-link">
+				<enhanced:img src={heron} alt="heron" />
+				Herons, Egrets and Bitterns ({count.herons})
+			</div>
+		</a>
 		<a href="/birds/ibises">
 			<div class="photo-link">
 				<enhanced:img src={ibis} alt="ibis" />
@@ -103,10 +111,16 @@
 				Kingfishers ({count.kingfishers})
 			</div>
 		</a> -->
+		<a href="/birds/osprey">
+			<div class="photo-link">
+				<enhanced:img src={osprey} alt="osprey" />
+				Osprey ({count.osprey})
+			</div>
+		</a>
 		<a href="/birds/owls">
 			<div class="photo-link">
 				<enhanced:img src={owl} alt="owl" />
-				Owls({count.owls})
+				Owls ({count.owls})
 			</div>
 		</a>
 		<!-- <a href="/birds/parakeets">

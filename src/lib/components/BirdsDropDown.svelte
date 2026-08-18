@@ -59,11 +59,17 @@
 				<a href="/birds/gulls">Gulls and Terns ({count.gulls})</a>
 			</li>
 			<li>
+				<a href="/birds/herons">Herons, Egrets and Bitterns ({count.herons})</a>
+			</li>
+			<li>
 				<a href="/birds/ibises">Ibises ({count.ibises})</a>
 			</li>
 			<!-- <li>
 				<a href="/birds/kingfishers">King<span class="fi">fi</span>shers ({count.kingfishers})</a>
 			</li> -->
+			<li>
+				<a href="/birds/osprey">Osprey ({count.osprey})</a>
+			</li>
 			<li>
 				<a href="/birds/owls">Owls ({count.owls})</a>
 			</li>

@@ -7,6 +7,8 @@
 	import bb05 from '$lib/images/birds/2026/07/2026-07-29-181919-PR.jpg?enhanced';
 	import bb06 from '$lib/images/birds/2026/07/2026-07-29-181845-PR.jpg?enhanced';
 	import bb07 from '$lib/images/birds/2026/07/2026-07-13-150723-PR.jpg?enhanced';
+	import bb08 from '$lib/images/birds/2026/08/2026-08-17-154239-PR.jpg?enhanced';
+	import bb09 from '$lib/images/birds/2026/08/2026-08-17-154334-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -41,6 +43,21 @@
 				image: bb06,
 				caption:
 					'<strong>Red-winged Blackbird</strong>. <br/>Bridlewood Wetlands, Calgary. July, 2026'
+			},
+			{
+				image: bb08,
+				caption:
+					'Female <strong>Red-winged Blackbird</strong>. <br/>Bridlewood Wetlands, Calgary. July, 2026'
+			},
+			{
+				image: bb09,
+				caption:
+					'Female <strong>Red-winged Blackbird</strong>. <br/>Lafarge Meadows, Calgary. August, 2026'
+			},
+			{
+				image: bb08,
+				caption:
+					'Female <strong>Red-winged Blackbird</strong>. <br/>Lafarge Meadows, Calgary. August, 2026'
 			}
 		]
 	];

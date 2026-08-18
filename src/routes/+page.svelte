@@ -21,12 +21,12 @@
 				</div>
 			</a>
 
-			<a href="/jeannette">
+			<!-- <a href="/jeannette">
 				<div class="photo-link">
 					<enhanced:img src={homeJeannette} alt="where are you" />
 					Jeannette Morgan (n&eacute;e&nbsp;Blanc)
 				</div>
-			</a>
+			</a> -->
 		</div>
 	</div>
 </div>
