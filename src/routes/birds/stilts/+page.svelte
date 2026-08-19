@@ -61,7 +61,7 @@
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title} ({count.cormorants})</div>
+		<div class="bird-type">{title} ({count.stilts})</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 		<BirdsDropDown />
 	</div>
