@@ -12,6 +12,14 @@
 	import elopement_1049 from '$lib/images/listers/Elopement-1049.jpg?enhanced';
 	import elopement_1056 from '$lib/images/listers/Elopement-1056.jpg?enhanced';
 	import elopement_1058 from '$lib/images/listers/Elopement-1058.jpg?enhanced';
+	import elopement_1063 from '$lib/images/listers/Elopement-1063.jpg?enhanced';
+	import elopement_1085 from '$lib/images/listers/Elopement-1085.jpg?enhanced';
+	import elopement_1094 from '$lib/images/listers/Elopement-1094.jpg?enhanced';
+	import elopement_1099 from '$lib/images/listers/Elopement-1099.jpg?enhanced';
+	import elopement_1111 from '$lib/images/listers/Elopement-1111.jpg?enhanced';
+	import elopement_1132 from '$lib/images/listers/Elopement-1132.jpg?enhanced';
+	import elopement_1135 from '$lib/images/listers/Elopement-1135.jpg?enhanced';
+	import elopement_1136 from '$lib/images/listers/Elopement-1136.jpg?enhanced';
 	import elopement_2107 from '$lib/images/listers/Elopement-2107.jpg?enhanced';
 
 	export const imagesArray = [
@@ -79,6 +87,54 @@
 			{
 				image: elopement_1058,
 				caption: 'Elopement-1058.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1063,
+				caption: 'Elopement-1063.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1085,
+				caption: 'Elopement-1085.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1094,
+				caption: 'Elopement-1094.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1099,
+				caption: 'Elopement-1099.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1111,
+				caption: 'Elopement-1111.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1132,
+				caption: 'Elopement-1132.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1135,
+				caption: 'Elopement-1135.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1136,
+				caption: 'Elopement-1136.jpg'
 			}
 		],
 		[
