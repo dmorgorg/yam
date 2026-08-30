@@ -116,6 +116,7 @@
 		border-bottom-left-radius: 0.5vw;
 		text-align: right;
 		background: white;
+		z-index: 10;
 	}
 
 	.title {
