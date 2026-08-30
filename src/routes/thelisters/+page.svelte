@@ -7,7 +7,7 @@
 		[
 			{
 				image: f05,
-				caption: '...-1004.jpg'
+				caption: 'Elopement-1004.jpg'
 			}
 		]
 	];
@@ -21,7 +21,7 @@
 	// import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	// import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Andrea and Peter';
+	let title = "Andrea and Peter's Day";
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 </script>
