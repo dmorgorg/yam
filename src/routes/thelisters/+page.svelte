@@ -1,32 +1,13 @@
 <script module>
 	// grebes
-	import ap1004 from "$lib/images/listers/20250916_Andrea + Peter's Elopement-1004.jpg";
+
+	import f05 from '$lib/images/listers/Elopement-1004.jpg?enhanced';
 
 	export const imagesArray = [
 		[
 			{
 				image: f05,
-				caption:
-					'<strong>American Goldfinch</strong><br/> Inglewood Bird Sanctuary, Calgary. February, 2025'
-			}
-		],
-
-		[
-			{
-				image: f01,
-				caption: 'Adult male <strong>Redpoll</strong><br/> Calgary. February, 2025'
-			},
-			{
-				image: f02,
-				caption: 'Adult male <strong>Redpoll</strong><br/> Calgary. February, 2025'
-			},
-			{
-				image: f03,
-				caption: 'Female or immature <strong>Redpoll</strong><br/> Calgary. February, 2025'
-			},
-			{
-				image: f04,
-				caption: 'Female or immature <strong>Redpolls</strong><br/> Calgary. February, 2025'
+				caption: '...-1004.jpg'
 			}
 		]
 	];
@@ -37,10 +18,10 @@
 	import NavigationController from '$lib/components/NavigationController.svelte';
 	import HomeIcon from '$lib/components/HomeIcon.svelte';
 	import Spacer from '$lib/components/Spacer.svelte';
-	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
-	import { count } from '$lib/data/counts.svelte.js';
+	// import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
+	// import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Finches';
+	let title = 'Andrea and Peter';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 </script>
@@ -48,9 +29,9 @@
 <div class="container">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">{title} ({count.finches})</div>
+		<div class="bird-type">{title}</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
-		<BirdsDropDown />
+		<!-- <BirdsDropDown /> -->
 	</div>
 
 	<div class="slider-container"><AlbumSlider3 bind:hIndex bind:vIndex {imagesArray} /></div>
