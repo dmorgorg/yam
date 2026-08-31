@@ -434,12 +434,12 @@
 				caption: 'Elopement-1355.jpg'
 			}
 		],
-		// [
-		// 	{
-		// 		image: elopement_1357,
-		// 		caption: 'Elopement-1357.jpg'
-		// 	}
-		// ],
+		[
+			{
+				image: elopement_1357,
+				caption: 'Elopement-1357.jpg'
+			}
+		],
 		// [
 		// 	{
 		// 		image: elopement_1359,
