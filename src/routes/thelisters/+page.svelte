@@ -37,6 +37,25 @@
 	import elopement_1278 from '$lib/images/listers/Elopement-1278.jpg?enhanced';
 	import elopement_1284 from '$lib/images/listers/Elopement-1284.jpg?enhanced';
 	import elopement_1292 from '$lib/images/listers/Elopement-1292.jpg?enhanced';
+	import elopement_1300 from '$lib/images/listers/Elopement-1300.jpg?enhanced';
+	import elopement_1308 from '$lib/images/listers/Elopement-1308.jpg?enhanced';
+	import elopement_1317 from '$lib/images/listers/Elopement-1317.jpg?enhanced';
+	import elopement_1329 from '$lib/images/listers/Elopement-1329.jpg?enhanced';
+	import elopement_1339 from '$lib/images/listers/Elopement-1339.jpg?enhanced';
+	import elopement_1344 from '$lib/images/listers/Elopement-1344.jpg?enhanced';
+	import elopement_1347 from '$lib/images/listers/Elopement-1347.jpg?enhanced';
+	import elopement_1355 from '$lib/images/listers/Elopement-1355.jpg?enhanced';
+	import elopement_1357 from '$lib/images/listers/Elopement-1357.jpg?enhanced';
+	import elopement_1359 from '$lib/images/listers/Elopement-1359.jpg?enhanced';
+	import elopement_1368 from '$lib/images/listers/Elopement-1368.jpg?enhanced';
+	import elopement_1378 from '$lib/images/listers/Elopement-1378.jpg?enhanced';
+	import elopement_1382 from '$lib/images/listers/Elopement-1382.jpg?enhanced';
+	import elopement_1385 from '$lib/images/listers/Elopement-1385.jpg?enhanced';
+	import elopement_1386 from '$lib/images/listers/Elopement-1386.jpg?enhanced';
+	import elopement_1394 from '$lib/images/listers/Elopement-1394.jpg?enhanced';
+	import elopement_1395 from '$lib/images/listers/Elopement-1395.jpg?enhanced';
+	import elopement_1396 from '$lib/images/listers/Elopement-1396.jpg?enhanced';
+	import elopement_1399 from '$lib/images/listers/Elopement-1399.jpg?enhanced';
 	import elopement_2107 from '$lib/images/listers/Elopement-2107.jpg?enhanced';
 
 	export const imagesArray = [
@@ -254,6 +273,120 @@
 			{
 				image: elopement_1292,
 				caption: 'Elopement-1292.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1300,
+				caption: 'Elopement-1300.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1308,
+				caption: 'Elopement-1308.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1317,
+				caption: 'Elopement-1317.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1329,
+				caption: 'Elopement-1329.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1339,
+				caption: 'Elopement-1339.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1344,
+				caption: 'Elopement-1344.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1347,
+				caption: 'Elopement-1347.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1355,
+				caption: 'Elopement-1355.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1357,
+				caption: 'Elopement-1357.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1359,
+				caption: 'Elopement-1359.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1368,
+				caption: 'Elopement-1368.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1378,
+				caption: 'Elopement-1378.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1382,
+				caption: 'Elopement-1382.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1385,
+				caption: 'Elopement-1385.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1386,
+				caption: 'Elopement-1386.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1394,
+				caption: 'Elopement-1394.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1395,
+				caption: 'Elopement-1395.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1396,
+				caption: 'Elopement-1396.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1399,
+				caption: 'Elopement-1399.jpg'
 			}
 		],
 		[
