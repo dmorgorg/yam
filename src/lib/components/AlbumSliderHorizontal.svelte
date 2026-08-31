@@ -1,7 +1,7 @@
 <script>
 	import { fade } from 'svelte/transition';
 	let { hIndex, vIndex, imagesArray } = $props();
-	let count = imagesArray.length;
+	const count = imagesArray.length;
 </script>
 
 {#key `${hIndex}-${vIndex}`}
