@@ -1,5 +1,5 @@
 <script module>
-	// grebes
+	// newlyweds
 
 	import elopement_1004 from '$lib/images/listers/Elopement-1004.jpg?enhanced';
 	import elopement_1008 from '$lib/images/listers/Elopement-1008.jpg?enhanced';
@@ -101,16 +101,16 @@
 	import elopement_1704 from '$lib/images/listers/Elopement-1704.jpg?enhanced';
 	import elopement_1712 from '$lib/images/listers/Elopement-1712.jpg?enhanced';
 	import elopement_1721 from '$lib/images/listers/Elopement-1721.jpg?enhanced';
-	import elopement_1732 from '$lib/images/listers/Elopement-1732.jpg?enhanced';
-	import elopement_1740 from '$lib/images/listers/Elopement-1740.jpg?enhanced';
-	import elopement_1748 from '$lib/images/listers/Elopement-1748.jpg?enhanced';
-	import elopement_1751 from '$lib/images/listers/Elopement-1751.jpg?enhanced';
-	import elopement_1758 from '$lib/images/listers/Elopement-1758.jpg?enhanced';
-	import elopement_1771 from '$lib/images/listers/Elopement-1771.jpg?enhanced';
-	import elopement_1778 from '$lib/images/listers/Elopement-1778.jpg?enhanced';
-	import elopement_1782 from '$lib/images/listers/Elopement-1782.jpg?enhanced';
-	import elopement_1787 from '$lib/images/listers/Elopement-1787.jpg?enhanced';
-	import elopement_1800 from '$lib/images/listers/Elopement-1800.jpg?enhanced';
+	// import elopement_1732 from '$lib/images/listers/Elopement-1732.jpg?enhanced';
+	// import elopement_1740 from '$lib/images/listers/Elopement-1740.jpg?enhanced';
+	// import elopement_1748 from '$lib/images/listers/Elopement-1748.jpg?enhanced';
+	// import elopement_1751 from '$lib/images/listers/Elopement-1751.jpg?enhanced';
+	// import elopement_1758 from '$lib/images/listers/Elopement-1758.jpg?enhanced';
+	// import elopement_1771 from '$lib/images/listers/Elopement-1771.jpg?enhanced';
+	// import elopement_1778 from '$lib/images/listers/Elopement-1778.jpg?enhanced';
+	// import elopement_1782 from '$lib/images/listers/Elopement-1782.jpg?enhanced';
+	// import elopement_1787 from '$lib/images/listers/Elopement-1787.jpg?enhanced';
+	// import elopement_1800 from '$lib/images/listers/Elopement-1800.jpg?enhanced';
 	// import elopement_1806 from '$lib/images/listers/Elopement-1806.jpg?enhanced';
 	// import elopement_1814 from '$lib/images/listers/Elopement-1814.jpg?enhanced';
 	// import elopement_1819 from '$lib/images/listers/Elopement-1819.jpg?enhanced';
