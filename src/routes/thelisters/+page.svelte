@@ -35,6 +35,8 @@
 	import elopement_1267 from '$lib/images/listers/Elopement-1267.jpg?enhanced';
 	import elopement_1270 from '$lib/images/listers/Elopement-1270.jpg?enhanced';
 	import elopement_1278 from '$lib/images/listers/Elopement-1278.jpg?enhanced';
+	import elopement_1284 from '$lib/images/listers/Elopement-1284.jpg?enhanced';
+	import elopement_1292 from '$lib/images/listers/Elopement-1292.jpg?enhanced';
 	import elopement_2107 from '$lib/images/listers/Elopement-2107.jpg?enhanced';
 
 	export const imagesArray = [
@@ -240,6 +242,18 @@
 			{
 				image: elopement_1278,
 				caption: 'Elopement-1278.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1284,
+				caption: 'Elopement-1284.jpg'
+			}
+		],
+		[
+			{
+				image: elopement_1292,
+				caption: 'Elopement-1292.jpg'
 			}
 		],
 		[
