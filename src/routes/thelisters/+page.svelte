@@ -151,8 +151,8 @@
 	// import elopement_2000 from '$lib/images/listers/Elopement-2000.jpg?enhanced';
 	// import elopement_2005 from '$lib/images/listers/Elopement-2005.jpg?enhanced';
 	// import elopement_2008 from '$lib/images/listers/Elopement-2008.jpg?enhanced';
-	// import elopement_2032 from '$lib/images/listers/Elopement-2032.jpg?enhanced';
-	// import elopement_2037 from '$lib/images/listers/Elopement-2037.jpg?enhanced';
+	import elopement_2032 from '$lib/images/listers/Elopement-2032.jpg?enhanced';
+	import elopement_2037 from '$lib/images/listers/Elopement-2037.jpg?enhanced';
 	// import elopement_2047 from '$lib/images/listers/Elopement-2047.jpg?enhanced';
 	// import elopement_2052 from '$lib/images/listers/Elopement-2052.jpg?enhanced';
 	// import elopement_2055 from '$lib/images/listers/Elopement-2055.jpg?enhanced';
