@@ -142,7 +142,4 @@
 			color: grey;
 		}
 	}
-	strike {
-		color: red;
-	}
 </style>
