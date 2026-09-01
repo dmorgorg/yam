@@ -136,11 +136,11 @@
 	import elopement_1934 from '$lib/images/listers/Elopement-1934.jpg?enhanced';
 	import elopement_1938 from '$lib/images/listers/Elopement-1938.jpg?enhanced';
 	import elopement_1941 from '$lib/images/listers/Elopement-1941.jpg?enhanced';
-	// import elopement_1944 from '$lib/images/listers/Elopement-1944.jpg?enhanced';
-	// import elopement_1948 from '$lib/images/listers/Elopement-1948.jpg?enhanced';
-	// import elopement_1954 from '$lib/images/listers/Elopement-1954.jpg?enhanced';
-	// import elopement_1956 from '$lib/images/listers/Elopement-1956.jpg?enhanced';
-	// import elopement_1964 from '$lib/images/listers/Elopement-1964.jpg?enhanced';
+	import elopement_1944 from '$lib/images/listers/Elopement-1944.jpg?enhanced';
+	import elopement_1948 from '$lib/images/listers/Elopement-1948.jpg?enhanced';
+	import elopement_1954 from '$lib/images/listers/Elopement-1954.jpg?enhanced';
+	import elopement_1956 from '$lib/images/listers/Elopement-1956.jpg?enhanced';
+	import elopement_1964 from '$lib/images/listers/Elopement-1964.jpg?enhanced';
 	// import elopement_1974 from '$lib/images/listers/Elopement-1974.jpg?enhanced';
 	// import elopement_1977 from '$lib/images/listers/Elopement-1977.jpg?enhanced';
 	// import elopement_1980 from '$lib/images/listers/Elopement-1980.jpg?enhanced';
