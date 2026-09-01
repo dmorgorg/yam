@@ -123,12 +123,6 @@
 		cursor: pointer;
 		font-size: 125%;
 	}
-	.accentFont {
-		font-family: 'text';
-	}
-	.fi {
-		font-family: 'text';
-	}
 
 	.list {
 		background: white;

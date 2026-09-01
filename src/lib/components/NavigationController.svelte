@@ -47,11 +47,6 @@
 </div> -->
 
 <style>
-	.test {
-		position: absolute;
-		bottom: 1em;
-		right: 50%;
-	}
 	.controls {
 		position: absolute;
 		width: clamp(2rem, 7vh, 3rem);
