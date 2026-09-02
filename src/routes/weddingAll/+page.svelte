@@ -1,16 +1,16 @@
 <script module>
 	// newlyweds
 
-	// import elopement_1004 from '$lib/images/weddingAll/Elopement-1004.jpg?enhanced';
-	// import elopement_1008 from '$lib/images/weddingAll/Elopement-1008.jpg?enhanced';
-	// import elopement_1011 from '$lib/images/weddingAll/Elopement-1011.jpg?enhanced';
-	// import elopement_1016 from '$lib/images/weddingAll/Elopement-1016.jpg?enhanced';
-	// import elopement_1020 from '$lib/images/weddingAll/Elopement-1020.jpg?enhanced';
-	// import elopement_1024 from '$lib/images/weddingAll/Elopement-1024.jpg?enhanced';
-	// import elopement_1027 from '$lib/images/weddingAll/Elopement-1027.jpg?enhanced';
-	// import elopement_1034 from '$lib/images/weddingAll/Elopement-1034.jpg?enhanced';
-	// import elopement_1049 from '$lib/images/weddingAll/Elopement-1049.jpg?enhanced';
-	// import elopement_1056 from '$lib/images/weddingAll/Elopement-1056.jpg?enhanced';
+	import elopement_1004 from '$lib/images/weddingAll/Elopement-1004.jpg?enhanced';
+	import elopement_1008 from '$lib/images/weddingAll/Elopement-1008.jpg?enhanced';
+	import elopement_1011 from '$lib/images/weddingAll/Elopement-1011.jpg?enhanced';
+	import elopement_1016 from '$lib/images/weddingAll/Elopement-1016.jpg?enhanced';
+	import elopement_1020 from '$lib/images/weddingAll/Elopement-1020.jpg?enhanced';
+	import elopement_1024 from '$lib/images/weddingAll/Elopement-1024.jpg?enhanced';
+	import elopement_1027 from '$lib/images/weddingAll/Elopement-1027.jpg?enhanced';
+	import elopement_1034 from '$lib/images/weddingAll/Elopement-1034.jpg?enhanced';
+	import elopement_1049 from '$lib/images/weddingAll/Elopement-1049.jpg?enhanced';
+	import elopement_1056 from '$lib/images/weddingAll/Elopement-1056.jpg?enhanced';
 	// import elopement_1058 from '$lib/images/weddingAll/Elopement-1058.jpg?enhanced';
 	// import elopement_1063 from '$lib/images/weddingAll/Elopement-1063.jpg?enhanced';
 	// import elopement_1085 from '$lib/images/weddingAll/Elopement-1085.jpg?enhanced';
