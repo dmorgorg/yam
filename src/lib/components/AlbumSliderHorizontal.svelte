@@ -1,6 +1,7 @@
 <script>
 	import { fade } from 'svelte/transition';
 	let { hIndex, vIndex, imagesArray } = $props();
+	// svelte-ignore state_referenced_locally
 	const count = imagesArray.length;
 </script>
 
