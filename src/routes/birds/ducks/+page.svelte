@@ -3,7 +3,7 @@
 	import d01 from '$lib/images/birds/2026/07/2026-07-29-183849-PR.jpg?enhanced';
 	import d02 from '$lib/images/birds/2026/07/2026-07-29-191632-PR.jpg?enhanced';
 	import d03 from '$lib/images/birds/2026/07/2026-07-29-192358-PR.jpg?enhanced';
-	import d04 from '$lib/images/birds/2026/07/2026-07-31-162159-PR.jpg?enhanced';
+	// import d04 from '$lib/images/birds/2026/07/2026-07-31-162159-PR.jpg?enhanced';
 	import d05 from '$lib/images/birds/2026/07/2026-07-31-163044-PR.jpg?enhanced';
 	import d06 from '$lib/images/birds/2026/07/2026-07-31-164350-PR.jpg?enhanced';
 	import d07 from '$lib/images/birds/2026/07/2026-07-31-175724-PR.jpg?enhanced';
@@ -20,9 +20,10 @@
 	import d18 from '$lib/images/birds/2026/08/2026-08-14-182156-PR.jpg?enhanced';
 	import d19 from '$lib/images/birds/2026/08/2026-08-14-181821-PR.jpg?enhanced';
 	import d20 from '$lib/images/birds/2026/08/2026-08-14-181732-PR.jpg?enhanced';
-	import d21 from '$lib/images/birds/2026/08/2026-08-12-162215-PR.jpg?enhanced';
+	// import d21 from '$lib/images/birds/2026/08/2026-08-12-162215-PR.jpg?enhanced';
 	import d22 from '$lib/images/birds/2026/08/2026-08-17-160557-PR.jpg?enhanced';
 	import d23 from '$lib/images/birds/2026/08/2026-08-17-160724-PR.jpg?enhanced';
+	import d24 from '$lib/images/birds/2026/08/2026-08-31-175825-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -74,6 +75,7 @@
 					'Immature <strong>Common Mergansers</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
 			}
 		],
+
 		[
 			{
 				image: d10,
@@ -117,6 +119,11 @@
 			{
 				image: d11,
 				caption: '<strong>Lesser Scaup</strong> <br/>Big Hill Springs PP, Alberta. July, 2026'
+			},
+			{
+				image: d24,
+				caption:
+					'<strong>Lesser Scaup</strong>. <br/>Three Hills, Alberta (finishers.villain.tourists). August, 2026'
 			}
 		],
 		[

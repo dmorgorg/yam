@@ -2,6 +2,9 @@
 	// eagles, hawks
 	import h01 from '$lib/images/birds/2026/08/2026-08-15-172737-PR.jpg?enhanced';
 	import h02 from '$lib/images/birds/2026/08/2026-08-15-172735-PR.jpg?enhanced';
+	import h03 from '$lib/images/birds/2026/09/2026-09-01-185818-PR.jpg?enhanced';
+	import h04 from '$lib/images/birds/2026/09/2026-09-02-160536-PR.jpg?enhanced';
+	import h05 from '$lib/images/birds/2026/09/2026-09-02-162134-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -12,6 +15,18 @@
 			{
 				image: h02,
 				caption: "<strong>Swainson's Hawk</strong>. <br/>nr Namaka Lake, Alberta. August, 2026."
+			},
+			{
+				image: h03,
+				caption: "<strong>Swainson's Hawk</strong>. <br/>Central Alberta. September, 2026."
+			},
+			{
+				image: h04,
+				caption: "<strong>Swainson's Hawk</strong>. <br/>Central Alberta. September, 2026."
+			},
+			{
+				image: h05,
+				caption: "<strong>Swainson's Hawk</strong>. <br/>Central Alberta. September, 2026."
 			}
 		]
 	];

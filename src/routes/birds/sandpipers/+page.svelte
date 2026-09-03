@@ -17,6 +17,8 @@
 	import s15 from '$lib/images/birds/2026/08/2026-08-14-174454-PR.jpg?enhanced';
 	import s16 from '$lib/images/birds/2026/08/2026-08-14-174430-PR.jpg?enhanced';
 	import s17 from '$lib/images/birds/2026/08/2026-08-12-162826-PR.jpg?enhanced';
+	import s18 from '$lib/images/birds/2026/08/2026-08-31-184500-PR.jpg?enhanced';
+	import s19 from '$lib/images/birds/2026/08/2026-08-29-181514-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -96,11 +98,23 @@
 		[
 			{
 				image: s11,
-				caption: '<strong>Lesser/Greater Yellowlegs</strong>. <br/>Weed Lake, Alberta. August, 2026'
+				caption: '<strong>Greater Yellowlegs</strong>. <br/>Weed Lake, Alberta. August, 2026'
 			},
 			{
 				image: s12,
-				caption: '<strong>Lesser/Greater Yellowlegs</strong>. <br/>Weed Lake, Alberta. August, 2026'
+				caption: '<strong>Greater Yellowlegs</strong>. <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: s18,
+				caption:
+					'<strong>Greater Yellowlegs</strong>. <br/>Three Hills, Alberta (finishers.villain.tourists). August, 2026'
+			}
+		],
+		[
+			{
+				image: s19,
+				caption:
+					'<strong>Lesser Yellowlegs</strong>. <br/>Three Hills, Alberta (finishers.villain.tourists). August, 2026'
 			}
 		]
 	];

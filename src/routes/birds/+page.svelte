@@ -8,6 +8,7 @@
 	import blackbird from '$lib/images/birds/2026/07/2026-07-29-181927-PR.jpg?enhanced';
 	import coot from '$lib/images/birds/2026/07/2026-07-29-180634-PR.jpg?enhanced';
 	import cormorant from '$lib/images/birds/2026/08/2026-08-03-165547-PR.jpg?enhanced';
+	import crane from '$lib/images/birds/2026/09/2026-09-01-184805-PR-1.jpg?enhanced';
 	import duck from '$lib/images/birds/2026/07/2026-07-31-164350-PR.jpg?enhanced';
 	import kite from '$lib/images/birds/2010s/2012-11-12-082245-PR.jpg?enhanced';
 	import egret from '$lib/images/birds/2010s/2012-10-17-094843-PR.jpg?enhanced';
@@ -54,6 +55,12 @@
 			<div class="photo-link">
 				<enhanced:img src={cormorant} alt="cormorant" />
 				Cormorants ({count.cormorants})
+			</div>
+		</a>
+		<a href="/birds/cranes">
+			<div class="photo-link">
+				<enhanced:img src={crane} alt="crane" />
+				Cranes ({count.cranes})
 			</div>
 		</a>
 		<a href="/birds/ducks">
