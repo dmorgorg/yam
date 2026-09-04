@@ -19,8 +19,16 @@
 	import s17 from '$lib/images/birds/2026/08/2026-08-12-162826-PR.jpg?enhanced';
 	import s18 from '$lib/images/birds/2026/08/2026-08-31-184500-PR.jpg?enhanced';
 	import s19 from '$lib/images/birds/2026/08/2026-08-29-181514-PR.jpg?enhanced';
+	import s20 from '$lib/images/birds/2026/09/2026-09-01-164619-PR.jpg?enhanced';
 
 	export const imagesArray = [
+		[
+			{
+				image: s20,
+				caption:
+					"<strong>Baird's Sandpiper</strong>. <br/>Three Hills, Alberta (finishers.villain.tourists). September, 2026"
+			}
+		],
 		[
 			{
 				image: s07,

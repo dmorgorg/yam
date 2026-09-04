@@ -24,6 +24,11 @@
 	import d22 from '$lib/images/birds/2026/08/2026-08-17-160557-PR.jpg?enhanced';
 	import d23 from '$lib/images/birds/2026/08/2026-08-17-160724-PR.jpg?enhanced';
 	import d24 from '$lib/images/birds/2026/08/2026-08-31-175825-PR.jpg?enhanced';
+	import d25 from '$lib/images/birds/2026/09/2026-09-02-144552-PR.jpg?enhanced';
+	import d26 from '$lib/images/birds/2026/09/2026-09-02-153422-PR.jpg?enhanced';
+	import d27 from '$lib/images/birds/2026/09/2026-09-02-144803-PR.jpg?enhanced';
+	import d28 from '$lib/images/birds/2026/09/2026-09-02-144719-PR.jpg?enhanced';
+	import d29 from '$lib/images/birds/2026/09/2026-09-02-145039-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -88,6 +93,12 @@
 		],
 		[
 			{
+				image: d26,
+				caption: '<strong>Blue-winged Teal</strong> <br/>Cochrane, Alberta. September, 2026'
+			}
+		],
+		[
+			{
 				image: d17,
 				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. August, 2026'
 			},
@@ -124,6 +135,28 @@
 				image: d24,
 				caption:
 					'<strong>Lesser Scaup</strong>. <br/>Three Hills, Alberta (finishers.villain.tourists). August, 2026'
+			}
+		],
+		[
+			{
+				image: d27,
+				caption:
+					'<strong>Trumpeter Swan</strong> <br/> Cochrane, Alberta (rant.duvets.blesses). September, 2026'
+			},
+			{
+				image: d28,
+				caption:
+					'Juvenile <strong>Trumpeter Swan</strong> <br/> Cochrane, Alberta (rant.duvets.blesses). September, 2026'
+			},
+			{
+				image: d25,
+				caption:
+					'<strong>Trumpeter Swans</strong> <br/> Cochrane, Alberta (rant.duvets.blesses). September, 2026'
+			},
+			{
+				image: d29,
+				caption:
+					'<strong>Trumpeter Swans</strong> <br/> Cochrane, Alberta (rant.duvets.blesses). September, 2026'
 			}
 		],
 		[

@@ -66,7 +66,7 @@
 		<a href="/birds/ducks">
 			<div class="photo-link">
 				<enhanced:img src={duck} alt="wood duck" />
-				Ducks and Geese ({count.ducks})
+				Ducks, Swans and Geese ({count.ducks})
 			</div>
 		</a>
 		<a href="/birds/eagles">
