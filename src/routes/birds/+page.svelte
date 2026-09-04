@@ -19,6 +19,7 @@
 	import heron from '$lib/images/birds/2026/08/2026-08-17-172555-PR.jpg?enhanced';
 	import ibis from '$lib/images/birds/2026/07/2026-07-22-170847.jpg?enhanced';
 	import kingfisher from '$lib/images/birds/2010s/2012-11-11-095231-PR.jpg?enhanced';
+	import magpie from '$lib/images/birds/2026/09/2026-09-02-173136-PR.jpg?enhanced';
 	import owl from '$lib/images/birds/2010s/2020-07-26-145608-1.jpg?enhanced';
 	import osprey from '$lib/images/birds/2026/08/2026-08-17-170311-PR.jpg?enhanced';
 	import parakeet from '$lib/images/birds/2024/2024-01-19-032700-PR.jpg?enhanced';
@@ -61,6 +62,12 @@
 			<div class="photo-link">
 				<enhanced:img src={crane} alt="crane" />
 				Cranes ({count.cranes})
+			</div>
+		</a>
+		<a href="/birds/cranes">
+			<div class="photo-link">
+				<enhanced:img src={magpie} alt="magpie" />
+				Crows, Jays and Magpies ({count.crows})
 			</div>
 		</a>
 		<a href="/birds/ducks">

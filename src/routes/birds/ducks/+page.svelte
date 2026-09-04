@@ -29,6 +29,8 @@
 	import d27 from '$lib/images/birds/2026/09/2026-09-02-144803-PR.jpg?enhanced';
 	import d28 from '$lib/images/birds/2026/09/2026-09-02-144719-PR.jpg?enhanced';
 	import d29 from '$lib/images/birds/2026/09/2026-09-02-145039-PR.jpg?enhanced';
+	import d30 from '$lib/images/birds/2026/09/2026-09-02-150217-PR.jpg?enhanced';
+	import d31 from '$lib/images/birds/2026/09/2026-09-02-153521-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -149,6 +151,11 @@
 					'Juvenile <strong>Trumpeter Swan</strong> <br/> Cochrane, Alberta (rant.duvets.blesses). September, 2026'
 			},
 			{
+				image: d31,
+				caption:
+					'Juvenile <strong>Trumpeter Swans</strong> <br/> Cochrane, Alberta (rant.duvets.blesses). September, 2026'
+			},
+			{
 				image: d25,
 				caption:
 					'<strong>Trumpeter Swans</strong> <br/> Cochrane, Alberta (rant.duvets.blesses). September, 2026'
@@ -157,6 +164,11 @@
 				image: d29,
 				caption:
 					'<strong>Trumpeter Swans</strong> <br/> Cochrane, Alberta (rant.duvets.blesses). September, 2026'
+			},
+			{
+				image: d30,
+				caption:
+					'<strong>Trumpeter Swan</strong> <br/> Cochrane, Alberta (rant.duvets.blesses). September, 2026'
 			}
 		],
 		[
