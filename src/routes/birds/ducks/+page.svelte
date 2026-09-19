@@ -33,10 +33,10 @@
 	import d31 from '$lib/images/birds/2026/09/2026-09-02-153521-PR.jpg?enhanced';
 	import d32 from '$lib/images/birds/2026/09/2026-09-04-165200-PR.jpg?enhanced';
 	import d33 from '$lib/images/birds/2026/09/2026-09-11-153022-1-PR.jpg?enhanced';
-	import d34 from '$lib/images/birds/2026/09/2026-09-11-145933-PR.jpg?enhanced';
+	import d34 from '$lib/images/birds/2026/09/2026-09-12-145933-PR.jpg?enhanced';
 	import d35 from '$lib/images/birds/2026/09/2026-09-13-154613-PR.jpg?enhanced';
 	import d36 from '$lib/images/birds/2026/09/2026-09-17-132531-PR.jpg?enhanced';
-	import d37 from '$lib/images/birds/2026/09/2026-09-17-1323159-PR.jpg?enhanced';
+	import d37 from '$lib/images/birds/2026/09/2026-09-17-133159-PR.jpg?enhanced';
 	import d38 from '$lib/images/birds/2026/09/2026-09-17-133231-PR.jpg?enhanced';
 
 	export const imagesArray = [
