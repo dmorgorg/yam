@@ -8,6 +8,17 @@
 	import c06 from '$lib/images/birds/2026/09/2026-09-01-172911-PR.jpg?enhanced';
 	import c07 from '$lib/images/birds/2026/09/2026-09-01-172932-PR.jpg?enhanced';
 	import c08 from '$lib/images/birds/2026/09/2026-09-01-174150-PR.jpg?enhanced';
+	import c09 from '$lib/images/birds/2026/09/2026-09-11-141920-PR.jpg?enhanced';
+	import c10 from '$lib/images/birds/2026/09/2026-09-11-142216-PR.jpg?enhanced';
+	import c11 from '$lib/images/birds/2026/09/2026-09-11-142259-PR.jpg?enhanced';
+	import c12 from '$lib/images/birds/2026/09/2026-09-11-144435-PR.jpg?enhanced';
+	import c13 from '$lib/images/birds/2026/09/2026-09-11-144443-1-PR.jpg?enhanced';
+	import c14 from '$lib/images/birds/2026/09/2026-09-11-145321-PR.jpg?enhanced';
+	import c15 from '$lib/images/birds/2026/09/2026-09-12-164932-1-PR.jpg?enhanced';
+	import c16 from '$lib/images/birds/2026/09/2026-09-14-162510-1-PR.jpg?enhanced';
+	import c17 from '$lib/images/birds/2026/09/2026-09-14-162704-1-PR.jpg?enhanced';
+	import c18 from '$lib/images/birds/2026/09/2026-09-14-162941-1-PR.jpg?enhanced';
+	import c19 from '$lib/images/birds/2026/09/2026-09-14-172958-1-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -42,6 +53,52 @@
 			{
 				image: c08,
 				caption: '<strong>Sandhill Cranes</strong>. <br/>Central Alberta, Alberta. September, 2026'
+			}
+		],
+		[
+			{
+				image: c09,
+				caption: '<strong>Whooping Cranes</strong>. <br/>Stettler County, Alberta. September, 2026'
+			},
+			{
+				image: c10,
+				caption: '<strong>Whooping Cranes</strong>. <br/>Stettler County, Alberta. September, 2026'
+			},
+			{
+				image: c11,
+				caption: '<strong>Whooping Cranes</strong>. <br/>Stettler County, Alberta. September, 2026'
+			},
+			{
+				image: c12,
+				caption: '<strong>Whooping Cranes</strong>. <br/>Stettler County, Alberta. September, 2026'
+			},
+			{
+				image: c13,
+				caption: '<strong>Whooping Cranes</strong>. <br/>Stettler County, Alberta. September, 2026'
+			},
+			{
+				image: c14,
+				caption: '<strong>Whooping Cranes</strong>. <br/>Stettler County, Alberta. September, 2026'
+			},
+			{
+				image: c15,
+				caption: '<strong>Whooping Cranes</strong>. <br/>Stettler County, Alberta. September, 2026'
+			},
+			{
+				image: c16,
+				caption: '<strong>Whooping Cranes</strong>. <br/>Stettler County, Alberta. September, 2026'
+			},
+			{
+				image: c17,
+				caption: '<strong>Whooping Cranes</strong>. <br/>Stettler County, Alberta. September, 2026'
+			},
+			{
+				image: c18,
+				caption: '<strong>Whooping Cranes</strong>. <br/>Stettler County, Alberta. September, 2026'
+			},
+			{
+				image: c19,
+				caption: '<strong>Whooping Cranes</strong>. <br/>Stettler County, Alberta. September, 2026'
 			}
 		]
 	];
