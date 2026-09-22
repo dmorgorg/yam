@@ -32,6 +32,9 @@
 				<a href="/birds/blackbirds">Blackbirds, etc. ({count.blackbirds})</a>
 			</li>
 			<li>
+				<a href="/birds/chickadees">Chickadees ({count.chickadees})</a>
+			</li>
+			<li>
 				<a href="/birds/coots">Coots ({count.coots})</a>
 			</li>
 			<li>

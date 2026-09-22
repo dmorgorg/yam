@@ -38,6 +38,8 @@
 	import d36 from '$lib/images/birds/2026/09/2026-09-17-132531-PR.jpg?enhanced';
 	import d37 from '$lib/images/birds/2026/09/2026-09-17-133159-PR.jpg?enhanced';
 	import d38 from '$lib/images/birds/2026/09/2026-09-17-133231-PR.jpg?enhanced';
+	import d39 from '$lib/images/birds/2026/09/2026-09-21-170151.jpg?enhanced';
+	import d40 from '$lib/images/birds/2026/09/2026-09-21-160953.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -192,6 +194,15 @@
 			{
 				image: d30,
 				caption: '<strong>Trumpeter Swan</strong> <br/> Cochrane, Alberta. September, 2026'
+			},
+			{
+				image: d39,
+				caption:
+					'<strong>Trumpeter Swans</strong> <br/> Erskine Lake, Stettler County, Alberta. September, 2026'
+			},
+			{
+				image: d40,
+				caption: '<strong>Trumpeter Swan</strong> <br/> Lacombe County, Alberta. September, 2026'
 			}
 		],
 		[

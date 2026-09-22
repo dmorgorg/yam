@@ -6,6 +6,7 @@
 	import { count } from '$lib/data/counts.svelte.js';
 
 	import blackbird from '$lib/images/birds/2026/07/2026-07-29-181927-PR.jpg?enhanced';
+	import chickadee from '$lib/images/birds/2026/09/2026-09-20-153938-16x9.jpg?enhanced';
 	import coot from '$lib/images/birds/2026/07/2026-07-29-180634-PR.jpg?enhanced';
 	import cormorant from '$lib/images/birds/2026/08/2026-08-03-165547-PR.jpg?enhanced';
 	import crane from '$lib/images/birds/2026/09/2026-09-01-184805-PR-1.jpg?enhanced';
@@ -44,6 +45,12 @@
 			<div class="photo-link">
 				<enhanced:img src={blackbird} alt="blackbirds" />
 				Blackbirds, etc. ({count.blackbirds})
+			</div>
+		</a>
+		<a href="/birds/chickadees">
+			<div class="photo-link">
+				<enhanced:img src={chickadee} alt="chickadee" />
+				Chickadees ({count.chickadees})
 			</div>
 		</a>
 		<a href="/birds/coots">
