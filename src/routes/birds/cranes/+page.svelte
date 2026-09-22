@@ -20,6 +20,7 @@
 	import c18 from '$lib/images/birds/2026/09/2026-09-14-162941-1-PR.jpg?enhanced';
 	import c19 from '$lib/images/birds/2026/09/2026-09-14-172958-1-PR.jpg?enhanced';
 	import c20 from '$lib/images/birds/2026/09/2026-09-12-183312-1-PR.jpg?enhanced';
+	import c21 from '$lib/images/birds/2026/09/2026-09-21-183120.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -54,6 +55,11 @@
 			{
 				image: c08,
 				caption: '<strong>Sandhill Cranes</strong>. <br/>Central Alberta, Alberta. September, 2026'
+			},
+			{
+				image: c21,
+				caption:
+					'<strong>Sandhill Cranes</strong>. <br/>Erskine Lake, Stettler County, Alberta. September, 2026'
 			}
 		],
 		[
