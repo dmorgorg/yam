@@ -27,6 +27,7 @@
 	import pelican from '$lib/images/birds/2026/07/2026-07-29-182931-PR.jpg?enhanced';
 	import plover from '$lib/images/birds/2026/08/2026-08-07-171909-PR.jpg?enhanced';
 	import sandpiper from '$lib/images/birds/2026/07/2026-07-22-164146-1.jpg?enhanced';
+	import starling from '$lib/images/birds/2026/09/2026-09-18-180504.jpg?enhanced';
 	import stilt from '$lib/images/birds/2026/08/2026-08-03-164608-PR.jpg?enhanced';
 	import stork from '$lib/images/birds/2010s/2012-10-11-083129-PR.jpg?enhanced';
 	import tern from '$lib/images/birds/2026/08/2026-08-03-165914-PR.jpg?enhanced';
@@ -38,7 +39,7 @@
 <div class="outer">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">Species Families</div>
+		<div class="bird-type">Groupings...</div>
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 	</div>
 	<div class="home-page-links">
@@ -151,6 +152,12 @@
 			<div class="photo-link">
 				<enhanced:img src={plover} alt="plover" />
 				Plovers ({count.plovers})
+			</div>
+		</a>
+		<a href="/birds/starlings">
+			<div class="photo-link">
+				<enhanced:img src={starling} alt="starling" />
+				Starlings ({count.starlings})
 			</div>
 		</a>
 		<a href="/birds/sandpipers">

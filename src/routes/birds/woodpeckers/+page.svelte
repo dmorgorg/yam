@@ -5,6 +5,8 @@
 	import w03 from '$lib/images/birds/2026/07/2026-07-09-181359-PR.jpg?enhanced';
 	import w04 from '$lib/images/birds/2026/07/2026-07-09-181437-PR.jpg?enhanced';
 	import w05 from '$lib/images/birds/2026/08/2026-08-12-175455-PR.jpg?enhanced';
+	import w06 from '$lib/images/birds/2026/08/2026-08-12-175455-PR.jpg?enhanced';
+	import w07 from '$lib/images/birds/2026/09/2026-09-18-130242.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -28,6 +30,13 @@
 				image: w01,
 				caption:
 					"<strong>Northern Flicker</strong>. <br/>This guy would advertise his presence to the neighbourhood by 'pecking' rapidly on the vent. What female could resist?<br/>Calgary, Alberta. April, 2026"
+			}
+		],
+		[
+			{
+				image: w07,
+				caption:
+					'<strong>Yellow-bellied Sapsucker</strong>. <br/>Alix Lake, Lacombe County, Alberta. September, 2026'
 			}
 		]
 	];

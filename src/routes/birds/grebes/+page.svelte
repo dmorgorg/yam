@@ -5,6 +5,7 @@
 	import g03 from '$lib/images/birds/2026/07/2026-07-29-193221-PR.jpg?enhanced';
 	import g04 from '$lib/images/birds/2026/08/2026-08-17-184236-PR.jpg?enhanced';
 	import g05 from '$lib/images/birds/2026/08/2026-08-17-184256-PR.jpg?enhanced';
+	import g06 from '$lib/images/birds/2026/09/2026-09-20-142759.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -34,6 +35,13 @@
 				image: g03,
 				caption:
 					'<strong>Red-necked Grebe</strong> juveniles. <br/>Bridlewood Wetlands, Calgary. July, 2026'
+			}
+		],
+		[
+			{
+				image: g06,
+				caption:
+					'Immature <strong>Horned Grebe</strong><br/>Telford Lake, Leduc County, Alberta. September, 2026'
 			}
 		]
 	];

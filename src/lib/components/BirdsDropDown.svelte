@@ -80,6 +80,9 @@
 				<a href="/birds/plovers">Plovers ({count.plovers})</a>
 			</li>
 			<li>
+				<a href="/birds/starlings">Starlings ({count.starlings})</a>
+			</li>
+			<li>
 				<a href="/birds/sandpipers">Sandpipers, etc. ({count.sandpipers})</a>
 			</li>
 			<li>

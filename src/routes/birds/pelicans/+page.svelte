@@ -6,6 +6,8 @@
 	import p04 from '$lib/images/birds/2026/07/2026-07-29-182931-PR.jpg?enhanced';
 	import p05 from '$lib/images/birds/2026/09/2026-09-20-141732.jpg?enhanced';
 	import p06 from '$lib/images/birds/2026/09/2026-09-20-151225.jpg?enhanced';
+	import p07 from '$lib/images/birds/2026/09/2026-09-20-175307.jpg?enhanced';
+	import p08 from '$lib/images/birds/2026/09/2026-09-20-175339.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -36,6 +38,16 @@
 			},
 			{
 				image: p05,
+				caption:
+					'<strong>American White Pelicans</strong><br/>Telford Lake, Leduc County, Alberta. September, 2026'
+			},
+			{
+				image: p07,
+				caption:
+					'<strong>American White Pelicans</strong><br/>Telford Lake, Leduc County, Alberta. September, 2026'
+			},
+			{
+				image: p08,
 				caption:
 					'<strong>American White Pelicans</strong><br/>Telford Lake, Leduc County, Alberta. September, 2026'
 			}
