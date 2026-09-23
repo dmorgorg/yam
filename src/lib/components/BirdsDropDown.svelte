@@ -87,6 +87,9 @@
 			</li>
 
 			<li>
+				<a href="/birds/warblers">Warblers ({count.warblers})</a>
+			</li>
+			<li>
 				<a href="/birds/waxwings">Waxwings ({count.waxwings})</a>
 			</li>
 			<li>

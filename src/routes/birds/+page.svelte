@@ -30,6 +30,7 @@
 	import stilt from '$lib/images/birds/2026/08/2026-08-03-164608-PR.jpg?enhanced';
 	import stork from '$lib/images/birds/2010s/2012-10-11-083129-PR.jpg?enhanced';
 	import tern from '$lib/images/birds/2026/08/2026-08-03-165914-PR.jpg?enhanced';
+	import warbler from '$lib/images/birds/2026/09/2026-09-19-163850-16x9.jpg?enhanced';
 	import waxwing from '$lib/images/birds/2026/07/2026-07-31-181837-1-PR.jpg?enhanced';
 	import woodpecker from '$lib/images/birds/2026/07/2026-07-09-181356-PR.jpg?enhanced';
 </script>
@@ -165,6 +166,12 @@
 			</div>
 		</a>
 
+		<a href="/birds/warblers">
+			<div class="photo-link">
+				<enhanced:img src={warbler} alt="warbler" />
+				Warblers ({count.warblers})
+			</div>
+		</a>
 		<a href="/birds/waxwings">
 			<div class="photo-link">
 				<enhanced:img src={waxwing} alt="waxwing" />
