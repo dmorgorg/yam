@@ -86,6 +86,9 @@
 				<a href="/birds/sandpipers">Sandpipers, etc. ({count.sandpipers})</a>
 			</li>
 			<li>
+				<a href="/birds/sparrows">Sparrows ({count.sparrows})</a>
+			</li>
+			<li>
 				<a href="/birds/stilts">Stilts and Avocets ({count.stilts})</a>
 			</li>
 			<li>
