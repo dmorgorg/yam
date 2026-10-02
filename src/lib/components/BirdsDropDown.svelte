@@ -88,6 +88,9 @@
 			<li>
 				<a href="/birds/stilts">Stilts and Avocets ({count.stilts})</a>
 			</li>
+			<li>
+				<a href="/birds/thrushes">Thrushes and friends ({count.thrushes})</a>
+			</li>
 
 			<li>
 				<a href="/birds/warblers">Warblers ({count.warblers})</a>
