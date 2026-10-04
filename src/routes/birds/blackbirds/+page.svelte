@@ -9,22 +9,16 @@
 	import bb07 from '$lib/images/birds/2026/07/2026-07-13-150723-PR.jpg?enhanced';
 	import bb08 from '$lib/images/birds/2026/08/2026-08-17-154239-PR.jpg?enhanced';
 	import bb09 from '$lib/images/birds/2026/08/2026-08-17-154334-PR.jpg?enhanced';
+	import bb10 from '$lib/images/birds/2026/09/2026-09-29-154604.jpg?enhanced';
+	import bb11 from '$lib/images/birds/2026/09/2026-09-29-170102.jpg?enhanced';
+	import bb12 from '$lib/images/birds/2026/09/2026-09-29-170107.jpg?enhanced';
+	import bb13 from '$lib/images/birds/2026/09/2026-09-30-161910.jpg?enhanced';
+	import bb14 from '$lib/images/birds/2026/09/2026-09-30-163550.jpg?enhanced';
+	import bb15 from '$lib/images/birds/2026/09/2026-09-30-164508.jpg?enhanced';
+	import bb16 from '$lib/images/birds/2026/10/2026-10-03-135156.jpg?enhanced';
+	import bb17 from '$lib/images/birds/2026/10/2026-10-03-135501.jpg?enhanced';
 
 	export const imagesArray = [
-		[
-			{
-				image: bb01,
-				caption: '<strong>Yellow-headed Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
-			},
-			{
-				image: bb02,
-				caption: '<strong>Yellow-headed Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
-			},
-			{
-				image: bb03,
-				caption: '<strong>Yellow-headed Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
-			}
-		],
 		[
 			{
 				image: bb04,
@@ -55,9 +49,52 @@
 					'Female <strong>Red-winged Blackbird</strong>. <br/>Lafarge Meadows, Calgary. August, 2026'
 			},
 			{
-				image: bb08,
-				caption:
-					'Female <strong>Red-winged Blackbird</strong>. <br/>Lafarge Meadows, Calgary. August, 2026'
+				image: bb16,
+				caption: '<strong>Red-winged Blackbird</strong>. <br/>Brooks, Alberta. October, 2026'
+			},
+			{
+				image: bb17,
+				caption: '<strong>Red-winged Blackbirds</strong>. <br/>Brooks, Alberta. October, 2026'
+			}
+		],
+		[
+			{
+				image: bb01,
+				caption: '<strong>Yellow-headed Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
+			},
+			{
+				image: bb02,
+				caption: '<strong>Yellow-headed Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
+			},
+			{
+				image: bb03,
+				caption: '<strong>Yellow-headed Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
+			}
+		],
+		[
+			{
+				image: bb10,
+				caption: '<strong>Western Meadowlark</strong>. <br/>Brooks, Alberta. September, 2026.'
+			},
+			{
+				image: bb11,
+				caption: '<strong>Western Meadowlark</strong>. <br/>Brooks, Alberta. September, 2026.'
+			},
+			{
+				image: bb12,
+				caption: '<strong>Western Meadowlark</strong>. <br/>Brooks, Alberta. September, 2026.'
+			},
+			{
+				image: bb13,
+				caption: '<strong>Western Meadowlark</strong>. <br/>Brooks, Alberta. September, 2026.'
+			},
+			{
+				image: bb14,
+				caption: '<strong>Western Meadowlark</strong>. <br/>Brooks, Alberta. September, 2026.'
+			},
+			{
+				image: bb15,
+				caption: '<strong>Western Meadowlark</strong>. <br/>Brooks, Alberta. September, 2026.'
 			}
 		]
 	];
