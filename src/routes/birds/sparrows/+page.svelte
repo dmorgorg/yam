@@ -7,8 +7,20 @@
 	import s05 from '$lib/images/birds/2026/10/2026-10-01-165013.jpg?enhanced';
 	import s06 from '$lib/images/birds/2026/10/2026-10-01-165049.jpg?enhanced';
 	import s07 from '$lib/images/birds/2026/10/2026-10-01-164934.jpg?enhanced';
+	import s08 from '$lib/images/birds/2026/10/2026-10-02-143642.jpg?enhanced';
+	import s09 from '$lib/images/birds/2026/10/2026-10-02-143658.jpg?enhanced';
 
 	export const imagesArray = [
+		[
+			{
+				image: s08,
+				caption: '<strong>Savannah Sparrow</strong>. <br/>Timko Lake, Alberta. October, 2026'
+			},
+			{
+				image: s09,
+				caption: '<strong>Savannah Sparrow</strong>. <br/>Timko Lake, Alberta. October, 2026'
+			}
+		],
 		[
 			{
 				image: s01,
