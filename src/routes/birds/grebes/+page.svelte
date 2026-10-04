@@ -6,8 +6,19 @@
 	import g04 from '$lib/images/birds/2026/08/2026-08-17-184236-PR.jpg?enhanced';
 	import g05 from '$lib/images/birds/2026/08/2026-08-17-184256-PR.jpg?enhanced';
 	import g06 from '$lib/images/birds/2026/09/2026-09-20-142759.jpg?enhanced';
+	import g07 from '$lib/images/birds/2026/10/2026-10-02-141123.jpg?enhanced';
+	import g08 from '$lib/images/birds/2026/10/2026-10-02-141208.jpg?enhanced';
+	import g09 from '$lib/images/birds/2026/10/2026-10-02-160530.jpg?enhanced';
+	import g10 from '$lib/images/birds/2026/10/2026-10-02-160542.jpg?enhanced';
 
 	export const imagesArray = [
+		[
+			{
+				image: g06,
+				caption:
+					'Immature <strong>Horned Grebe</strong><br/>Telford Lake, Leduc County, Alberta. September, 2026'
+			}
+		],
 		[
 			{
 				image: g04,
@@ -35,13 +46,24 @@
 				image: g03,
 				caption:
 					'<strong>Red-necked Grebe</strong> juveniles. <br/>Bridlewood Wetlands, Calgary. July, 2026'
+			},
+			{
+				image: g07,
+				caption: '<strong>Red-necked Grebe</strong>. <br/>Timko Lake, Alberta. October, 2026'
+			},
+			{
+				image: g08,
+				caption: '<strong>Red-necked Grebe</strong>. <br/>Timko Lake, Alberta. October, 2026'
 			}
 		],
 		[
 			{
-				image: g06,
-				caption:
-					'Immature <strong>Horned Grebe</strong><br/>Telford Lake, Leduc County, Alberta. September, 2026'
+				image: g09,
+				caption: '<strong>Western Grebe</strong><br/>Scots Lake, Alberta. October, 2026.'
+			},
+			{
+				image: g10,
+				caption: '<strong>Western Grebe</strong><br/>Scots Lake, Alberta. October, 2026.'
 			}
 		]
 	];
