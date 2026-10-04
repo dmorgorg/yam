@@ -50,11 +50,12 @@
 			},
 			{
 				image: bb16,
-				caption: '<strong>Red-winged Blackbird</strong>. <br/>Brooks, Alberta. October, 2026'
+				caption: '<strong>Red-winged Blackbird</strong>. <br/>Newell County, Alberta. October, 2026'
 			},
 			{
 				image: bb17,
-				caption: '<strong>Red-winged Blackbirds</strong>. <br/>Brooks, Alberta. October, 2026'
+				caption:
+					'<strong>Red-winged Blackbirds</strong>. <br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		[

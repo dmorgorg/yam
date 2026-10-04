@@ -2,6 +2,8 @@
 	// american coot
 	import s01 from '$lib/images/birds/2026/09/2026-09-18-180504.jpg?enhanced';
 	import s02 from '$lib/images/birds/2026/09/2026-09-18-180522.jpg?enhanced';
+	import s03 from '$lib/images/birds/2026/09/2026-09-29-165416.jpg?enhanced';
+	import s04 from '$lib/images/birds/2026/09/2026-09-29-165738.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -14,6 +16,14 @@
 				image: s02,
 				caption:
 					'<strong>European Starlings</strong>. <br/>Lacombe County, Alberta. September, 2026'
+			},
+			{
+				image: s03,
+				caption: '<strong>European Starlings</strong>. <br/>Newell County, Alberta. September, 2026'
+			},
+			{
+				image: s04,
+				caption: '<strong>European Starlings</strong>. <br/>Newell County, Alberta. September, 2026'
 			}
 		]
 	];
