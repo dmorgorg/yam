@@ -17,6 +17,10 @@
 	import bb15 from '$lib/images/birds/2026/09/2026-09-30-164508.jpg?enhanced';
 	import bb16 from '$lib/images/birds/2026/10/2026-10-03-135156.jpg?enhanced';
 	import bb17 from '$lib/images/birds/2026/10/2026-10-03-135501.jpg?enhanced';
+	import bb18 from '$lib/images/birds/2026/10/2026-10-02-153440.jpg?enhanced';
+	import bb19 from '$lib/images/birds/2026/10/2026-10-02-153500.jpg?enhanced';
+	import bb20 from '$lib/images/birds/2026/10/2026-10-02-153730.jpg?enhanced';
+	import bb21 from '$lib/images/birds/2026/10/2026-10-02-153744.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -70,6 +74,24 @@
 			{
 				image: bb03,
 				caption: '<strong>Yellow-headed Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
+			}
+		],
+		[
+			{
+				image: bb21,
+				caption: '<strong>Common Grackle</strong>. <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: bb20,
+				caption: '<strong>Common Grackle</strong>. <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: bb19,
+				caption: '<strong>Common Grackle</strong>. <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: bb18,
+				caption: '<strong>Common Grackles</strong>. <br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		[
