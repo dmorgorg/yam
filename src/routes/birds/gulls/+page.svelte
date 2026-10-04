@@ -32,6 +32,12 @@
 		],
 		[
 			{
+				image: g04,
+				caption: "<strong>Sabine's Gulls</strong> <br/>Calgary, Alberta. August, 2026"
+			}
+		],
+		[
+			{
 				image: g06,
 				caption: '<strong>Ring-billed Gull</strong> <br/>Harvey Passage, Calgary. August, 2026'
 			},

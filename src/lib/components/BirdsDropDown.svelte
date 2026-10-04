@@ -67,6 +67,9 @@
 			</li>
 
 			<li>
+				<a href="/birds/larks">Larks ({count.larks})</a>
+			</li>
+			<li>
 				<a href="/birds/osprey">Osprey ({count.osprey})</a>
 			</li>
 			<li>
