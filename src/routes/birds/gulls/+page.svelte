@@ -8,6 +8,13 @@
 	import g06 from '$lib/images/birds/2026/08/2026-08-12-171404-PR.jpg?enhanced';
 	import g07 from '$lib/images/birds/2026/08/2026-08-12-165851-PR.jpg?enhanced';
 	import g08 from '$lib/images/birds/2026/08/2026-08-12-165231-PR.jpg?enhanced';
+	import g09 from '$lib/images/birds/2026/10/2026-10-02-180456.jpg?enhanced';
+	import g10 from '$lib/images/birds/2026/10/2026-10-02-181311.jpg?enhanced';
+	import g11 from '$lib/images/birds/2026/10/2026-10-02-181315.jpg?enhanced';
+	import g12 from '$lib/images/birds/2026/10/2026-10-02-181321.jpg?enhanced';
+	import g13 from '$lib/images/birds/2026/10/2026-10-02-181507.jpg?enhanced';
+	import g14 from '$lib/images/birds/2026/10/2026-10-02-181611.jpg?enhanced';
+	import g15 from '$lib/images/birds/2026/10/2026-10-03-152449.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -32,8 +39,32 @@
 		],
 		[
 			{
-				image: g04,
-				caption: "<strong>Sabine's Gulls</strong> <br/>Calgary, Alberta. August, 2026"
+				image: g09,
+				caption: "<strong>Sabine's Gull</strong> <br/>Tilly 'B' Reservoir, Alberta. October, 2026"
+			},
+			{
+				image: g10,
+				caption: "<strong>Sabine's Gull</strong> <br/>Tilly 'B' Reservoir, Alberta. October, 2026"
+			},
+			{
+				image: g11,
+				caption: "<strong>Sabine's Gull</strong> <br/>Tilly 'B' Reservoir, Alberta. October, 2026"
+			},
+			{
+				image: g12,
+				caption: "<strong>Sabine's Gull</strong> <br/>Tilly 'B' Reservoir, Alberta. October, 2026"
+			},
+			{
+				image: g13,
+				caption: "<strong>Sabine's Gull</strong> <br/>Tilly 'B' Reservoir, Alberta. October, 2026"
+			},
+			{
+				image: g14,
+				caption: "<strong>Sabine's Gull</strong> <br/>Tilly 'B' Reservoir, Alberta. October, 2026"
+			},
+			{
+				image: g15,
+				caption: "<strong>Sabine's Gull</strong> <br/>Tilly 'B' Reservoir, Alberta. October, 2026"
 			}
 		],
 		[
