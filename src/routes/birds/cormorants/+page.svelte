@@ -7,6 +7,9 @@
 	import c05 from '$lib/images/birds/2026/08/2026-08-17-173012-PR.jpg?enhanced';
 	import c06 from '$lib/images/birds/2026/08/2026-08-17-175000-PR.jpg?enhanced';
 	import c07 from '$lib/images/birds/2026/08/2026-08-17-175105-PR.jpg?enhanced';
+	import c08 from '$lib/images/birds/2026/10/2026-10-07-144442.jpg?enhanced';
+	import c09 from '$lib/images/birds/2026/10/2026-10-07-144642.jpg?enhanced';
+	import c10 from '$lib/images/birds/2026/10/2026-10-07-144624.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -43,6 +46,21 @@
 				image: c07,
 				caption:
 					'<strong>Double-crested Cormorant</strong>. <br/>Lafarge Meadows, Calgary. August, 2026'
+			},
+			{
+				image: c08,
+				caption:
+					'<strong>Double-crested Cormorants</strong>. <br/>Kitsim Project Sloughs (West), nr. Brooks, Alberta. October, 2026'
+			},
+			{
+				image: c09,
+				caption:
+					'<strong>Double-crested Cormorant</strong>. <br/>Kitsim Project Sloughs (West), nr. Brooks, Alberta. October, 2026'
+			},
+			{
+				image: c10,
+				caption:
+					'<strong>Double-crested Cormorants</strong>. <br/>Kitsim Project Sloughs (West), nr. Brooks, Alberta. October, 2026'
 			}
 		]
 	];

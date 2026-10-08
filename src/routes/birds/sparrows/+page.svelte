@@ -9,8 +9,30 @@
 	import s07 from '$lib/images/birds/2026/10/2026-10-01-164934.jpg?enhanced';
 	import s08 from '$lib/images/birds/2026/10/2026-10-02-143642.jpg?enhanced';
 	import s09 from '$lib/images/birds/2026/10/2026-10-02-143658.jpg?enhanced';
+	import s10 from '$lib/images/birds/2026/10/2026-10-07-155527.jpg?enhanced';
+	import s11 from '$lib/images/birds/2026/10/2026-10-07-155530.jpg?enhanced';
+	import s12 from '$lib/images/birds/2026/10/2026-10-07-160225.jpg?enhanced';
+	import s13 from '$lib/images/birds/2026/10/2026-10-07-160239.jpg?enhanced';
 
 	export const imagesArray = [
+		[
+			{
+				image: s11,
+				caption: '<strong>Dark-eyed Junco</strong>. <br/>Kitsim Reservoir, Alberta. October, 2026'
+			},
+			{
+				image: s10,
+				caption: '<strong>Dark-eyed Junco</strong>. <br/>Kitsim Reservoir, Alberta. October, 2026'
+			},
+			{
+				image: s12,
+				caption: '<strong>Dark-eyed Junco</strong>. <br/>Kitsim Reservoir, Alberta. October, 2026'
+			},
+			{
+				image: s13,
+				caption: '<strong>Dark-eyed Junco</strong>. <br/>Kitsim Reservoir, Alberta. October, 2026'
+			}
+		],
 		[
 			{
 				image: s08,
