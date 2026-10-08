@@ -8,6 +8,7 @@
 	import p06 from '$lib/images/birds/2026/09/2026-09-20-151225.jpg?enhanced';
 	import p07 from '$lib/images/birds/2026/09/2026-09-20-175307.jpg?enhanced';
 	import p08 from '$lib/images/birds/2026/09/2026-09-20-175339.jpg?enhanced';
+	import p09 from '$lib/images/birds/2026/10/2026-10-06-172834.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -50,6 +51,11 @@
 				image: p08,
 				caption:
 					'<strong>American White Pelicans</strong><br/>Telford Lake, Leduc County, Alberta. September, 2026'
+			},
+			{
+				image: p09,
+				caption:
+					'A solitary <strong>American White Pelican</strong><br/>Kitsim Reservoir nr Brooks, Alberta. October, 2026 <br/> (Notice the line of snow geese in the distance.)'
 			}
 		]
 	];

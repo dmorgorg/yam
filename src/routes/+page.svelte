@@ -17,7 +17,7 @@
 			<a href="/birds">
 				<div class="photo-link">
 					<enhanced:img src={homeBird} alt="where are you" />
-					Bird photos...
+					Birds...
 				</div>
 			</a>
 

@@ -13,6 +13,8 @@
 	import g11 from '$lib/images/birds/2026/10/2026-10-06-182148.jpg?enhanced';
 	import g12 from '$lib/images/birds/2026/10/2026-10-06-183236.jpg?enhanced';
 	import g13 from '$lib/images/birds/2026/10/2026-10-06-184409.jpg?enhanced';
+	import g14 from '$lib/images/birds/2026/10/2026-10-07-181913.jpg?enhanced';
+	import g15 from '$lib/images/birds/2026/10/2026-10-07-181952.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -52,11 +54,18 @@
 			},
 			{
 				image: g07,
-				caption: '<strong>Red-necked Grebe</strong>. <br/>Timko Lake, Alberta. October, 2026'
+				caption:
+					'Immature <strong>Red-necked Grebe</strong>. <br/>Timko Lake, Alberta. October, 2026'
 			},
 			{
 				image: g08,
-				caption: '<strong>Red-necked Grebe</strong>. <br/>Timko Lake, Alberta. October, 2026'
+				caption:
+					'Immature <strong>Red-necked Grebe</strong>. <br/>Timko Lake, Alberta. October, 2026'
+			},
+			{
+				image: g14,
+				caption:
+					'<strong>Red-necked Grebe</strong>. <br/>Kitsim Reservoir nr. Brooks, Alberta. October, 2026'
 			}
 		],
 		[
@@ -80,6 +89,11 @@
 			},
 			{
 				image: g13,
+				caption:
+					'<strong>Western Grebe</strong><br/>Kitsim Reservoir nr. Brooks, Alberta. October, 2026.'
+			},
+			{
+				image: g15,
 				caption:
 					'<strong>Western Grebe</strong><br/>Kitsim Reservoir nr. Brooks, Alberta. October, 2026.'
 			}
