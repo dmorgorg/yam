@@ -42,8 +42,28 @@
 	import d40 from '$lib/images/birds/2026/09/2026-09-21-160953.jpg?enhanced';
 	import d41 from '$lib/images/birds/2026/09/2026-09-20-151043.jpg?enhanced';
 	import d42 from '$lib/images/birds/2026/10/2026-10-09-090232.jpg?enhanced';
+	import d43 from '$lib/images/birds/2026/10/2026-10-09-090424.jpg?enhanced';
+	import d44 from '$lib/images/birds/2026/10/2026-10-09-090424.jpg?enhanced';
+	import d45 from '$lib/images/birds/2026/10/2026-10-09-092003.jpg?enhanced';
 
 	export const imagesArray = [
+		[
+			{
+				image: d44,
+				caption:
+					'<strong>Canvasback</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d43,
+				caption:
+					'<strong>Canvasbacks</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d45,
+				caption:
+					'<strong>Canvasbacks</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			}
+		],
 		[
 			{
 				image: d36,
