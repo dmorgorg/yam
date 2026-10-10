@@ -3,6 +3,7 @@
 	import d01 from '$lib/images/birds/2026/10/2026-10-08-155338.jpg?enhanced';
 	import d02 from '$lib/images/birds/2026/10/2026-10-08-155355.jpg?enhanced';
 	import d03 from '$lib/images/birds/2026/10/2026-10-09-085456.jpg?enhanced';
+	import d04 from '$lib/images/birds/2026/10/2026-10-09-085154.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -13,6 +14,11 @@
 			},
 			{
 				image: d02,
+				caption:
+					'<strong>Mourning Dove</strong>. <br/>Kinbrook Island Provincial Park, Alberta. October 2026'
+			},
+			{
+				image: d03,
 				caption:
 					'<strong>Mourning Dove</strong>. <br/>Kinbrook Island Provincial Park, Alberta. October 2026'
 			},

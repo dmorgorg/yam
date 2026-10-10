@@ -41,6 +41,7 @@
 	import d39 from '$lib/images/birds/2026/09/2026-09-21-170151.jpg?enhanced';
 	import d40 from '$lib/images/birds/2026/09/2026-09-21-160953.jpg?enhanced';
 	import d41 from '$lib/images/birds/2026/09/2026-09-20-151043.jpg?enhanced';
+	import d42 from '$lib/images/birds/2026/10/2026-10-09-090232.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -77,6 +78,11 @@
 				image: d41,
 				caption:
 					'Male <strong>Gadwall</strong>. <br/>Telford Lake, Leduc County, Alberta. September, 2026'
+			},
+			{
+				image: d41,
+				caption:
+					'<strong>Gadwall</strong>, being harassed by a muskrat. <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
 			}
 		],
 		[

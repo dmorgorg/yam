@@ -13,6 +13,7 @@
 	import s11 from '$lib/images/birds/2026/10/2026-10-07-155530.jpg?enhanced';
 	import s12 from '$lib/images/birds/2026/10/2026-10-07-160225.jpg?enhanced';
 	import s13 from '$lib/images/birds/2026/10/2026-10-07-160239.jpg?enhanced';
+	import s14 from '$lib/images/birds/2026/10/2026-10-08-165222.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -79,6 +80,13 @@
 				image: s07,
 				caption:
 					'<strong>White-crowned Sparrow</strong>, well-hidden. <br/>Dinosaur Provincial Park. October, 2026'
+			}
+		],
+		[
+			{
+				image: s14,
+				caption:
+					'<strong>White-throated Sparrow</strong>. <br/>Kinbrook Island Provincial Park. October, 2026'
 			}
 		]
 	];
