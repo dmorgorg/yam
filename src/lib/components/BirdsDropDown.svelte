@@ -41,6 +41,9 @@
 				<a href="/birds/cormorants">Cormorants ({count.cormorants})</a>
 			</li>
 			<li>
+				<a href="/birds/doves">Doves and Pigeons ({count.doves})</a>
+			</li>
+			<li>
 				<a href="/birds/ducks">Ducks and Geese ({count.ducks})</a>
 			</li>
 			<li>
