@@ -18,6 +18,7 @@
 	import g16 from '$lib/images/birds/2026/10/2026-10-08-160720.jpg?enhanced';
 	import g17 from '$lib/images/birds/2026/10/2026-10-09-090257.jpg?enhanced';
 	import g18 from '$lib/images/birds/2026/10/2026-10-09-091441.jpg?enhanced';
+	import g19 from '$lib/images/birds/2026/10/2026-10-09-135318.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -52,6 +53,11 @@
 				image: g18,
 				caption:
 					'<strong>Pied-billed Grebes</strong> with American Coot<br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: g19,
+				caption:
+					'<strong>Pied-billed Grebes</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
 			}
 		],
 		[

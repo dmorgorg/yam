@@ -43,8 +43,13 @@
 	import d41 from '$lib/images/birds/2026/09/2026-09-20-151043.jpg?enhanced';
 	import d42 from '$lib/images/birds/2026/10/2026-10-09-090232.jpg?enhanced';
 	import d43 from '$lib/images/birds/2026/10/2026-10-09-090424.jpg?enhanced';
-	import d44 from '$lib/images/birds/2026/10/2026-10-09-090424.jpg?enhanced';
+	import d44 from '$lib/images/birds/2026/10/2026-10-09-090435.jpg?enhanced';
 	import d45 from '$lib/images/birds/2026/10/2026-10-09-092003.jpg?enhanced';
+	import d46 from '$lib/images/birds/2026/10/2026-10-09-124749.jpg?enhanced';
+	import d47 from '$lib/images/birds/2026/10/2026-10-09-124950.jpg?enhanced';
+	import d48 from '$lib/images/birds/2026/10/2026-10-09-124841.jpg?enhanced';
+	import d49 from '$lib/images/birds/2026/10/2026-10-09-124954.jpg?enhanced';
+	import d50 from '$lib/images/birds/2026/10/2026-10-09-143602.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -100,9 +105,29 @@
 					'Male <strong>Gadwall</strong>. <br/>Telford Lake, Leduc County, Alberta. September, 2026'
 			},
 			{
-				image: d41,
+				image: d42,
 				caption:
 					'<strong>Gadwall</strong>, being harassed by a muskrat. <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d46,
+				caption:
+					'<strong>Gadwall</strong> <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d47,
+				caption:
+					'<strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d48,
+				caption:
+					'<strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d49,
+				caption:
+					'<strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
 			}
 		],
 		[
@@ -139,7 +164,13 @@
 					'Immature <strong>Common Mergansers</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
 			}
 		],
-
+		[
+			{
+				image: d07,
+				caption:
+					'Immature (?)<strong>Redhead</strong>. <br/>Kinbrook Island Provincial Park. October, 2026'
+			}
+		],
 		[
 			{
 				image: d10,
