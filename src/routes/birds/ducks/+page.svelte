@@ -100,14 +100,18 @@
 			// 		'A few <strong>Snow Geese</strong> amongst the Canada Geese <br/>Stettler County, Alberta. September, 2026'
 			// },
 			{
+				image: d62,
+				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
+			},
+			{
 				image: d51,
 				caption:
-					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+					'<strong>Snow Geese</strong> - with a few Greater White-fronted Geese.<br/> Lathom, Alberta. October, 2026'
 			},
 			{
 				image: d52,
 				caption:
-					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+					'<strong>Snow Geese</strong> - with Greater White-fronted Geese.<br/> Lathom, Alberta. October, 2026'
 			},
 			// {
 			// 	image: d53,
@@ -117,32 +121,21 @@
 			{
 				image: d54,
 				caption:
-					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+					'<strong>Snow Geese</strong> - with White-fronted geese.<br/> The smoke-coloured geese are immature Snow Geese. <br/> The dark geese are Greater White-fronted Geest. <br/>Lathom, Alberta. October, 2026'
 			},
 			{
 				image: d55,
-				caption:
-					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
 			},
 			{
 				image: d61,
 				caption:
-					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+					'<strong>Snow Geese</strong> - and a couple of Greater White-fronted Geese.<br/> Lathom, Alberta. October, 2026'
 			},
-			{
-				image: d62,
-				caption:
-					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
-			},
+
 			{
 				image: d63,
-				caption:
-					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
-			},
-			{
-				image: d56,
-				caption:
-					'<strong>Snow Geese</strong> - and White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
 			},
 			{
 				image: d57,
@@ -150,18 +143,25 @@
 					'<strong>Snow Geese</strong> - and White-fronted geese.<br/> Lathom, Alberta. October, 2026'
 			},
 			{
+				image: d60,
+				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
+			},
+			{
+				image: d56,
+				caption:
+					'<strong>Snow Geese</strong> - and White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+			},
+
+			{
 				image: d58,
 				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
 			},
 			{
 				image: d59,
 				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
-			},
-			{
-				image: d60,
-				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
 			}
 		],
+		// gadwall
 		[
 			{
 				image: d08,
