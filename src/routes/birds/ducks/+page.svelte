@@ -65,6 +65,14 @@
 	import d63 from '$lib/images/birds/2026/10/2026-10-11-180031.jpg?enhanced';
 
 	export const imagesArray = [
+		// BLUE-WINGED TEAL
+		[
+			{
+				image: d26,
+				caption: '<strong>Blue-winged Teal</strong> <br/>Cochrane, Alberta. September, 2026'
+			}
+		],
+		// CANVASBACK
 		[
 			{
 				image: d44,
@@ -82,7 +90,122 @@
 					'<strong>Canvasbacks</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
 			}
 		],
-		// snow geese
+		// GADWALL
+		[
+			{
+				image: d08,
+				caption: 'Female <strong>Gadwall</strong> <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d09,
+				caption: 'Female <strong>Gadwall</strong> <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d15,
+				caption: 'Female <strong>Gadwall</strong> and young. <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d41,
+				caption:
+					'Male <strong>Gadwall</strong>. <br/>Telford Lake, Leduc County, Alberta. September, 2026'
+			},
+			{
+				image: d42,
+				caption:
+					'<strong>Gadwall</strong>, being harassed by a muskrat. <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d46,
+				caption:
+					'<strong>Gadwall</strong> <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d47,
+				caption:
+					'<strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d48,
+				caption:
+					'<strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d49,
+				caption:
+					'<strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			}
+		],
+		// GREEN-WINGED TEAL
+		[
+			{
+				image: d17,
+				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d18,
+				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. August, 2026'
+			}
+		],
+		// MERGANSER
+		[
+			{
+				image: d01,
+				caption: 'Female <strong>Mallard</strong> <br/>Bridlewood Wetlands, Calgary. July, 2026'
+			},
+			{
+				image: d02,
+				caption: 'Female <strong>Mallard</strong> <br/>Bridlewood Wetlands, Calgary. July, 2026'
+			},
+			{
+				image: d03,
+				caption: 'Female <strong>Mallard</strong> <br/>Bridlewood Wetlands, Calgary. July, 2026'
+			},
+			{
+				image: d20,
+				caption:
+					'Female <strong>Mallard</strong> and chicks (with female Ruddy Duck) <br/>Weed Lake, Alberta. August, 2026'
+			}
+		],
+		// NORTHERN SHOVELER
+		[
+			{
+				image: d10,
+				caption: '<strong>Northern Shoveler</strong> <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d16,
+				caption: '<strong>Northern Shoveler</strong>s <br/>Weed Lake, Alberta. August, 2026'
+			}
+		],
+		// REDHEAD
+		[
+			{
+				image: d50,
+				caption:
+					'Female <strong>Redhead</strong>. <br/>Kinbrook Island Provincial Park. October, 2026'
+			}
+		],
+		// RUDDY DUCK
+		[
+			{
+				image: d12,
+				caption: '<strong>Ruddy Duck</strong> <br/>Frank Lake, Alberta. July, 2026'
+			},
+			{
+				image: d14,
+				caption: '<strong>Ruddy Duck</strong> <br/>Frank Lake, Alberta. July, 2026'
+			},
+			{
+				image: d13,
+				caption: '<strong>Ruddy Duck</strong>lings <br/>Bridlewood Wetlands, Alberta. July, 2026'
+			},
+			{
+				image: d19,
+				caption:
+					'Male <strong>Ruddy Duck</strong> (centre) and female (right). Female Northern Shoveler (left) <br/>Weed Lake, Alberta. August, 2026'
+			}
+		],
+		// SNOW GEESE
 		[
 			// {
 			// 	image: d36,
@@ -151,7 +274,6 @@
 				caption:
 					'<strong>Snow Geese</strong> - and White-fronted geese.<br/> Lathom, Alberta. October, 2026'
 			},
-
 			{
 				image: d58,
 				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
@@ -161,137 +283,24 @@
 				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
 			}
 		],
-		// gadwall
-		[
-			{
-				image: d08,
-				caption: 'Female <strong>Gadwall</strong> <br/>Weed Lake, Alberta. August, 2026'
-			},
-			{
-				image: d09,
-				caption: 'Female <strong>Gadwall</strong> <br/>Weed Lake, Alberta. August, 2026'
-			},
-			{
-				image: d15,
-				caption: 'Female <strong>Gadwall</strong> and young. <br/>Weed Lake, Alberta. August, 2026'
-			},
-			{
-				image: d41,
-				caption:
-					'Male <strong>Gadwall</strong>. <br/>Telford Lake, Leduc County, Alberta. September, 2026'
-			},
-			{
-				image: d42,
-				caption:
-					'<strong>Gadwall</strong>, being harassed by a muskrat. <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
-			},
-			{
-				image: d46,
-				caption:
-					'<strong>Gadwall</strong> <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
-			},
-			{
-				image: d47,
-				caption:
-					'<strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
-			},
-			{
-				image: d48,
-				caption:
-					'<strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
-			},
-			{
-				image: d49,
-				caption:
-					'<strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
-			}
-		],
-		[
-			{
-				image: d01,
-				caption: 'Female <strong>Mallard</strong> <br/>Bridlewood Wetlands, Calgary. July, 2026'
-			},
-			{
-				image: d02,
-				caption: 'Female <strong>Mallard</strong> <br/>Bridlewood Wetlands, Calgary. July, 2026'
-			},
-			{
-				image: d03,
-				caption: 'Female <strong>Mallard</strong> <br/>Bridlewood Wetlands, Calgary. July, 2026'
-			},
-			{
-				image: d20,
-				caption:
-					'Female <strong>Mallard</strong> and chicks (with female Ruddy Duck) <br/>Weed Lake, Alberta. August, 2026'
-			}
-		],
-		[
-			{
-				image: d22,
-				caption: '<strong>Common Merganser</strong>. <br/>Lafarge Meadows, Calgary. August, 2026'
-			},
-			{
-				image: d23,
-				caption: '<strong>Common Merganser</strong>. <br/>Lafarge Meadows, Calgary. August, 2026'
-			},
-			{
-				image: d07,
-				caption:
-					'Immature <strong>Common Mergansers</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
-			}
-		],
-		[
-			{
-				image: d07,
-				caption:
-					'Immature (?)<strong>Redhead</strong>. <br/>Kinbrook Island Provincial Park. October, 2026'
-			}
-		],
-		[
-			{
-				image: d10,
-				caption: '<strong>Northern Shoveler</strong> <br/>Weed Lake, Alberta. August, 2026'
-			},
-			{
-				image: d16,
-				caption: '<strong>Northern Shoveler</strong>s <br/>Weed Lake, Alberta. August, 2026'
-			}
-		],
-		[
-			{
-				image: d26,
-				caption: '<strong>Blue-winged Teal</strong> <br/>Cochrane, Alberta. September, 2026'
-			}
-		],
-		[
-			{
-				image: d17,
-				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. August, 2026'
-			},
-			{
-				image: d18,
-				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. August, 2026'
-			}
-		],
-		[
-			{
-				image: d12,
-				caption: '<strong>Ruddy Duck</strong> <br/>Frank Lake, Alberta. July, 2026'
-			},
-			{
-				image: d14,
-				caption: '<strong>Ruddy Duck</strong> <br/>Frank Lake, Alberta. July, 2026'
-			},
-			{
-				image: d13,
-				caption: '<strong>Ruddy Duck</strong>lings <br/>Bridlewood Wetlands, Alberta. July, 2026'
-			},
-			{
-				image: d19,
-				caption:
-					'Male <strong>Ruddy Duck</strong> (centre) and female (right). Female Northern Shoveler (left) <br/>Weed Lake, Alberta. August, 2026'
-			}
-		],
+
+		// [
+		// 	{
+		// 		image: d22,
+		// 		caption: '<strong>Common Merganser</strong>. <br/>Lafarge Meadows, Calgary. August, 2026'
+		// 	},
+		// 	{
+		// 		image: d23,
+		// 		caption: '<strong>Common Merganser</strong>. <br/>Lafarge Meadows, Calgary. August, 2026'
+		// 	},
+		// 	{
+		// 		image: d07,
+		// 		caption:
+		// 			'Immature <strong>Common Mergansers</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
+		// 	}
+		// ],
+
+		// LESSER SCAUP
 		[
 			{
 				image: d11,
@@ -302,6 +311,7 @@
 				caption: '<strong>Lesser Scaup</strong>. <br/>Three Hills, Alberta. August, 2026'
 			}
 		],
+		// TRUMPETER SWAN
 		[
 			{
 				image: d27,
@@ -343,6 +353,7 @@
 				caption: '<strong>Trumpeter Swan</strong> <br/> Lacombe County, Alberta. September, 2026'
 			}
 		],
+		// WOOD DUCK
 		[
 			{
 				image: d06,
@@ -366,7 +377,7 @@
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Ducks';
+	let title = 'Ducks, Swans and Geese';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 </script>
