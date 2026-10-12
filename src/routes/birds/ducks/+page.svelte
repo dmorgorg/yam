@@ -90,11 +90,11 @@
 			// 	caption:
 			// 		'A few <strong>Snow Geese</strong> amongst the Canada Geese <br/>Stettler County, Alberta. September, 2026'
 			// },
-			{
-				image: d38,
-				caption:
-					'A few <strong>Snow Geese</strong> amongst the Canada Geese <br/>Stettler County, Alberta. September, 2026'
-			},
+			// {
+			// 	image: d38,
+			// 	caption:
+			// 		'A few <strong>Snow Geese</strong> amongst the Canada Geese <br/>Stettler County, Alberta. September, 2026'
+			// },
 			{
 				image: d51,
 				caption:
