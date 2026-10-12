@@ -70,6 +70,8 @@
 	import d68 from '$lib/images/birds/2026/10/2026-10-09-153931.jpg?enhanced';
 	import d69 from '$lib/images/birds/2026/10/2026-10-10-160230.jpg?enhanced';
 	import d70 from '$lib/images/birds/2026/10/2026-10-10-180242.jpg?enhanced';
+	import d71 from '$lib/images/birds/2026/09/2026-09-13-154613-PR.jpg?enhanced';
+	import d72 from '$lib/images/birds/2026/09/2026-09-13-125221-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		// BLUE-WINGED TEAL
@@ -110,6 +112,15 @@
 			{
 				image: d70,
 				caption: '<strong>Canada Geese</strong> <br/>Rosemary, Alberta. October, 2026'
+			},
+			{
+				image: d72,
+				caption: '<strong>Canada Geese</strong> <br/>Red Deer, Alberta. September, 2026'
+			},
+			{
+				image: d71,
+				caption:
+					'<strong>Canada Geese</strong> (on patrol?)<br/>Erskine Lake, Alberta. September, 2026'
 			}
 		],
 		// CANVASBACK
