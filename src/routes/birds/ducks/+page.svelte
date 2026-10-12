@@ -63,6 +63,13 @@
 	import d61 from '$lib/images/birds/2026/10/2026-10-11-175411.jpg?enhanced';
 	import d62 from '$lib/images/birds/2026/10/2026-10-11-175738.jpg?enhanced';
 	import d63 from '$lib/images/birds/2026/10/2026-10-11-180031.jpg?enhanced';
+	import d64 from '$lib/images/birds/2026/09/2026-09-12-145933-PR.jpg?enhanced';
+	import d65 from '$lib/images/birds/2026/09/2026-09-11-153022-1-PR.jpg?enhanced';
+	import d66 from '$lib/images/birds/2026/09/2026-09-12-150223-PR.jpg?enhanced';
+	import d67 from '$lib/images/birds/2026/10/2026-10-09-153541.jpg?enhanced';
+	import d68 from '$lib/images/birds/2026/10/2026-10-09-153931.jpg?enhanced';
+	import d69 from '$lib/images/birds/2026/10/2026-10-10-160230.jpg?enhanced';
+	import d70 from '$lib/images/birds/2026/10/2026-10-10-180242.jpg?enhanced';
 
 	export const imagesArray = [
 		// BLUE-WINGED TEAL
@@ -70,6 +77,39 @@
 			{
 				image: d26,
 				caption: '<strong>Blue-winged Teal</strong> <br/>Cochrane, Alberta. September, 2026'
+			}
+		],
+		// CANADA GOOSE
+		[
+			{
+				image: d64,
+				caption: '<strong>Canada Geese</strong> <br/>Erskine Lake, Alberta. September, 2026'
+			},
+			{
+				image: d65,
+				caption: '<strong>Canada Geese</strong> <br/>Erskine Lake, Alberta. September, 2026'
+			},
+			{
+				image: d66,
+				caption: '<strong>Canada Geese</strong> <br/>Erskine Lake, Alberta. September, 2026'
+			},
+			{
+				image: d67,
+				caption:
+					'<strong>Canada Geese</strong> <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d68,
+				caption:
+					'<strong>Canada Geese</strong> <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d69,
+				caption: '<strong>Canada Geese</strong> <br/>Rosemary, Alberta. October, 2026'
+			},
+			{
+				image: d70,
+				caption: '<strong>Canada Geese</strong> <br/>Rosemary, Alberta. October, 2026'
 			}
 		],
 		// CANVASBACK
