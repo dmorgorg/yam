@@ -60,6 +60,9 @@
 	import d58 from '$lib/images/birds/2026/10/2026-10-10-175743.jpg?enhanced';
 	import d59 from '$lib/images/birds/2026/10/2026-10-10-175750.jpg?enhanced';
 	import d60 from '$lib/images/birds/2026/10/2026-10-10-175420.jpg?enhanced';
+	import d61 from '$lib/images/birds/2026/10/2026-10-11-175411.jpg?enhanced';
+	import d62 from '$lib/images/birds/2026/10/2026-10-11-175738.jpg?enhanced';
+	import d63 from '$lib/images/birds/2026/10/2026-10-11-180031.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -79,6 +82,7 @@
 					'<strong>Canvasbacks</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
 			}
 		],
+		// snow geese
 		[
 			// {
 			// 	image: d36,
@@ -117,6 +121,21 @@
 			},
 			{
 				image: d55,
+				caption:
+					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+			},
+			{
+				image: d61,
+				caption:
+					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+			},
+			{
+				image: d62,
+				caption:
+					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+			},
+			{
+				image: d63,
 				caption:
 					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
 			},
