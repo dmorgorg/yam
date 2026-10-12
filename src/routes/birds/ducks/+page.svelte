@@ -50,6 +50,16 @@
 	import d48 from '$lib/images/birds/2026/10/2026-10-09-124841.jpg?enhanced';
 	import d49 from '$lib/images/birds/2026/10/2026-10-09-124954.jpg?enhanced';
 	import d50 from '$lib/images/birds/2026/10/2026-10-09-143602.jpg?enhanced';
+	import d51 from '$lib/images/birds/2026/10/2026-10-10-175200.jpg?enhanced';
+	import d52 from '$lib/images/birds/2026/10/2026-10-10-175500.jpg?enhanced';
+	import d53 from '$lib/images/birds/2026/10/2026-10-10-175518.jpg?enhanced';
+	import d54 from '$lib/images/birds/2026/10/2026-10-10-175725.jpg?enhanced';
+	import d55 from '$lib/images/birds/2026/10/2026-10-11-163328.jpg?enhanced';
+	import d56 from '$lib/images/birds/2026/10/2026-10-11-172727.jpg?enhanced';
+	import d57 from '$lib/images/birds/2026/10/2026-10-11-181546.jpg?enhanced';
+	import d58 from '$lib/images/birds/2026/10/2026-10-10-175743.jpg?enhanced';
+	import d59 from '$lib/images/birds/2026/10/2026-10-10-175750.jpg?enhanced';
+	import d60 from '$lib/images/birds/2026/10/2026-10-10-175420.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -70,20 +80,67 @@
 			}
 		],
 		[
-			{
-				image: d36,
-				caption:
-					'A few <strong>Snow Geese</strong> amongst the Canada Geese <br/>Stettler County, Alberta. September, 2026'
-			},
-			{
-				image: d37,
-				caption:
-					'A few <strong>Snow Geese</strong> amongst the Canada Geese <br/>Stettler County, Alberta. September, 2026'
-			},
+			// {
+			// 	image: d36,
+			// 	caption:
+			// 		'A few <strong>Snow Geese</strong> amongst the Canada Geese <br/>Stettler County, Alberta. September, 2026'
+			// },
+			// {
+			// 	image: d37,
+			// 	caption:
+			// 		'A few <strong>Snow Geese</strong> amongst the Canada Geese <br/>Stettler County, Alberta. September, 2026'
+			// },
 			{
 				image: d38,
 				caption:
 					'A few <strong>Snow Geese</strong> amongst the Canada Geese <br/>Stettler County, Alberta. September, 2026'
+			},
+			{
+				image: d51,
+				caption:
+					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+			},
+			{
+				image: d52,
+				caption:
+					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+			},
+			// {
+			// 	image: d53,
+			// 	caption:
+			// 		'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+			// },
+			{
+				image: d54,
+				caption:
+					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+			},
+			{
+				image: d55,
+				caption:
+					'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+			},
+			{
+				image: d56,
+				caption:
+					'<strong>Snow Geese</strong> - and White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+			},
+			{
+				image: d57,
+				caption:
+					'<strong>Snow Geese</strong> - and White-fronted geese.<br/> Lathom, Alberta. October, 2026'
+			},
+			{
+				image: d58,
+				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
+			},
+			{
+				image: d59,
+				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
+			},
+			{
+				image: d60,
+				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
 			}
 		],
 		[
