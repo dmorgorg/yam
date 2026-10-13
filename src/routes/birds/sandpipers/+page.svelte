@@ -20,34 +20,31 @@
 	import s18 from '$lib/images/birds/2026/08/2026-08-31-184500-PR.jpg?enhanced';
 	import s19 from '$lib/images/birds/2026/08/2026-08-29-181514-PR.jpg?enhanced';
 	import s20 from '$lib/images/birds/2026/09/2026-09-01-164619-PR.jpg?enhanced';
+	import s21 from '$lib/images/birds/2026/09/2026-09-26-144226.jpg?enhanced';
+	import s22 from '$lib/images/birds/2026/09/2026-09-26-144930.jpg?enhanced';
 
 	export const imagesArray = [
+		// LONG-BILLED DOWITCHER
+		[
+			{
+				image: s21,
+				caption:
+					'<strong>Long-billed Dowitcher</strong>. <br/>Kinbrook Provincial Park, Alberta. September, 2026'
+			},
+			{
+				image: s22,
+				caption:
+					'<strong>Long-billed Dowitcher</strong>. <br/>Kinbrook Provincial Park, Alberta. September, 2026'
+			}
+		],
+		// BAIRD'S SANDPIPER
 		[
 			{
 				image: s20,
-				caption:
-					"<strong>Baird's Sandpiper</strong>. <br/>Three Hills, Alberta (finishers.villain.tourists). September, 2026"
+				caption: "<strong>Baird's Sandpiper</strong>. <br/>Three Hills, Alberta. September, 2026"
 			}
 		],
-		[
-			{
-				image: s07,
-				caption: "Juvenile <strong>Wilson's Phalarope</strong>. <br/>Frank Lake, Alberta. July 2026"
-			},
-			{
-				image: s05,
-				caption:
-					"Juvenile <strong>Wilson's Phalaropes</strong>. <br/>Frank Lake, Alberta. July 2026"
-			},
-			{
-				image: s06,
-				caption: "Juvenile <strong>Wilson's Phalarope</strong>. <br/>Frank Lake, Alberta. July 2026"
-			},
-			{
-				image: s04,
-				caption: "Juvenile <strong>Wilson's Phalarope</strong>. <br/>Frank Lake, Alberta. July 2026"
-			}
-		],
+		// LEAST SANDPIPER
 		[
 			{
 				image: s14,
@@ -62,6 +59,7 @@
 				caption: '<strong>Least Sandpiper</strong>. <br/>Weed Lake, Alberta. August 2026'
 			}
 		],
+		// SOLITARY SANDPIPER
 		[
 			{
 				image: s17,
@@ -69,6 +67,7 @@
 					'<strong>Solitary Sandpiper</strong>. <br/>Pearce Estate Park, Calgary. August 2026'
 			}
 		],
+		// SPOTTED SANDPIPER
 		[
 			{
 				image: s09,
@@ -83,6 +82,7 @@
 				caption: '<strong>Spotted Sandpiper</strong>. <br/>Weed Lake, Alberta. August 2026'
 			}
 		],
+		// WILLET
 		[
 			{
 				image: s01,
@@ -102,6 +102,26 @@
 				caption: '<strong>Willet</strong> <br/>Weed Lake, Alberta. August 2026'
 			}
 		],
+		// WILSON'S PHALAROPE
+		[
+			{
+				image: s07,
+				caption: "Juvenile <strong>Wilson's Phalarope</strong>. <br/>Frank Lake, Alberta. July 2026"
+			},
+			{
+				image: s05,
+				caption:
+					"Juvenile <strong>Wilson's Phalaropes</strong>. <br/>Frank Lake, Alberta. July 2026"
+			},
+			{
+				image: s06,
+				caption: "Juvenile <strong>Wilson's Phalarope</strong>. <br/>Frank Lake, Alberta. July 2026"
+			},
+			{
+				image: s04,
+				caption: "Juvenile <strong>Wilson's Phalarope</strong>. <br/>Frank Lake, Alberta. July 2026"
+			}
+		],
 
 		[
 			{
@@ -114,15 +134,13 @@
 			},
 			{
 				image: s18,
-				caption:
-					'<strong>Greater Yellowlegs</strong>. <br/>Three Hills, Alberta (finishers.villain.tourists). August, 2026'
+				caption: '<strong>Greater Yellowlegs</strong>. <br/>Three Hills, Alberta. August, 2026'
 			}
 		],
 		[
 			{
 				image: s19,
-				caption:
-					'<strong>Lesser Yellowlegs</strong>. <br/>Three Hills, Alberta (finishers.villain.tourists). August, 2026'
+				caption: '<strong>Lesser Yellowlegs</strong>. <br/>Three Hills, Alberta. August, 2026'
 			}
 		]
 	];

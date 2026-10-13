@@ -83,6 +83,9 @@
 	import d81 from '$lib/images/birds/2026/10/2026-10-06-181602.jpg?enhanced';
 	import d82 from '$lib/images/birds/2026/09/2026-09-26-144746.jpg?enhanced';
 	import d83 from '$lib/images/birds/2026/09/2026-09-26-171828.jpg?enhanced';
+	import d84 from '$lib/images/birds/2026/09/2026-09-12-143716-1-PR.jpg?enhanced';
+	import d85 from '$lib/images/birds/2026/09/2026-09-26-144930.jpg?enhanced';
+	import d86 from '$lib/images/birds/2026/09/2026-09-17-151143-PR.jpg?enhanced';
 
 	export const imagesArray = [
 		// BLUE-WINGED TEAL
@@ -90,6 +93,10 @@
 			{
 				image: d26,
 				caption: '<strong>Blue-winged Teal</strong> <br/>Cochrane, Alberta. September, 2026'
+			},
+			{
+				image: d84,
+				caption: '<strong>Blue-winged Teal</strong> <br/>Three Hills, Alberta. September, 2026'
 			}
 		],
 		// CANADA GOOSE
@@ -152,6 +159,13 @@
 					'<strong>Canvasbacks</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
 			}
 		],
+		// CINNAMON TEAL
+		[
+			{
+				image: d84,
+				caption: '<strong>Cinnamon Teal</strong><br/>Erskine Lake, Alberta. September, 2026'
+			}
+		],
 		// GADWALL
 		[
 			{
@@ -208,12 +222,12 @@
 				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. August, 2026'
 			},
 			{
-				image: d81,
+				image: d82,
 				caption:
 					'<strong>Green-winged Teal</strong> <br/>Kinbrook Provincial Park, Alberta. September 2026'
 			},
 			{
-				image: d82,
+				image: d83,
 				caption:
 					'<strong>Green-winged Teal</strong> <br/>Kinbrook Provincial Park, Alberta. September 2026'
 			}
@@ -450,6 +464,13 @@
 				image: d80,
 				caption:
 					'<strong>Greater White-fronted Geese</strong> in the middle distance. <br/>Kitsim Reservoir, Alberta. October, 2026'
+			}
+		],
+		// AMERICAN WIGEON
+		[
+			{
+				image: d86,
+				caption: '<strong>American Wigeons</strong> <br/>Three Hills, Alberta. September, 2026'
 			}
 		],
 		// WOOD DUCK

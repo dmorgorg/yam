@@ -15,8 +15,12 @@
 	import g13 from '$lib/images/birds/2026/10/2026-10-02-181507.jpg?enhanced';
 	import g14 from '$lib/images/birds/2026/10/2026-10-02-181611.jpg?enhanced';
 	import g15 from '$lib/images/birds/2026/10/2026-10-03-152449.jpg?enhanced';
+	import g16 from '$lib/images/birds/2026/09/2026-09-13-145808-PR.jpg?enhanced';
+	import g17 from '$lib/images/birds/2026/09/2026-09-13-150009-PR.jpg?enhanced';
+	import g18 from '$lib/images/birds/2026/09/2026-09-13-150027-1-PR.jpg?enhanced';
 
 	export const imagesArray = [
+		// BONAPARTE'S GULL
 		[
 			{
 				image: g01,
@@ -27,6 +31,7 @@
 				caption: "Juvenile <strong>Bonaparte's Gull</strong> <br/>Frank Lake, Alberta. July, 2026"
 			}
 		],
+		// FRANKLIN'S GULL
 		[
 			{
 				image: g04,
@@ -37,6 +42,35 @@
 				caption: "<strong>Franklin's Gulls</strong> <br/>Calgary, Alberta. August, 2026"
 			}
 		],
+		// RING-BILLED GULL
+		[
+			{
+				image: g06,
+				caption: '<strong>Ring-billed Gull</strong> <br/>Harvey Passage, Calgary. August, 2026'
+			},
+			{
+				image: g07,
+				caption: '<strong>Ring-billed Gull</strong> <br/>Harvey Passage, Calgary. August, 2026'
+			},
+			{
+				image: g08,
+				caption:
+					'Non-breeding adult <strong>Ring-billed Gull</strong> <br/>Harvey Passage, Calgary. August, 2026'
+			},
+			{
+				image: g16,
+				caption: '<strong>Ring-billed Gull</strong> <br/>Red Deer, Alberta. September, 2026'
+			},
+			{
+				image: g17,
+				caption: '<strong>Ring-billed Gull</strong> <br/>Red Deer, Alberta. September, 2026'
+			},
+			{
+				image: g18,
+				caption: '<strong>Ring-billed Gull</strong> <br/>Red Deer, Alberta. September, 2026'
+			}
+		],
+		// sABINE'S GULL
 		[
 			{
 				image: g09,
@@ -67,21 +101,7 @@
 				caption: "<strong>Sabine's Gull</strong> <br/>Tilly 'B' Reservoir, Alberta. October, 2026"
 			}
 		],
-		[
-			{
-				image: g06,
-				caption: '<strong>Ring-billed Gull</strong> <br/>Harvey Passage, Calgary. August, 2026'
-			},
-			{
-				image: g07,
-				caption: '<strong>Ring-billed Gull</strong> <br/>Harvey Passage, Calgary. August, 2026'
-			},
-			{
-				image: g08,
-				caption:
-					'Non-breeding adult <strong>Ring-billed Gull</strong> <br/>Harvey Passage, Calgary. August, 2026'
-			}
-		],
+
 		[
 			{
 				image: g03,

@@ -171,6 +171,12 @@
 				Plovers ({count.plovers})
 			</div>
 		</a>
+		<a href="/birds/sandpipers">
+			<div class="photo-link">
+				<enhanced:img src={sandpiper} alt="sandpiper" />
+				Sandpipers ({count.sandpipers})
+			</div>
+		</a>
 		<a href="/birds/sparrows">
 			<div class="photo-link">
 				<enhanced:img src={sparrow} alt="sparrow" />
@@ -183,12 +189,7 @@
 				Starlings ({count.starlings})
 			</div>
 		</a>
-		<a href="/birds/sandpipers">
-			<div class="photo-link">
-				<enhanced:img src={sandpiper} alt="sandpiper" />
-				Sandpipers ({count.sandpipers})
-			</div>
-		</a>
+
 		<a href="/birds/stilts">
 			<div class="photo-link">
 				<enhanced:img src={stilt} alt="stilt" />

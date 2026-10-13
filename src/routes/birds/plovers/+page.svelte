@@ -2,8 +2,10 @@
 	// american coot
 	import p01 from '$lib/images/birds/2026/08/2026-08-07-171541-PR.jpg?enhanced';
 	import p02 from '$lib/images/birds/2026/08/2026-08-07-171909-PR.jpg?enhanced';
+	import p03 from '$lib/images/birds/2026/09/2026-09-22-163907.jpg?enhanced';
 
 	export const imagesArray = [
+		// KILLDEER
 		[
 			{
 				image: p01,
@@ -12,6 +14,13 @@
 			{
 				image: p02,
 				caption: '<strong>Killdeer</strong>. <br/>Frank Lake, Alberta. August, 2026'
+			}
+		],
+		// BLACK-BELLIED PLOVER
+		[
+			{
+				image: p03,
+				caption: '<strong>Black-bellied Plover</strong>. <br/>Three Hills, Alberta. September, 2026'
 			}
 		]
 	];
