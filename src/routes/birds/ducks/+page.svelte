@@ -72,6 +72,17 @@
 	import d70 from '$lib/images/birds/2026/10/2026-10-10-180242.jpg?enhanced';
 	import d71 from '$lib/images/birds/2026/09/2026-09-13-154613-PR.jpg?enhanced';
 	import d72 from '$lib/images/birds/2026/09/2026-09-13-125221-PR.jpg?enhanced';
+	import d73 from '$lib/images/birds/2026/09/2026-09-23-150134.jpg?enhanced';
+	import d74 from '$lib/images/birds/2026/09/2026-09-23-150453.jpg?enhanced';
+	import d75 from '$lib/images/birds/2026/09/2026-09-23-151455.jpg?enhanced';
+	import d76 from '$lib/images/birds/2026/09/2026-09-23-151512.jpg?enhanced';
+	import d77 from '$lib/images/birds/2026/09/2026-09-23-150136.jpg?enhanced';
+	import d78 from '$lib/images/birds/2026/10/2026-10-11-175918.jpg?enhanced';
+	import d79 from '$lib/images/birds/2026/10/2026-10-11-174044.jpg?enhanced';
+	import d80 from '$lib/images/birds/2026/10/2026-10-06-173714.jpg?enhanced';
+	import d81 from '$lib/images/birds/2026/10/2026-10-06-181602.jpg?enhanced';
+	import d82 from '$lib/images/birds/2026/09/2026-09-26-144746.jpg?enhanced';
+	import d83 from '$lib/images/birds/2026/09/2026-09-26-171828.jpg?enhanced';
 
 	export const imagesArray = [
 		// BLUE-WINGED TEAL
@@ -195,6 +206,16 @@
 			{
 				image: d18,
 				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d81,
+				caption:
+					'<strong>Green-winged Teal</strong> <br/>Kinbrook Provincial Park, Alberta. September 2026'
+			},
+			{
+				image: d82,
+				caption:
+					'<strong>Green-winged Teal</strong> <br/>Kinbrook Provincial Park, Alberta. September 2026'
 			}
 		],
 		// MERGANSER
@@ -273,6 +294,19 @@
 			// 	caption:
 			// 		'A few <strong>Snow Geese</strong> amongst the Canada Geese <br/>Stettler County, Alberta. September, 2026'
 			// },
+
+			{
+				image: d74,
+				caption: '<strong>Snow Geese</strong>.<br/> Alix, Alberta. September, 2026'
+			},
+			{
+				image: d75,
+				caption: '<strong>Snow Geese</strong>.<br/> Alix, Alberta. September, 2026'
+			},
+			{
+				image: d76,
+				caption: '<strong>Snow Geese</strong>.<br/> Alix, Alberta. September, 2026'
+			},
 			{
 				image: d62,
 				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
@@ -287,11 +321,6 @@
 				caption:
 					'<strong>Snow Geese</strong> - with Greater White-fronted Geese.<br/> Lathom, Alberta. October, 2026'
 			},
-			// {
-			// 	image: d53,
-			// 	caption:
-			// 		'<strong>Snow Geese</strong> - and a few White-fronted geese.<br/> Lathom, Alberta. October, 2026'
-			// },
 			{
 				image: d54,
 				caption:
@@ -331,25 +360,15 @@
 			},
 			{
 				image: d59,
-				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
+				caption:
+					'<strong>Snow Geese</strong> (and a solitary Greater White-fronted Goose).<br/> Lathom, Alberta. October, 2026'
+			},
+			{
+				image: d59,
+				caption:
+					'<strong>Snow Geese</strong> lined up for takeoff.<br/> Kitsim Reservoir, Alberta. October, 2026'
 			}
 		],
-
-		// [
-		// 	{
-		// 		image: d22,
-		// 		caption: '<strong>Common Merganser</strong>. <br/>Lafarge Meadows, Calgary. August, 2026'
-		// 	},
-		// 	{
-		// 		image: d23,
-		// 		caption: '<strong>Common Merganser</strong>. <br/>Lafarge Meadows, Calgary. August, 2026'
-		// 	},
-		// 	{
-		// 		image: d07,
-		// 		caption:
-		// 			'Immature <strong>Common Mergansers</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
-		// 	}
-		// ],
 
 		// LESSER SCAUP
 		[
@@ -402,6 +421,35 @@
 			{
 				image: d40,
 				caption: '<strong>Trumpeter Swan</strong> <br/> Lacombe County, Alberta. September, 2026'
+			}
+		],
+
+		// GREATER WHITE-FRONTED GOOSE
+		[
+			{
+				image: d73,
+				caption:
+					'A flight of <strong>Greater White-fronted Geese</strong>. <br/>Alix, Alberta. September, 2026'
+			},
+			{
+				image: d77,
+				caption:
+					'A flight of <strong>Greater White-fronted Geese</strong> and Snow Geese. <br/>Alix, Alberta. September, 2026'
+			},
+			{
+				image: d78,
+				caption:
+					'<strong>Greater White-fronted Geese</strong> taking flight. <br/>Rosemary, Alberta. October, 2026'
+			},
+			{
+				image: d79,
+				caption:
+					'<strong>Greater White-fronted Geese</strong> with Snow Geese in the background. <br/>Rosemary, Alberta. October, 2026'
+			},
+			{
+				image: d80,
+				caption:
+					'<strong>Greater White-fronted Geese</strong> in the middle distance. <br/>Kitsim Reservoir, Alberta. October, 2026'
 			}
 		],
 		// WOOD DUCK
