@@ -21,8 +21,33 @@
 	import bb19 from '$lib/images/birds/2026/10/2026-10-02-153500.jpg?enhanced';
 	import bb20 from '$lib/images/birds/2026/10/2026-10-02-153730.jpg?enhanced';
 	import bb21 from '$lib/images/birds/2026/10/2026-10-02-153744.jpg?enhanced';
+	import bb22 from '$lib/images/birds/2026/10/2026-10-11-170622.jpg?enhanced';
+	import bb23 from '$lib/images/birds/2026/10/2026-10-11-170627.jpg?enhanced';
+	import bb24 from '$lib/images/birds/2026/10/2026-10-11-170952.jpg?enhanced';
+	import bb25 from '$lib/images/birds/2026/10/2026-10-11-171053.jpg?enhanced';
+	import bb26 from '$lib/images/birds/2026/10/2026-10-11-170723.jpg?enhanced';
 
 	export const imagesArray = [
+		// COMMON GRACKLE
+		[
+			{
+				image: bb21,
+				caption: '<strong>Common Grackle</strong>. <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: bb20,
+				caption: '<strong>Common Grackle</strong>. <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: bb19,
+				caption: '<strong>Common Grackle</strong>. <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: bb18,
+				caption: '<strong>Common Grackles</strong>. <br/>Newell County, Alberta. October, 2026'
+			}
+		],
+		// RED-WINGED BLACKBIRD
 		[
 			{
 				image: bb04,
@@ -60,8 +85,34 @@
 				image: bb17,
 				caption:
 					'<strong>Red-winged Blackbirds</strong>. <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: bb22,
+				caption:
+					'<strong>Red-winged Blackbirds</strong> take flight. <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: bb23,
+				caption:
+					'<strong>Red-winged Blackbirds</strong> take flight. <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: bb26,
+				caption:
+					'<strong>Red-winged Blackbirds</strong> take flight. <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: bb24,
+				caption:
+					'<strong>Red-winged Blackbirds</strong> - incoming! <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: bb25,
+				caption:
+					'<strong>Red-winged Blackbirds</strong> with one female. <br/>Newell County, Alberta. October, 2026'
 			}
 		],
+		// YELLOW-HEADED BLACKBIRD
 		[
 			{
 				image: bb01,
@@ -76,24 +127,8 @@
 				caption: '<strong>Yellow-headed Blackbird</strong>. <br/>Frank Lake, Alberta. July, 2026'
 			}
 		],
-		[
-			{
-				image: bb21,
-				caption: '<strong>Common Grackle</strong>. <br/>Newell County, Alberta. October, 2026'
-			},
-			{
-				image: bb20,
-				caption: '<strong>Common Grackle</strong>. <br/>Newell County, Alberta. October, 2026'
-			},
-			{
-				image: bb19,
-				caption: '<strong>Common Grackle</strong>. <br/>Newell County, Alberta. October, 2026'
-			},
-			{
-				image: bb18,
-				caption: '<strong>Common Grackles</strong>. <br/>Newell County, Alberta. October, 2026'
-			}
-		],
+
+		// WESTERN MEADOWLARK
 		[
 			{
 				image: bb10,

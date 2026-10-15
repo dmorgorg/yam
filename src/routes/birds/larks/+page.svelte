@@ -2,6 +2,7 @@
 	// larks
 	import l01 from '$lib/images/birds/2026/10/2026-10-02-173138-1.jpg?enhanced';
 	import l02 from '$lib/images/birds/2026/10/2026-10-02-173445.jpg?enhanced';
+	import l03 from '$lib/images/birds/2026/10/2026-10-10-171437.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -12,6 +13,10 @@
 			{
 				image: l02,
 				caption: '<strong> Horned Larks</strong><br/>Newell County, Alberta. October, 2026.'
+			},
+			{
+				image: l03,
+				caption: '<strong> Horned Lark</strong><br/>Newell County, Alberta. October, 2026.'
 			}
 		]
 	];

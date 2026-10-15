@@ -88,6 +88,10 @@
 	import d86 from '$lib/images/birds/2026/09/2026-09-17-151143-PR.jpg?enhanced';
 	import d87 from '$lib/images/birds/2026/10/2026-10-10-150801.jpg?enhanced';
 	import d88 from '$lib/images/birds/2026/10/2026-10-10-154729.jpg?enhanced';
+	import d89 from '$lib/images/birds/2026/10/2026-10-10-161626.jpg?enhanced';
+	import d90 from '$lib/images/birds/2026/10/2026-10-13-152744.jpg?enhanced';
+	import d91 from '$lib/images/birds/2026/10/2026-10-13-154434.jpg?enhanced';
+	import d92 from '$lib/images/birds/2026/10/2026-10-13-154509.jpg?enhanced';
 
 	export const imagesArray = [
 		// BLUE-WINGED TEAL
@@ -190,27 +194,44 @@
 			{
 				image: d42,
 				caption:
-					'<strong>Gadwall</strong>, being harassed by a muskrat. <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+					'Female <strong>Gadwall</strong>, being harassed by a muskrat. <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
 			},
 			{
 				image: d46,
 				caption:
-					'<strong>Gadwall</strong> <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+					'Female <strong>Gadwall</strong> <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
 			},
 			{
 				image: d47,
 				caption:
-					'<strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+					'Female <strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
 			},
 			{
 				image: d48,
 				caption:
-					'<strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+					'Female <strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
 			},
 			{
 				image: d49,
 				caption:
-					'<strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+					'Female <strong>Gadwall</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d89,
+				caption:
+					'Male (right) and female <strong>Gadwall</strong><br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d90,
+				caption: 'Male <strong>Gadwall</strong><br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d91,
+				caption: 'Female <strong>Gadwall</strong><br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d92,
+				caption: 'Female <strong>Gadwall</strong><br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		// GREEN-WINGED TEAL
@@ -256,12 +277,12 @@
 			{
 				image: d87,
 				caption:
-					'Three breeding <strong>Mallards</strong> and young  <br/>Newell County, Alberta. October, 2026'
+					'Three breeding male <strong>Mallards</strong> and young  <br/>Newell County, Alberta. October, 2026'
 			},
 			{
 				image: d88,
 				caption:
-					'Two breeding<strong>Mallards</strong> and young  <br/>Newell County, Alberta. October, 2026'
+					'Two breeding male <strong>Mallards</strong> and young  <br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		// NORTHERN SHOVELER
