@@ -86,6 +86,8 @@
 	import d84 from '$lib/images/birds/2026/09/2026-09-12-143716-1-PR.jpg?enhanced';
 	import d85 from '$lib/images/birds/2026/09/2026-09-26-144930.jpg?enhanced';
 	import d86 from '$lib/images/birds/2026/09/2026-09-17-151143-PR.jpg?enhanced';
+	import d87 from '$lib/images/birds/2026/10/2026-10-10-150801.jpg?enhanced';
+	import d88 from '$lib/images/birds/2026/10/2026-10-10-154729.jpg?enhanced';
 
 	export const imagesArray = [
 		// BLUE-WINGED TEAL
@@ -232,7 +234,7 @@
 					'<strong>Green-winged Teal</strong> <br/>Kinbrook Provincial Park, Alberta. September 2026'
 			}
 		],
-		// MERGANSER
+		// MALLARD
 		[
 			{
 				image: d01,
@@ -250,6 +252,16 @@
 				image: d20,
 				caption:
 					'Female <strong>Mallard</strong> and chicks (with female Ruddy Duck) <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d87,
+				caption:
+					'Three breeding <strong>Mallards</strong> and young  <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d88,
+				caption:
+					'Two breeding<strong>Mallards</strong> and young  <br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		// NORTHERN SHOVELER

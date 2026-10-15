@@ -19,8 +19,23 @@
 	import g17 from '$lib/images/birds/2026/10/2026-10-09-090257.jpg?enhanced';
 	import g18 from '$lib/images/birds/2026/10/2026-10-09-091441.jpg?enhanced';
 	import g19 from '$lib/images/birds/2026/10/2026-10-09-135318.jpg?enhanced';
+	import g20 from '$lib/images/birds/2026/10/2026-10-09-142325.jpg?enhanced';
+	import g21 from '$lib/images/birds/2026/10/2026-10-13-181444.jpg?enhanced';
+	import g22 from '$lib/images/birds/2026/10/2026-10-13-181446.jpg?enhanced';
 
 	export const imagesArray = [
+		[
+			{
+				image: g21,
+				caption:
+					'<strong>Eared Grebe</strong><br/>Kitsum Reservoir, nr Brooks, Alberta. October, 2026'
+			},
+			{
+				image: g22,
+				caption:
+					'<strong>Eared Grebe</strong><br/>Kitsum Reservoir, nr Brooks, Alberta. October, 2026'
+			}
+		],
 		[
 			{
 				image: g06,
@@ -57,7 +72,12 @@
 			{
 				image: g19,
 				caption:
-					'<strong>Pied-billed Grebes</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+					'<strong>Pied-billed Grebe</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: g20,
+				caption:
+					'<strong>Pied-billed Grebe</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
 			}
 		],
 		[
