@@ -16,6 +16,7 @@
 	import c14 from '$lib/images/birds/2026/07/2026-07-29-193707-PR.jpg?enhanced';
 	import c15 from '$lib/images/birds/2026/07/2026-07-29-180502-PR.jpg?enhanced';
 	import c16 from '$lib/images/birds/2026/07/2026-07-29-193440-PR.jpg?enhanced';
+	import c17 from '$lib/images/birds/2026/10/2026-10-13-162631.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -95,6 +96,11 @@
 				image: c10,
 				caption:
 					'Juvenile <strong>American Coot</strong>. <br/> Not webbed, but lobed feet to aid propulsion <br/>Bridlewood Wetlands, Calgary, Alberta. July 2026'
+			},
+			{
+				image: c10,
+				caption:
+					'<strong>American Coots</strong>, protesting my arrival. <br/>Badger Lake Reservoir, Newell County, Alberta. October 2026'
 			}
 		]
 	];

@@ -92,6 +92,10 @@
 	import d90 from '$lib/images/birds/2026/10/2026-10-13-152744.jpg?enhanced';
 	import d91 from '$lib/images/birds/2026/10/2026-10-13-154434.jpg?enhanced';
 	import d92 from '$lib/images/birds/2026/10/2026-10-13-154509.jpg?enhanced';
+	import d93 from '$lib/images/birds/2026/10/2026-10-13-175525.jpg?enhanced';
+	import d94 from '$lib/images/birds/2026/10/2026-10-13-175553.jpg?enhanced';
+	import d95 from '$lib/images/birds/2026/10/2026-10-13-175608.jpg?enhanced';
+	import d96 from '$lib/images/birds/2026/10/2026-10-13-175613.jpg?enhanced';
 
 	export const imagesArray = [
 		// BLUE-WINGED TEAL
@@ -405,15 +409,28 @@
 				image: d58,
 				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
 			},
+
 			{
 				image: d59,
-				caption:
-					'<strong>Snow Geese</strong> (and a solitary Greater White-fronted Goose).<br/> Lathom, Alberta. October, 2026'
+				caption: '<strong>Snow Geese</strong>.<br/> Kitsim Reservoir, Alberta. October, 2026'
 			},
 			{
-				image: d59,
+				image: d93,
+				caption: '<strong>Snow Geese</strong>.<br/> Kitsim Reservoir, Alberta. October, 2026'
+			},
+			{
+				image: d94,
+				caption: '<strong>Snow Geese</strong>.<br/> Kitsim Reservoir, Alberta. October, 2026'
+			},
+			{
+				image: d95,
 				caption:
-					'<strong>Snow Geese</strong> lined up for takeoff.<br/> Kitsim Reservoir, Alberta. October, 2026'
+					'<strong>Snow Geese</strong> - and a few Greater White-fronted Geese.<br/> Kitsim Reservoir, Alberta. October, 2026'
+			},
+			{
+				image: d96,
+				caption:
+					'<strong>Snow Geese</strong> (with a solitary Greater White-fronted Goose).<br/> Kitsim Reservoir, Alberta. October, 2026'
 			}
 		],
 

@@ -18,6 +18,7 @@
 	import g16 from '$lib/images/birds/2026/09/2026-09-13-145808-PR.jpg?enhanced';
 	import g17 from '$lib/images/birds/2026/09/2026-09-13-150009-PR.jpg?enhanced';
 	import g18 from '$lib/images/birds/2026/09/2026-09-13-150027-1-PR.jpg?enhanced';
+	import g19 from '$lib/images/birds/2026/10/2026-10-13-163719.jpg?enhanced';
 
 	export const imagesArray = [
 		// BONAPARTE'S GULL
@@ -68,6 +69,11 @@
 			{
 				image: g18,
 				caption: '<strong>Ring-billed Gull</strong> <br/>Red Deer, Alberta. September, 2026'
+			},
+			{
+				image: g18,
+				caption:
+					'Immature <strong>Ring-billed Gull</strong> <br/>Badger Lake Reservoir, Newell County, Alberta. September, 2026'
 			}
 		],
 		// sABINE'S GULL
