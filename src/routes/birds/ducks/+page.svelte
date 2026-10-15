@@ -289,6 +289,19 @@
 					'Two breeding male <strong>Mallards</strong> and young  <br/>Newell County, Alberta. October, 2026'
 			}
 		],
+		// COMMON MERGANSER
+		[
+			{
+				image: d22,
+				caption:
+					'<strong>Common Merganser</strong> <br/>Lafarge Meadows, Calgary, Alberta. August, 2026'
+			},
+			{
+				image: d23,
+				caption:
+					'<strong>Common Merganser</strong>s <br/>Lafarge Meadows, Calgary, Alberta. August, 2026'
+			}
+		],
 		// NORTHERN SHOVELER
 		[
 			{
@@ -300,6 +313,7 @@
 				caption: '<strong>Northern Shoveler</strong>s <br/>Weed Lake, Alberta. August, 2026'
 			}
 		],
+
 		// REDHEAD
 		[
 			{
