@@ -104,7 +104,12 @@
 	import d102 from '$lib/images/birds/2026/10/2026-10-15-171554.jpg?enhanced';
 	import d103 from '$lib/images/birds/2026/10/2026-10-15-172033.jpg?enhanced';
 	import d104 from '$lib/images/birds/2026/10/2026-10-15-172213.jpg?enhanced';
-	// import d105 from '$lib/images/birds/2026/10/2026-10-15-172213.jpg?enhanced';
+	import d105 from '$lib/images/birds/2026/10/2026-10-18-163924.jpg?enhanced';
+	import d106 from '$lib/images/birds/2026/10/2026-10-18-163934.jpg?enhanced';
+	import d107 from '$lib/images/birds/2026/10/2026-10-18-165503.jpg?enhanced';
+	import d108 from '$lib/images/birds/2026/10/2026-10-18-165646.jpg?enhanced';
+	import d109 from '$lib/images/birds/2026/10/2026-10-18-165743.jpg?enhanced';
+	import d110 from '$lib/images/birds/2026/10/2026-10-18-171723.jpg?enhanced';
 
 	export const imagesArray = [
 		// BLUE-WINGED TEAL
@@ -311,6 +316,19 @@
 					'<strong>Common Merganser</strong>s <br/>Lafarge Meadows, Calgary, Alberta. August, 2026'
 			}
 		],
+		// NORTHERN PINTAIL
+		[
+			{
+				image: d105,
+				caption:
+					'Male <strong>Northern Pintail</strong> amongst the geese <br/>Slough immediately north of McGregor Lake, Milo, Alberta. October, 2026'
+			},
+			{
+				image: d106,
+				caption:
+					'Female <strong>Northern Pintails</strong> in a crowd of geese. <br/>Slough immediately north of McGregor Lake, Milo, Alberta. October, 2026'
+			}
+		],
 		// NORTHERN SHOVELER
 		[
 			{
@@ -353,25 +371,10 @@
 		],
 		// SNOW GEESE
 		[
-			// {
-			// 	image: d36,
-			// 	caption:
-			// 		'A few <strong>Snow Geese</strong> amongst the Canada Geese <br/>Stettler County, Alberta. September, 2026'
-			// },
-			// {
-			// 	image: d37,
-			// 	caption:
-			// 		'A few <strong>Snow Geese</strong> amongst the Canada Geese <br/>Stettler County, Alberta. September, 2026'
-			// },
-			// {
-			// 	image: d38,
-			// 	caption:
-			// 		'A few <strong>Snow Geese</strong> amongst the Canada Geese <br/>Stettler County, Alberta. September, 2026'
-			// },
-
 			{
 				image: d74,
-				caption: '<strong>Snow Geese</strong>.<br/> Alix, Alberta. September, 2026'
+				caption:
+					'<strong>Snow Geese</strong> and a couple of Greater White-fronted Geese.<br/> Alix, Alberta. September, 2026'
 			},
 			{
 				image: d75,
@@ -379,7 +382,8 @@
 			},
 			{
 				image: d76,
-				caption: '<strong>Snow Geese</strong>.<br/> Alix, Alberta. September, 2026'
+				caption:
+					'<strong>Snow Geese</strong> and a Greater White-fronted Goose.<br/> Alix, Alberta. September, 2026'
 			},
 			{
 				image: d62,
@@ -402,7 +406,8 @@
 			},
 			{
 				image: d55,
-				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
+				caption:
+					'<strong>Snow Geese</strong> by the Trans-Canada Highway.<br/> Lathom, Alberta. October, 2026'
 			},
 			{
 				image: d61,
@@ -419,10 +424,10 @@
 				caption:
 					'<strong>Snow Geese</strong> - and White-fronted geese.<br/> Lathom, Alberta. October, 2026'
 			},
-			{
-				image: d60,
-				caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
-			},
+			// {
+			// 	image: d60,
+			// 	caption: '<strong>Snow Geese</strong>.<br/> Lathom, Alberta. October, 2026'
+			// },
 			{
 				image: d56,
 				caption:
@@ -468,7 +473,7 @@
 			{
 				image: d99,
 				caption:
-					'<strong>Snow Geese</strong> and a single Northern Pintail.<br/> Slough immediately north of McGregor Reservoir, Milo, Alberta. October, 2026'
+					'<strong>Snow Geese</strong> and a (female) Northern Pintail.<br/> Slough immediately north of McGregor Reservoir, Milo, Alberta. October, 2026'
 			},
 			{
 				image: d100,
@@ -494,12 +499,27 @@
 				image: d104,
 				caption:
 					'<strong>Snow Geese</strong><br/> Slough immediately north of McGregor Reservoir, Milo, Alberta. October, 2026'
+			},
+			{
+				image: d107,
+				caption:
+					'<strong>Snow Geese</strong><br/> Slough immediately north of McGregor Reservoir, Milo, Alberta. October, 2026'
+			},
+			{
+				image: d108,
+				caption:
+					'<strong>Snow Geese</strong><br/> Slough immediately north of McGregor Reservoir, Milo, Alberta. October, 2026'
+			},
+			{
+				image: d109,
+				caption:
+					'<strong>Snow Geese</strong><br/> Slough immediately north of McGregor Reservoir, Milo, Alberta. October, 2026'
+			},
+			{
+				image: d110,
+				caption:
+					'<strong>Snow Geese</strong><br/> Slough immediately north of McGregor Reservoir, Milo, Alberta. October, 2026'
 			}
-			// {
-			// 	image: d105,
-			// 	caption:
-			// 		'<strong>Snow Geese</strong><br/> Slough immediately north of McGregor Reservoir, Milo, Alberta. October, 2026'
-			// }
 		],
 
 		// LESSER SCAUP
