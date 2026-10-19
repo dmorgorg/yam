@@ -113,6 +113,11 @@
 	import d111 from '$lib/images/birds/2026/10/2026-10-15-151458.jpg?enhanced';
 	import d112 from '$lib/images/birds/2026/10/2026-10-15-151613.jpg?enhanced';
 	import d113 from '$lib/images/birds/2026/10/2026-10-04-140514.jpg?enhanced';
+	import d114 from '$lib/images/birds/2026/10/2026-10-04-163420.jpg?enhanced';
+	import d115 from '$lib/images/birds/2026/10/2026-10-04-171944.jpg?enhanced';
+	import d116 from '$lib/images/birds/2026/10/2026-10-04-180952.jpg?enhanced';
+	import d117 from '$lib/images/birds/2026/10/2026-10-04-181017.jpg?enhanced';
+	import d118 from '$lib/images/birds/2026/10/2026-10-04-181126.jpg?enhanced';
 
 	export const imagesArray = [
 		// BLUE-WINGED TEAL
@@ -124,6 +129,21 @@
 			{
 				image: d84,
 				caption: '<strong>Blue-winged Teal</strong> <br/>Three Hills, Alberta. September, 2026'
+			}
+		],
+		// BUFFLEHEAD
+		[
+			{
+				image: d116,
+				caption: '<strong>Bufflehead</strong> <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d117,
+				caption: '<strong>Bufflehead</strong> <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d118,
+				caption: '<strong>Bufflehead</strong> <br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		// CANADA GOOSE
@@ -591,6 +611,14 @@
 			{
 				image: d40,
 				caption: '<strong>Trumpeter Swan</strong> <br/> Lacombe County, Alberta. September, 2026'
+			},
+			{
+				image: d115,
+				caption: '<strong>Trumpeter Swans</strong> <br/> Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d114,
+				caption: '<strong>Trumpeter Swans</strong> <br/> Newell County, Alberta. October, 2026'
 			}
 		],
 
