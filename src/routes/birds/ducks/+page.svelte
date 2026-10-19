@@ -110,6 +110,9 @@
 	import d108 from '$lib/images/birds/2026/10/2026-10-18-165646.jpg?enhanced';
 	import d109 from '$lib/images/birds/2026/10/2026-10-18-165743.jpg?enhanced';
 	import d110 from '$lib/images/birds/2026/10/2026-10-18-171723.jpg?enhanced';
+	import d111 from '$lib/images/birds/2026/10/2026-10-15-151458.jpg?enhanced';
+	import d112 from '$lib/images/birds/2026/10/2026-10-15-151613.jpg?enhanced';
+	import d113 from '$lib/images/birds/2026/10/2026-10-04-140514.jpg?enhanced';
 
 	export const imagesArray = [
 		// BLUE-WINGED TEAL
@@ -301,6 +304,11 @@
 				image: d88,
 				caption:
 					'Two breeding male <strong>Mallards</strong> and young  <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d113,
+				caption:
+					'Male and female <strong>Mallards</strong> and young  <br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		// COMMON MERGANSER
@@ -338,6 +346,16 @@
 			{
 				image: d16,
 				caption: '<strong>Northern Shoveler</strong>s <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d111,
+				caption:
+					'Female <strong>Northern Shoveler</strong>s <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d112,
+				caption:
+					'Female <strong>Northern Shoveler</strong>s <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
 			}
 		],
 

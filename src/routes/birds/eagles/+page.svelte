@@ -5,8 +5,20 @@
 	import h03 from '$lib/images/birds/2026/09/2026-09-01-185818-PR.jpg?enhanced';
 	import h04 from '$lib/images/birds/2026/09/2026-09-02-160536-PR.jpg?enhanced';
 	import h05 from '$lib/images/birds/2026/09/2026-09-02-162134-PR.jpg?enhanced';
+	import h06 from '$lib/images/birds/2026/10/2026-10-04-143712.jpg?enhanced';
+	import h07 from '$lib/images/birds/2026/10/2026-10-04-143719.jpg?enhanced';
 
 	export const imagesArray = [
+		[
+			{
+				image: h06,
+				caption: '<strong>Bald Eagle</strong>. <br/>Newell County, Alberta. August, 2026.'
+			},
+			{
+				image: h07,
+				caption: '<strong>Bald Eagle</strong>. <br/>Newell County, Alberta. August, 2026.'
+			}
+		],
 		[
 			{
 				image: h01,
