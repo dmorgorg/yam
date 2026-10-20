@@ -22,6 +22,7 @@
 	import s20 from '$lib/images/birds/2026/09/2026-09-01-164619-PR.jpg?enhanced';
 	import s21 from '$lib/images/birds/2026/09/2026-09-26-144226.jpg?enhanced';
 	import s22 from '$lib/images/birds/2026/09/2026-09-26-144930.jpg?enhanced';
+	import s23 from '$lib/images/birds/2026/10/2026-10-04-184507.jpg?enhanced';
 
 	export const imagesArray = [
 		// LONG-BILLED DOWITCHER
@@ -135,6 +136,10 @@
 			{
 				image: s18,
 				caption: '<strong>Greater Yellowlegs</strong>. <br/>Three Hills, Alberta. August, 2026'
+			},
+			{
+				image: s23,
+				caption: '<strong>Greater Yellowlegs</strong>. <br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		[

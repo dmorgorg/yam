@@ -26,6 +26,8 @@
 	import g24 from '$lib/images/birds/2026/10/2026-10-17-173231.jpg?enhanced';
 	import g25 from '$lib/images/birds/2026/10/2026-10-04-183148.jpg?enhanced';
 	import g26 from '$lib/images/birds/2026/10/2026-10-04-183230.jpg?enhanced';
+	import g27 from '$lib/images/birds/2026/10/2026-10-05-164746.jpg?enhanced';
+	import g28 from '$lib/images/birds/2026/10/2026-10-05-170227.jpg?enhanced';
 
 	export const imagesArray = [
 		[
@@ -134,6 +136,14 @@
 				image: g14,
 				caption:
 					'<strong>Red-necked Grebe</strong>. <br/>Kitsim Reservoir nr. Brooks, Alberta. October, 2026'
+			},
+			{
+				image: g27,
+				caption: '<strong>Red-necked Grebe</strong>. <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: g28,
+				caption: '<strong>Red-necked Grebe</strong>. <br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		[

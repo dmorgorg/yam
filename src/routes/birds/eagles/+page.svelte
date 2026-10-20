@@ -7,8 +7,10 @@
 	import h05 from '$lib/images/birds/2026/09/2026-09-02-162134-PR.jpg?enhanced';
 	import h06 from '$lib/images/birds/2026/10/2026-10-04-143712.jpg?enhanced';
 	import h07 from '$lib/images/birds/2026/10/2026-10-04-143719.jpg?enhanced';
+	import h08 from '$lib/images/birds/2026/10/2026-10-05-153425.jpg?enhanced';
 
 	export const imagesArray = [
+		// BALD EAGLE
 		[
 			{
 				image: h06,
@@ -19,6 +21,14 @@
 				caption: '<strong>Bald Eagle</strong>. <br/>Newell County, Alberta. August, 2026.'
 			}
 		],
+		// NORTHERN HARRIER
+		[
+			{
+				image: h08,
+				caption: '<strong>Northern Harrier</strong>. <br/>Newell County, Alberta. October, 2026.'
+			}
+		],
+		// SWAINSON'S HAWK
 		[
 			{
 				image: h01,

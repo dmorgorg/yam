@@ -118,6 +118,14 @@
 	import d116 from '$lib/images/birds/2026/10/2026-10-04-180952.jpg?enhanced';
 	import d117 from '$lib/images/birds/2026/10/2026-10-04-181017.jpg?enhanced';
 	import d118 from '$lib/images/birds/2026/10/2026-10-04-181126.jpg?enhanced';
+	import d119 from '$lib/images/birds/2026/10/2026-10-04-183420.jpg?enhanced';
+	import d120 from '$lib/images/birds/2026/10/2026-10-05-145057.jpg?enhanced';
+	import d121 from '$lib/images/birds/2026/10/2026-10-05-152738.jpg?enhanced';
+	import d122 from '$lib/images/birds/2026/10/2026-10-05-150425.jpg?enhanced';
+	import d123 from '$lib/images/birds/2026/10/2026-10-05-172628.jpg?enhanced';
+	import d124 from '$lib/images/birds/2026/10/2026-10-05-172636.jpg?enhanced';
+	import d125 from '$lib/images/birds/2026/10/2026-10-05-180838.jpg?enhanced';
+	import d126 from '$lib/images/birds/2026/10/2026-10-06-152740.jpg?enhanced';
 
 	export const imagesArray = [
 		// BLUE-WINGED TEAL
@@ -129,6 +137,14 @@
 			{
 				image: d84,
 				caption: '<strong>Blue-winged Teal</strong> <br/>Three Hills, Alberta. September, 2026'
+			},
+			{
+				image: d123,
+				caption: '<strong>Blue-winged Teal</strong> <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d124,
+				caption: '<strong>Blue-winged Teal</strong> <br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		// BUFFLEHEAD
@@ -211,6 +227,10 @@
 			{
 				image: d84,
 				caption: '<strong>Cinnamon Teal</strong><br/>Erskine Lake, Alberta. September, 2026'
+			},
+			{
+				image: d126,
+				caption: '<strong>Cinnamon Teal</strong><br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		// GADWALL
@@ -272,6 +292,10 @@
 			},
 			{
 				image: d92,
+				caption: 'Female <strong>Gadwall</strong><br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d119,
 				caption: 'Female <strong>Gadwall</strong><br/>Newell County, Alberta. October, 2026'
 			}
 		],
@@ -387,6 +411,23 @@
 					'Female <strong>Redhead</strong>. <br/>Kinbrook Island Provincial Park. October, 2026'
 			}
 		],
+		// RING-NECKED DUCKS
+		[
+			{
+				image: d120,
+				caption:
+					'Breeding male<strong> Ring-necked Ducks</strong>. <br/>County Newell, Alberta. October, 2026'
+			},
+			{
+				image: d122,
+				caption:
+					'Breeding male <strong>Ring-necked Ducks</strong>. <br/>County Newell, Alberta. October, 2026'
+			},
+			{
+				image: d121,
+				caption: '<strong>Ring-necked Ducks</strong>. <br/>County Newell, Alberta. October, 2026'
+			}
+		],
 		// RUDDY DUCK
 		[
 			{
@@ -405,6 +446,10 @@
 				image: d19,
 				caption:
 					'Male <strong>Ruddy Duck</strong> (centre) and female (right). Female Northern Shoveler (left) <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d125,
+				caption: 'Male <strong>Ruddy Ducks</strong><br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		// SNOW GEESE
