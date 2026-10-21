@@ -84,6 +84,9 @@
 				<a href="/birds/pelicans">Pelicans ({count.pelicans})</a>
 			</li>
 			<li>
+				<a href="/birds/pipits">Pipits ({count.pipits})</a>
+			</li>
+			<li>
 				<a href="/birds/plovers">Plovers ({count.plovers})</a>
 			</li>
 

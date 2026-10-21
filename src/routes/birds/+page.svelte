@@ -27,6 +27,7 @@
 	import osprey from '$lib/images/birds/2026/08/2026-08-17-170311-PR.jpg?enhanced';
 	import parakeet from '$lib/images/birds/2024/2024-01-19-032700-PR.jpg?enhanced';
 	import pelican from '$lib/images/birds/2026/07/2026-07-29-182931-PR.jpg?enhanced';
+	import pipit from '$lib/images/birds/2026/10/2026-10-03-152602.jpg?enhanced';
 	import plover from '$lib/images/birds/2026/08/2026-08-07-171909-PR.jpg?enhanced';
 	import sandpiper from '$lib/images/birds/2026/07/2026-07-22-164146-1.jpg?enhanced';
 	import shrike from '$lib/images/birds/2026/10/2026-10-03-131209.jpg?enhanced';
@@ -164,6 +165,12 @@
 			<div class="photo-link">
 				<enhanced:img src={pelican} alt="pelican" />
 				Pelicans ({count.pelicans})
+			</div>
+		</a>
+		<a href="/birds/pipits">
+			<div class="photo-link">
+				<enhanced:img src={pipit} alt="pipit" />
+				Pipits ({count.pipits})
 			</div>
 		</a>
 		<a href="/birds/plovers">
