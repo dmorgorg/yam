@@ -29,6 +29,7 @@
 	import pelican from '$lib/images/birds/2026/07/2026-07-29-182931-PR.jpg?enhanced';
 	import plover from '$lib/images/birds/2026/08/2026-08-07-171909-PR.jpg?enhanced';
 	import sandpiper from '$lib/images/birds/2026/07/2026-07-22-164146-1.jpg?enhanced';
+	import shrike from '$lib/images/birds/2026/10/2026-10-03-131209.jpg?enhanced';
 	import sparrow from '$lib/images/birds/2026/09/2026-09-28-180828-1.jpg?enhanced';
 	import starling from '$lib/images/birds/2026/09/2026-09-18-180504.jpg?enhanced';
 	import stilt from '$lib/images/birds/2026/08/2026-08-03-164608-PR.jpg?enhanced';
@@ -175,6 +176,12 @@
 			<div class="photo-link">
 				<enhanced:img src={sandpiper} alt="sandpiper" />
 				Sandpipers ({count.sandpipers})
+			</div>
+		</a>
+		<a href="/birds/shrikes">
+			<div class="photo-link">
+				<enhanced:img src={shrike} alt="shrike" />
+				Shrikes ({count.shrikes})
 			</div>
 		</a>
 		<a href="/birds/sparrows">

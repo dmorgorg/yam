@@ -86,14 +86,18 @@
 			<li>
 				<a href="/birds/plovers">Plovers ({count.plovers})</a>
 			</li>
+
 			<li>
-				<a href="/birds/starlings">Starlings ({count.starlings})</a>
+				<a href="/birds/shrikes">Shrikes ({count.shrikes})</a>
 			</li>
 			<li>
 				<a href="/birds/sandpipers">Sandpipers, etc. ({count.sandpipers})</a>
 			</li>
 			<li>
 				<a href="/birds/sparrows">Sparrows ({count.sparrows})</a>
+			</li>
+			<li>
+				<a href="/birds/starlings">Starlings ({count.starlings})</a>
 			</li>
 			<li>
 				<a href="/birds/stilts">Stilts and Avocets ({count.stilts})</a>
