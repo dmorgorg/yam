@@ -46,7 +46,7 @@
 	}
 	.caption {
 		font-family: 'text';
-		font-size: clamp(14px, 1.75vw, 20px);
+		font-size: clamp(20px, 1.75vw, 30px);
 		line-height: 1.2;
 		margin-block: 0.5em;
 		text-align: center;
