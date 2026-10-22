@@ -22,4 +22,8 @@ body {
   text-align: center;
   transform: translate(-50%, 0);
   width: 70%;
+}
+
+.slider-container {
+  font-size: 30px !important;
 }/*# sourceMappingURL=app.css.map */

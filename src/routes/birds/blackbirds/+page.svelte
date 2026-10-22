@@ -193,9 +193,9 @@
 	}
 	.slider-container {
 		overflow-y: visible;
-
 		margin-bottom: 2em;
 		padding-bottom: 5em;
+		/* color: red; */
 	}
 	.top-matter {
 		display: flex;
