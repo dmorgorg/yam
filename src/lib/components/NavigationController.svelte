@@ -25,7 +25,39 @@
 	function goDown() {
 		vIndex++;
 	}
+
+	const SWIPE_MIN = 50;
+	let startX = 0;
+	let startY = 0;
+	let tracking = false;
+
+	function onTouchStart(e) {
+		if (e.touches.length !== 1) {
+			tracking = false;
+			return;
+		}
+		startX = e.touches[0].clientX;
+		startY = e.touches[0].clientY;
+		tracking = true;
+	}
+	function onTouchEnd(e) {
+		if (!tracking) return;
+		tracking = false;
+		const t = e.changedTouches[0];
+		const dx = t.clientX - startX;
+		const dy = t.clientY - startY;
+		if (Math.max(Math.abs(dx), Math.abs(dy)) < SWIPE_MIN) return;
+		if (Math.abs(dx) > Math.abs(dy)) {
+			if (dx < 0 && isRightVisible) goRight();
+			else if (dx > 0 && isLeftVisible) goLeft();
+		} else {
+			if (dy < 0 && isDownVisible) goDown();
+			else if (dy > 0 && isUpVisible) goUp();
+		}
+	}
 </script>
+
+<svelte:window ontouchstart={onTouchStart} ontouchend={onTouchEnd} />
 
 <div class="controls">
 	{#if isLeftVisible}
