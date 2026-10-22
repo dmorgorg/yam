@@ -46,10 +46,13 @@
 	}
 	.caption {
 		font-family: 'text';
-		font-size: clamp(20px, 1.75vw, 30px);
+		font-size: clamp(15px, 1.75vw, 24px);
 		line-height: 1.2;
 		margin-block: 0.5em;
 		text-align: center;
 		max-width: 90%;
+		@media (max-width: 600px) {
+			font-size: 40px;
+		}
 	}
 </style>
