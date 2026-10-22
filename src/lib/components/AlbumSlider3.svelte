@@ -52,7 +52,7 @@
 		text-align: center;
 		max-width: 90%;
 		@media (max-width: 600px) {
-			font-size: 40px;
+			font-size: 200%;
 		}
 	}
 </style>
