@@ -52,7 +52,7 @@
 		text-align: center;
 		max-width: 90%;
 		@media (max-width: 600px) {
-			font-size: 200%;
+			font-size: clamp(30px, 3.5vw, 48px);
 		}
 	}
 </style>
