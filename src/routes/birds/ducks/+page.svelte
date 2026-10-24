@@ -126,8 +126,8 @@
 	import d124 from '$lib/images/birds/2026/10/2026-10-05-172636.jpg?enhanced';
 	import d125 from '$lib/images/birds/2026/10/2026-10-05-180838.jpg?enhanced';
 	import d126 from '$lib/images/birds/2026/10/2026-10-06-152740.jpg?enhanced';
-	import d127 from '$lib/images/birds/2026/10/2026-10-19-160139jpg?enhanced';
-	import d128 from '$lib/images/birds/2026/10/2026-10-19-160304jpg?enhanced';
+	import d127 from '$lib/images/birds/2026/10/2026-10-19-160139.jpg?enhanced';
+	import d128 from '$lib/images/birds/2026/10/2026-10-19-160304.jpg?enhanced';
 
 	export const imagesArray = [
 		// DUCKS
