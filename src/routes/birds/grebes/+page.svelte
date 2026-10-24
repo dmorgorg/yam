@@ -28,18 +28,20 @@
 	import g26 from '$lib/images/birds/2026/10/2026-10-04-183230.jpg?enhanced';
 	import g27 from '$lib/images/birds/2026/10/2026-10-05-164746.jpg?enhanced';
 	import g28 from '$lib/images/birds/2026/10/2026-10-05-170227.jpg?enhanced';
+	import g29 from '$lib/images/birds/2026/10/2026-10-20-150357.jpg?enhanced';
+	import g30 from '$lib/images/birds/2026/10/2026-10-22-124703.jpg?enhanced';
 
 	export const imagesArray = [
 		[
 			{
 				image: g21,
 				caption:
-					'<strong>Eared Grebe</strong><br/>Kitsum Reservoir, nr Brooks, Alberta. October, 2026'
+					'<strong>Eared Grebe</strong><br/>Kitsim Reservoir, Newell County, Alberta. October, 2026'
 			},
 			{
 				image: g22,
 				caption:
-					'<strong>Eared Grebe</strong><br/>Kitsum Reservoir, nr Brooks, Alberta. October, 2026'
+					'<strong>Eared Grebe</strong><br/>Kitsim Reservoir, Newell County, Alberta. October, 2026'
 			},
 			{
 				image: g23,
@@ -50,6 +52,11 @@
 				image: g24,
 				caption:
 					'<strong>Eared Grebes</strong><br/>Kinbrook Island Provincial Park, Alberta. October, ,2026'
+			},
+			{
+				image: g29,
+				caption:
+					'<strong>Eared Grebes</strong><br/>Kitsim Reservoir, Newell County, Alberta. October, ,2026'
 			}
 		],
 		[
@@ -104,6 +111,11 @@
 				image: g26,
 				caption:
 					'<strong>Pied-billed Grebe</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: g30,
+				caption:
+					"<strong>Pied-billed Grebes</strong><br/>Tilley 'B' Reservoir, Newell County, Alberta. October, 2026"
 			}
 		],
 		[

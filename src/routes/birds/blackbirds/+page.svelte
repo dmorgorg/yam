@@ -26,6 +26,8 @@
 	import bb24 from '$lib/images/birds/2026/10/2026-10-11-170952.jpg?enhanced';
 	import bb25 from '$lib/images/birds/2026/10/2026-10-11-171053.jpg?enhanced';
 	import bb26 from '$lib/images/birds/2026/10/2026-10-11-170723.jpg?enhanced';
+	import bb27 from '$lib/images/birds/2026/10/2026-10-22-154947.jpg?enhanced';
+	import bb28 from '$lib/images/birds/2026/10/2026-10-22-155138.jpg?enhanced';
 
 	export const imagesArray = [
 		// COMMON GRACKLE
@@ -110,6 +112,16 @@
 				image: bb25,
 				caption:
 					'<strong>Red-winged Blackbirds</strong> with one female. <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: bb27,
+				caption:
+					'Male and female (upper) <strong>Red-winged Blackbirds</strong>. <br/>Timko Lake (Bantry Reservoir), Newell County, Alberta. October, 2026'
+			},
+			{
+				image: bb28,
+				caption:
+					'Male <strong>Red-winged Blackbird</strong>. <br/>Timko Lake (Bantry Reservoir), Newell County, Alberta. October, 2026'
 			}
 		],
 		// YELLOW-HEADED BLACKBIRD
