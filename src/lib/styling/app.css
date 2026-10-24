@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-y: hidden;
+  font-size: 20px;
 }
 
 *,
@@ -12,18 +13,51 @@ body {
   box-sizing: inherit;
 }
 
+.top-matter {
+  display: flex;
+  font-family: cordelius;
+  font-size: 275%;
+  font-weight: bold;
+  height: 2em;
+  justify-content: space-between;
+  min-height: 2rem;
+  padding: 0.25em;
+  text-align: left;
+}
+
+.bird-type-page-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* background: pink; */
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 3em;
+  gap: 1em;
+  /* border: 3px solid green; */
+}
+.bird-type-page-links a:link,
+.bird-type-page-links a:visited,
+.bird-type-page-links a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.bird-type-page-links .photo-link {
+  font-family: "text";
+  margin-bottom: 2em;
+  text-align: center;
+  width: 15em;
+  max-width: 16em;
+}
+
 .albumTitle {
   position: absolute;
   font-family: cordelius;
-  font-size: 137.5%;
+  font-size: 150%;
   font-weight: bold;
   top: clamp(10px, 0.875vw, 25px);
   left: 50%;
   text-align: center;
   transform: translate(-50%, 0);
   width: 70%;
-}
-
-.slider-container {
-  font-size: 30px !important;
 }/*# sourceMappingURL=app.css.map */

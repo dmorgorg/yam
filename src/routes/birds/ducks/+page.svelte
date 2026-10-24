@@ -126,27 +126,12 @@
 	import d124 from '$lib/images/birds/2026/10/2026-10-05-172636.jpg?enhanced';
 	import d125 from '$lib/images/birds/2026/10/2026-10-05-180838.jpg?enhanced';
 	import d126 from '$lib/images/birds/2026/10/2026-10-06-152740.jpg?enhanced';
+	import d127 from '$lib/images/birds/2026/10/2026-10-19-160139jpg?enhanced';
+	import d128 from '$lib/images/birds/2026/10/2026-10-19-160304jpg?enhanced';
 
 	export const imagesArray = [
-		// BLUE-WINGED TEAL
-		[
-			{
-				image: d26,
-				caption: '<strong>Blue-winged Teal</strong> <br/>Cochrane, Alberta. September, 2026'
-			},
-			{
-				image: d84,
-				caption: '<strong>Blue-winged Teal</strong> <br/>Three Hills, Alberta. September, 2026'
-			},
-			{
-				image: d123,
-				caption: '<strong>Blue-winged Teal</strong> <br/>Newell County, Alberta. October, 2026'
-			},
-			{
-				image: d124,
-				caption: '<strong>Blue-winged Teal</strong> <br/>Newell County, Alberta. October, 2026'
-			}
-		],
+		// DUCKS
+
 		// BUFFLEHEAD
 		[
 			{
@@ -160,48 +145,6 @@
 			{
 				image: d118,
 				caption: '<strong>Bufflehead</strong> <br/>Newell County, Alberta. October, 2026'
-			}
-		],
-		// CANADA GOOSE
-		[
-			{
-				image: d64,
-				caption: '<strong>Canada Geese</strong> <br/>Erskine Lake, Alberta. September, 2026'
-			},
-			{
-				image: d65,
-				caption: '<strong>Canada Geese</strong> <br/>Erskine Lake, Alberta. September, 2026'
-			},
-			{
-				image: d66,
-				caption: '<strong>Canada Geese</strong> <br/>Erskine Lake, Alberta. September, 2026'
-			},
-			{
-				image: d67,
-				caption:
-					'<strong>Canada Geese</strong> <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
-			},
-			{
-				image: d68,
-				caption:
-					'<strong>Canada Geese</strong> <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
-			},
-			{
-				image: d69,
-				caption: '<strong>Canada Geese</strong> <br/>Rosemary, Alberta. October, 2026'
-			},
-			{
-				image: d70,
-				caption: '<strong>Canada Geese</strong> <br/>Rosemary, Alberta. October, 2026'
-			},
-			{
-				image: d72,
-				caption: '<strong>Canada Geese</strong> <br/>Red Deer, Alberta. September, 2026'
-			},
-			{
-				image: d71,
-				caption:
-					'<strong>Canada Geese</strong> (on patrol?)<br/>Erskine Lake, Alberta. September, 2026'
 			}
 		],
 		// CANVASBACK
@@ -222,17 +165,7 @@
 					'<strong>Canvasbacks</strong><br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
 			}
 		],
-		// CINNAMON TEAL
-		[
-			{
-				image: d84,
-				caption: '<strong>Cinnamon Teal</strong><br/>Erskine Lake, Alberta. September, 2026'
-			},
-			{
-				image: d126,
-				caption: '<strong>Cinnamon Teal</strong><br/>Newell County, Alberta. October, 2026'
-			}
-		],
+
 		// GADWALL
 		[
 			{
@@ -299,27 +232,20 @@
 				caption: 'Female <strong>Gadwall</strong><br/>Newell County, Alberta. October, 2026'
 			}
 		],
-		// GREEN-WINGED TEAL
+		// BARROW'S GOLDENEYES
 		[
 			{
-				image: d17,
-				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. August, 2026'
-			},
-			{
-				image: d18,
-				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. August, 2026'
-			},
-			{
-				image: d82,
+				image: d127,
 				caption:
-					'<strong>Green-winged Teal</strong> <br/>Kinbrook Provincial Park, Alberta. September 2026'
+					"A family of  <strong>Barrow's Goldeneyes</strong><br/>Kitsim Reservoir, Newell County, Alberta. October, 2026"
 			},
 			{
-				image: d83,
+				image: d128,
 				caption:
-					'<strong>Green-winged Teal</strong> <br/>Kinbrook Provincial Park, Alberta. September 2026'
+					"An adult male <strong>Barrow's Goldeneye</strong><br/>Kitsim Reservoir, Newell County, Alberta. October, 2026"
 			}
 		],
+
 		// MALLARD
 		[
 			{
@@ -381,28 +307,6 @@
 					'Female <strong>Northern Pintails</strong> in a crowd of geese. <br/>Slough immediately north of McGregor Lake, Milo, Alberta. October, 2026'
 			}
 		],
-		// NORTHERN SHOVELER
-		[
-			{
-				image: d10,
-				caption: '<strong>Northern Shoveler</strong> <br/>Weed Lake, Alberta. August, 2026'
-			},
-			{
-				image: d16,
-				caption: '<strong>Northern Shoveler</strong>s <br/>Weed Lake, Alberta. August, 2026'
-			},
-			{
-				image: d111,
-				caption:
-					'Female <strong>Northern Shoveler</strong>s <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
-			},
-			{
-				image: d112,
-				caption:
-					'Female <strong>Northern Shoveler</strong>s <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
-			}
-		],
-
 		// REDHEAD
 		[
 			{
@@ -452,6 +356,235 @@
 				caption: 'Male <strong>Ruddy Ducks</strong><br/>Newell County, Alberta. October, 2026'
 			}
 		],
+		// LESSER SCAUP
+		[
+			{
+				image: d11,
+				caption: '<strong>Lesser Scaup</strong> <br/>Big Hill Springs PP, Alberta. July, 2026'
+			},
+			{
+				image: d24,
+				caption: '<strong>Lesser Scaup</strong>. <br/>Three Hills, Alberta. August, 2026'
+			}
+		],
+		// NORTHERN SHOVELER
+		[
+			{
+				image: d10,
+				caption: '<strong>Northern Shoveler</strong> <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d16,
+				caption: '<strong>Northern Shoveler</strong>s <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d111,
+				caption:
+					'Female <strong>Northern Shoveler</strong>s <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d112,
+				caption:
+					'Female <strong>Northern Shoveler</strong>s <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			}
+		],
+
+		// BLUE-WINGED TEAL
+		[
+			{
+				image: d26,
+				caption: '<strong>Blue-winged Teal</strong> <br/>Cochrane, Alberta. September, 2026'
+			},
+			{
+				image: d84,
+				caption: '<strong>Blue-winged Teal</strong> <br/>Three Hills, Alberta. September, 2026'
+			},
+			{
+				image: d123,
+				caption: '<strong>Blue-winged Teal</strong> <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d124,
+				caption: '<strong>Blue-winged Teal</strong> <br/>Newell County, Alberta. October, 2026'
+			}
+		],
+		// CINNAMON TEAL
+		[
+			{
+				image: d84,
+				caption: '<strong>Cinnamon Teal</strong><br/>Erskine Lake, Alberta. September, 2026'
+			},
+			{
+				image: d126,
+				caption: '<strong>Cinnamon Teal</strong><br/>Newell County, Alberta. October, 2026'
+			}
+		],
+
+		// GREEN-WINGED TEAL
+		[
+			{
+				image: d17,
+				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d18,
+				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. August, 2026'
+			},
+			{
+				image: d82,
+				caption:
+					'<strong>Green-winged Teal</strong> <br/>Kinbrook Provincial Park, Alberta. September 2026'
+			},
+			{
+				image: d83,
+				caption:
+					'<strong>Green-winged Teal</strong> <br/>Kinbrook Provincial Park, Alberta. September 2026'
+			}
+		],
+		// AMERICAN WIGEON
+		[
+			{
+				image: d86,
+				caption: '<strong>American Wigeons</strong> <br/>Three Hills, Alberta. September, 2026'
+			}
+		],
+		// WOOD DUCK
+		[
+			{
+				image: d06,
+				caption:
+					'An eclipse male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
+			},
+			{
+				image: d05,
+				caption:
+					'An eclipse male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
+			}
+		],
+		// SWANS
+
+		// TRUMPETER SWAN
+		[
+			{
+				image: d27,
+				caption: '<strong>Trumpeter Swan</strong> <br/> Cochrane, Alberta. September, 2026'
+			},
+			{
+				image: d28,
+				caption: 'Juvenile <strong>Trumpeter Swan</strong> <br/> Cochrane, Alberta. September, 2026'
+			},
+			{
+				image: d31,
+				caption:
+					'Juvenile <strong>Trumpeter Swans</strong> <br/> Cochrane, Alberta. September, 2026'
+			},
+			{
+				image: d32,
+				caption:
+					'Juvenile <strong>Trumpeter Swans</strong> with adult. <br/> Cochrane, Alberta. September, 2026'
+			},
+			{
+				image: d25,
+				caption: '<strong>Trumpeter Swans</strong> <br/> Cochrane, Alberta. September, 2026'
+			},
+			{
+				image: d29,
+				caption: '<strong>Trumpeter Swans</strong> <br/> Cochrane, Alberta. September, 2026'
+			},
+			{
+				image: d30,
+				caption: '<strong>Trumpeter Swan</strong> <br/> Cochrane, Alberta. September, 2026'
+			},
+			{
+				image: d39,
+				caption:
+					'<strong>Trumpeter Swans</strong> <br/> Erskine Lake, Stettler County, Alberta. September, 2026'
+			},
+			{
+				image: d40,
+				caption: '<strong>Trumpeter Swan</strong> <br/> Lacombe County, Alberta. September, 2026'
+			},
+			{
+				image: d115,
+				caption: '<strong>Trumpeter Swans</strong> <br/> Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d114,
+				caption: '<strong>Trumpeter Swans</strong> <br/> Newell County, Alberta. October, 2026'
+			}
+		][
+			// GEESE
+
+			// CANADA GOOSE
+			({
+				image: d64,
+				caption: '<strong>Canada Geese</strong> <br/>Erskine Lake, Alberta. September, 2026'
+			},
+			{
+				image: d65,
+				caption: '<strong>Canada Geese</strong> <br/>Erskine Lake, Alberta. September, 2026'
+			},
+			{
+				image: d66,
+				caption: '<strong>Canada Geese</strong> <br/>Erskine Lake, Alberta. September, 2026'
+			},
+			{
+				image: d67,
+				caption:
+					'<strong>Canada Geese</strong> <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d68,
+				caption:
+					'<strong>Canada Geese</strong> <br/>Kinbrook Island Provincial Park, Alberta. October, 2026'
+			},
+			{
+				image: d69,
+				caption: '<strong>Canada Geese</strong> <br/>Rosemary, Alberta. October, 2026'
+			},
+			{
+				image: d70,
+				caption: '<strong>Canada Geese</strong> <br/>Rosemary, Alberta. October, 2026'
+			},
+			{
+				image: d72,
+				caption: '<strong>Canada Geese</strong> <br/>Red Deer, Alberta. September, 2026'
+			},
+			{
+				image: d71,
+				caption:
+					'<strong>Canada Geese</strong> (on patrol?)<br/>Erskine Lake, Alberta. September, 2026'
+			})
+		],
+		// GREATER WHITE-FRONTED GOOSE
+		[
+			{
+				image: d73,
+				caption:
+					'A flight of <strong>Greater White-fronted Geese</strong>. <br/>Alix, Alberta. September, 2026'
+			},
+			{
+				image: d77,
+				caption:
+					'A flight of <strong>Greater White-fronted Geese</strong> and Snow Geese. <br/>Alix, Alberta. September, 2026'
+			},
+			{
+				image: d78,
+				caption:
+					'<strong>Greater White-fronted Geese</strong> taking flight. <br/>Rosemary, Alberta. October, 2026'
+			},
+			{
+				image: d79,
+				caption:
+					'<strong>Greater White-fronted Geese</strong> with Snow Geese in the background. <br/>Rosemary, Alberta. October, 2026'
+			},
+			{
+				image: d80,
+				caption:
+					'<strong>Greater White-fronted Geese</strong> in the middle distance. <br/>Kitsim Reservoir, Alberta. October, 2026'
+			}
+		],
+
 		// SNOW GEESE
 		[
 			{
@@ -602,117 +735,6 @@
 				image: d110,
 				caption:
 					'<strong>Snow Geese</strong><br/> Slough immediately north of McGregor Reservoir, Milo, Alberta. October, 2026'
-			}
-		],
-
-		// LESSER SCAUP
-		[
-			{
-				image: d11,
-				caption: '<strong>Lesser Scaup</strong> <br/>Big Hill Springs PP, Alberta. July, 2026'
-			},
-			{
-				image: d24,
-				caption: '<strong>Lesser Scaup</strong>. <br/>Three Hills, Alberta. August, 2026'
-			}
-		],
-		// TRUMPETER SWAN
-		[
-			{
-				image: d27,
-				caption: '<strong>Trumpeter Swan</strong> <br/> Cochrane, Alberta. September, 2026'
-			},
-			{
-				image: d28,
-				caption: 'Juvenile <strong>Trumpeter Swan</strong> <br/> Cochrane, Alberta. September, 2026'
-			},
-			{
-				image: d31,
-				caption:
-					'Juvenile <strong>Trumpeter Swans</strong> <br/> Cochrane, Alberta. September, 2026'
-			},
-			{
-				image: d32,
-				caption:
-					'Juvenile <strong>Trumpeter Swans</strong> with adult. <br/> Cochrane, Alberta. September, 2026'
-			},
-			{
-				image: d25,
-				caption: '<strong>Trumpeter Swans</strong> <br/> Cochrane, Alberta. September, 2026'
-			},
-			{
-				image: d29,
-				caption: '<strong>Trumpeter Swans</strong> <br/> Cochrane, Alberta. September, 2026'
-			},
-			{
-				image: d30,
-				caption: '<strong>Trumpeter Swan</strong> <br/> Cochrane, Alberta. September, 2026'
-			},
-			{
-				image: d39,
-				caption:
-					'<strong>Trumpeter Swans</strong> <br/> Erskine Lake, Stettler County, Alberta. September, 2026'
-			},
-			{
-				image: d40,
-				caption: '<strong>Trumpeter Swan</strong> <br/> Lacombe County, Alberta. September, 2026'
-			},
-			{
-				image: d115,
-				caption: '<strong>Trumpeter Swans</strong> <br/> Newell County, Alberta. October, 2026'
-			},
-			{
-				image: d114,
-				caption: '<strong>Trumpeter Swans</strong> <br/> Newell County, Alberta. October, 2026'
-			}
-		],
-
-		// GREATER WHITE-FRONTED GOOSE
-		[
-			{
-				image: d73,
-				caption:
-					'A flight of <strong>Greater White-fronted Geese</strong>. <br/>Alix, Alberta. September, 2026'
-			},
-			{
-				image: d77,
-				caption:
-					'A flight of <strong>Greater White-fronted Geese</strong> and Snow Geese. <br/>Alix, Alberta. September, 2026'
-			},
-			{
-				image: d78,
-				caption:
-					'<strong>Greater White-fronted Geese</strong> taking flight. <br/>Rosemary, Alberta. October, 2026'
-			},
-			{
-				image: d79,
-				caption:
-					'<strong>Greater White-fronted Geese</strong> with Snow Geese in the background. <br/>Rosemary, Alberta. October, 2026'
-			},
-			{
-				image: d80,
-				caption:
-					'<strong>Greater White-fronted Geese</strong> in the middle distance. <br/>Kitsim Reservoir, Alberta. October, 2026'
-			}
-		],
-		// AMERICAN WIGEON
-		[
-			{
-				image: d86,
-				caption: '<strong>American Wigeons</strong> <br/>Three Hills, Alberta. September, 2026'
-			}
-		],
-		// WOOD DUCK
-		[
-			{
-				image: d06,
-				caption:
-					'An eclipse male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
-			},
-			{
-				image: d05,
-				caption:
-					'An eclipse male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
 			}
 		]
 	];

@@ -45,10 +45,10 @@
 <div class="outer">
 	<div class="top-matter">
 		<HomeIcon fontSize="clamp(10px, 1.75vw, 20px)" linked="true" />
-		<div class="bird-type">Birds...</div>
+		<!-- <div class="bird-type">Birds...</div> -->
 		<Spacer fontSize="clamp(10px, 1.75vw, 20px)" />
 	</div>
-	<div class="home-page-links">
+	<div class="bird-type-page-links">
 		<a href="/birds/blackbirds">
 			<div class="photo-link">
 				<enhanced:img src={blackbird} alt="blackbirds" />
@@ -267,49 +267,10 @@
 		padding: 0;
 	}
 
-	.top-matter {
-		display: flex;
-		font-family: cordelius;
-		/* font-family: text; */
-		font-size: 175%;
-		font-weight: bold;
-		height: 2em;
-		justify-content: space-between;
-		min-height: 2rem;
-		padding: 0.25em;
-		text-align: left;
-	}
-	.bird-type {
+	/* .bird-type {
 		margin-top: 0.25em;
 		text-decoration: underline;
-	}
-	.home-page-links {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-evenly;
-		/* background: pink; */
-		width: 90%;
-		margin-inline: auto;
-		margin-top: 3em;
-		gap: 1em;
-		/* border: 3px solid green; */
-
-		a:link,
-		a:visited,
-		a:active {
-			text-decoration: none;
-			color: inherit;
-		}
-
-		.photo-link {
-			font-family: 'text';
-			font-size: 80%;
-			margin-bottom: 2em;
-			text-align: center;
-			width: 15em;
-			max-width: 16em;
-		}
-	}
+	} */
 
 	enhanced\:img {
 		box-shadow: 2px 2px 15px 5px #999;
