@@ -128,6 +128,19 @@
 	import d126 from '$lib/images/birds/2026/10/2026-10-06-152740.jpg?enhanced';
 	import d127 from '$lib/images/birds/2026/10/2026-10-19-160139.jpg?enhanced';
 	import d128 from '$lib/images/birds/2026/10/2026-10-19-160304.jpg?enhanced';
+	import d129 from '$lib/images/birds/2026/10/2026-10-19-133846.jpg?enhanced';
+	import d130 from '$lib/images/birds/2026/10/2026-10-20-150059.jpg?enhanced';
+	import d131 from '$lib/images/birds/2026/10/2026-10-20-150159.jpg?enhanced';
+	import d132 from '$lib/images/birds/2026/10/2026-10-22-132214.jpg?enhanced';
+	import d133 from '$lib/images/birds/2026/10/2026-10-22-132309.jpg?enhanced';
+	import d134 from '$lib/images/birds/2026/10/2026-10-22-132740.jpg?enhanced';
+	import d135 from '$lib/images/birds/2026/10/2026-10-22-135236.jpg?enhanced';
+	import d136 from '$lib/images/birds/2026/10/2026-10-22-140424.jpg?enhanced';
+	import d137 from '$lib/images/birds/2026/10/2026-10-22-140536.jpg?enhanced';
+	import d138 from '$lib/images/birds/2026/10/2026-10-22-142346.jpg?enhanced';
+	import d139 from '$lib/images/birds/2026/10/2026-10-22-144024.jpg?enhanced';
+	import d140 from '$lib/images/birds/2026/10/2026-10-22-145153-1.jpg?enhanced';
+	import d141 from '$lib/images/birds/2026/10/2026-10-22-170501.jpg?enhanced';
 
 	export const imagesArray = [
 		// DUCKS
@@ -230,6 +243,10 @@
 			{
 				image: d119,
 				caption: 'Female <strong>Gadwall</strong><br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d129,
+				caption: 'Male <strong>Gadwall</strong><br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		// BARROW'S GOLDENEYES
@@ -305,6 +322,16 @@
 				image: d106,
 				caption:
 					'Female <strong>Northern Pintails</strong> in a crowd of geese. <br/>Slough immediately north of McGregor Lake, Milo, Alberta. October, 2026'
+			},
+			{
+				image: d130,
+				caption:
+					'Three <strong>Northern Pintails</strong>. <br/>Timko Lake (Bantry Reservoir), Alberta. October, 2026'
+			},
+			{
+				image: d130,
+				caption:
+					'<strong>Northern Pintails</strong> taking flight. <br/>Timko Lake (Bantry Reservoir), Alberta. October, 2026'
 			}
 		],
 		// REDHEAD
@@ -512,11 +539,65 @@
 				image: d114,
 				caption: '<strong>Trumpeter Swans</strong> <br/> Newell County, Alberta. October, 2026'
 			}
-		][
+		],
+		[
+			{
+				image: d132,
+				caption:
+					'<strong>Tundra Swans</strong> <br/> Timko Lake (Bantry Reservoir), Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d133,
+				caption:
+					'<strong>Tundra Swans</strong> <br/> Timko Lake (Bantry Reservoir), Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d134,
+				caption:
+					'<strong>Tundra Swans</strong> <br/> Timko Lake (Bantry Reservoir), Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d135,
+				caption:
+					'<strong>Tundra Swans</strong> <br/> Timko Lake (Bantry Reservoir), Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d136,
+				caption:
+					'<strong>Tundra Swans</strong> <br/> Timko Lake (Bantry Reservoir), Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d137,
+				caption:
+					'<strong>Tundra Swans</strong> <br/> Timko Lake (Bantry Reservoir), Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d138,
+				caption:
+					'<strong>Tundra Swans</strong> <br/> Timko Lake (Bantry Reservoir), Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d139,
+				caption:
+					'<strong>Tundra Swans</strong> <br/> Timko Lake (Bantry Reservoir), Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d140,
+				caption:
+					'<strong>Tundra Swans</strong> <br/> Timko Lake (Bantry Reservoir), Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d141,
+				caption:
+					'<strong>Tundra Swans</strong> <br/> Kitsim Reservoir, Newell County, Alberta. October, 2026'
+			}
+		],
+
+		[
 			// GEESE
 
 			// CANADA GOOSE
-			({
+			{
 				image: d64,
 				caption: '<strong>Canada Geese</strong> <br/>Erskine Lake, Alberta. September, 2026'
 			},
@@ -554,7 +635,7 @@
 				image: d71,
 				caption:
 					'<strong>Canada Geese</strong> (on patrol?)<br/>Erskine Lake, Alberta. September, 2026'
-			})
+			}
 		],
 		// GREATER WHITE-FRONTED GOOSE
 		[
