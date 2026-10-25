@@ -4,6 +4,7 @@
 	import l02 from '$lib/images/birds/2026/10/2026-10-19-141910.jpg?enhanced';
 
 	export const imagesArray = [
+		// COMMON LOONS
 		[
 			{
 				image: l01,
@@ -27,7 +28,7 @@
 	import BirdsDropDown from '$lib/components/BirdsDropDown.svelte';
 	import { count } from '$lib/data/counts.svelte.js';
 
-	let title = 'Larks';
+	let title = 'Loons';
 	let hIndex = $state(0);
 	let vIndex = $state(0);
 </script>

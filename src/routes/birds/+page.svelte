@@ -145,7 +145,7 @@
 		<a href="/birds/loons">
 			<div class="photo-link">
 				<enhanced:img src={loon} alt="loon" />
-				Loons ({count.loonss})
+				Loons ({count.loons})
 			</div>
 		</a>
 		<a href="/birds/larks">
