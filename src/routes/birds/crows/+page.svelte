@@ -1,12 +1,24 @@
 <script module>
 	// crows, jays and magpies
 	import c01 from '$lib/images/birds/2026/09/2026-09-02-173122-PR.jpg?enhanced';
+	import c02 from '$lib/images/birds/2026/10/2026-10-24-162900.jpg?enhanced';
+	import c03 from '$lib/images/birds/2026/10/2026-10-24-163301.jpg?enhanced';
 
 	export const imagesArray = [
 		[
 			{
 				image: c01,
 				caption: '<strong>Black-billed Magpie</strong>. <br/>Three Hills, Alberta. September 2026'
+			}
+		],
+		[
+			{
+				image: c02,
+				caption: 'A <strong>Common Raven</strong>. <br/>Newell County, Alberta. October 2026'
+			},
+			{
+				image: c03,
+				caption: '<strong>Common Ravens</strong>. <br/>Newell County, Alberta. October 2026'
 			}
 		]
 	];

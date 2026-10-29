@@ -26,6 +26,7 @@
 		font-weight: bold;
 		line-height: 0.75em;
 		padding: 0.4em;
+		padding-bottom: 0.2em;
 		text-align: right;
 
 		.f-75 {
@@ -33,7 +34,7 @@
 		}
 		.dot {
 			color: gray;
-			margin-block: 5%;
+			// margin-block: 5%;
 		}
 		.dotCA {
 			margin-top: 0.25em;

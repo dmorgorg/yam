@@ -1,10 +1,19 @@
+// *::-webkit-scrollbar {
+// 	background: yellow;
+// }
+
 html,
 body {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	overflow-y: hidden;
-	font-size: 20px;
+	// font-size: 20px;
+	// font-size: 1vw;
+}
+
+html {
+	overflow-y: auto;
+	scrollbar-gutter: stable;
 }
 
 *,
@@ -74,7 +83,7 @@ body {
 }
 
 .slider-container {
-	// background: pink;
+	background: pink;
 	// border: 2px solid red;
 	// font-size: 2.5rem;
 	// @media (max-width: 600px) {

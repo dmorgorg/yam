@@ -2,6 +2,7 @@
 	// larks
 	import l01 from '$lib/images/birds/2026/10/2026-10-04-143041.jpg?enhanced';
 	import l02 from '$lib/images/birds/2026/10/2026-10-19-141910.jpg?enhanced';
+	import l03 from '$lib/images/birds/2026/10/2026-10-24-154354.jpg?enhanced';
 
 	export const imagesArray = [
 		// COMMON LOONS
@@ -10,6 +11,11 @@
 				image: l01,
 				caption:
 					'<strong> Common Loon</strong>, with dinner.<br/>Rolling Hills Reservoir, Newell County, Alberta. October, 2026.'
+			},
+			{
+				image: l02,
+				caption:
+					'<strong> Common Loon</strong><br/>Rolling Hills Reservoir, Newell County, Alberta. October, 2026.'
 			},
 			{
 				image: l02,

@@ -10,44 +10,67 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<div class="outer">
-	<div class="container">
+<!-- <div class="outer"> -->
+<div class="container">
+	<header>
 		<HomeIcon />
-		<div class="home-page-links">
+	</header>
+	<div class="wrapper">
+		<div class="home-page-links-container">
 			<a href="/birds">
 				<div class="photo-link">
-					<enhanced:img src={homeBird} alt="where are you" />
+					<enhanced:img src={homeBird} alt="cedar waxwing" />
 					Birds...
 				</div>
 			</a>
 
 			<!-- <a href="/jeannette">
-				<div class="photo-link">
-					<enhanced:img src={homeJeannette} alt="where are you" />
-					Jeannette Morgan (n&eacute;e&nbsp;Blanc)
-				</div>
-			</a> -->
+					<div class="photo-link">
+						<enhanced:img src={homeJeannette} alt="where are you" />
+						Jeannette Morgan (n&eacute;e&nbsp;Blanc)
+					</div>
+				</a> -->
 		</div>
 	</div>
 </div>
 
+<!-- </div> -->
+
 <style>
-	.outer {
+	/* .outer {
 		background: white;
 		height: 100%;
 		margin: 0;
 		padding: 0;
+	} */
+
+	header {
+		/* background: pink; */
+		/* margin-bottom: 1em; */
 	}
 
 	.container {
+		display: flex;
+		flex-direction: column;
 		height: 100vh;
 	}
-	.home-page-links {
+
+	.wrapper {
+		/* background: pink; */
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.home-page-links-container {
 		display: flex;
 		justify-content: space-evenly;
 		width: 90%;
 		margin-inline: auto;
-		margin-top: 4em;
+		/* background: yellow; */
+		/* margin-top: 4em; */
+		/* border: 1px solid pink; */
 
 		a:link,
 		a:visited,

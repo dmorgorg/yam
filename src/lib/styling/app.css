@@ -1,63 +1,70 @@
 html,
 body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  overflow-y: hidden;
-  font-size: 20px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow-y: auto;
+	scrollbar-gutter: stable;
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 .top-matter {
-  display: flex;
-  font-family: cordelius;
-  font-size: 275%;
-  font-weight: bold;
-  height: 2em;
-  justify-content: space-between;
-  min-height: 2rem;
-  padding: 0.25em;
-  text-align: left;
+	display: flex;
+	font-family: cordelius;
+	font-size: 275%;
+	font-weight: bold;
+	height: 2em;
+	justify-content: space-between;
+	min-height: 2rem;
+	padding: 0.25em;
+	text-align: left;
 }
 
 .bird-type-page-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  /* background: pink; */
-  width: 90%;
-  margin-inline: auto;
-  margin-top: 3em;
-  gap: 1em;
-  /* border: 3px solid green; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	/* background: pink; */
+	width: 90%;
+	margin-inline: auto;
+	margin-top: 3em;
+	gap: 1em;
+	/* border: 3px solid green; */
 }
 .bird-type-page-links a:link,
 .bird-type-page-links a:visited,
 .bird-type-page-links a:active {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 .bird-type-page-links .photo-link {
-  font-family: "text";
-  margin-bottom: 2em;
-  text-align: center;
-  width: 15em;
-  max-width: 16em;
+	font-family: 'text';
+	margin-bottom: 2em;
+	text-align: center;
+	width: 15em;
+	max-width: 16em;
 }
 
 .albumTitle {
-  position: absolute;
-  font-family: cordelius;
-  font-size: 150%;
-  font-weight: bold;
-  top: clamp(10px, 0.875vw, 25px);
-  left: 50%;
-  text-align: center;
-  transform: translate(-50%, 0);
-  width: 70%;
-}/*# sourceMappingURL=app.css.map */
+	position: absolute;
+	font-family: cordelius;
+	font-size: 150%;
+	font-weight: bold;
+	top: clamp(10px, 0.875vw, 25px);
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, 0);
+	width: 70%;
+}
+
+/* .slider-container {
+	background: pink;
+} */

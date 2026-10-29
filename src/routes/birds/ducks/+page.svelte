@@ -141,6 +141,15 @@
 	import d139 from '$lib/images/birds/2026/10/2026-10-22-144024.jpg?enhanced';
 	import d140 from '$lib/images/birds/2026/10/2026-10-22-145153-1.jpg?enhanced';
 	import d141 from '$lib/images/birds/2026/10/2026-10-22-170501.jpg?enhanced';
+	import d142 from '$lib/images/birds/2026/10/2026-10-26-152453.jpg?enhanced';
+	import d143 from '$lib/images/birds/2026/10/2026-10-26-152613.jpg?enhanced';
+	import d144 from '$lib/images/birds/2026/10/2026-10-26-152309.jpg?enhanced';
+	import d145 from '$lib/images/birds/2026/10/2026-10-26-152744.jpg?enhanced';
+	import d146 from '$lib/images/birds/2026/10/2026-10-26-152929.jpg?enhanced';
+	import d147 from '$lib/images/birds/2026/10/2026-10-26-152241.jpg?enhanced';
+	import d148 from '$lib/images/birds/2026/10/2026-10-26-152301.jpg?enhanced';
+	import d149 from '$lib/images/birds/2026/10/2026-10-25-131139.jpg?enhanced';
+	import d150 from '$lib/images/birds/2026/10/2026-10-26-163026.jpg?enhanced';
 
 	export const imagesArray = [
 		// DUCKS
@@ -158,6 +167,10 @@
 			{
 				image: d118,
 				caption: '<strong>Bufflehead</strong> <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d149,
+				caption: '<strong>Buffleheads</strong> <br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		// CANVASBACK
@@ -295,7 +308,11 @@
 			{
 				image: d113,
 				caption:
-					'Male and female <strong>Mallards</strong> and young  <br/>Newell County, Alberta. October, 2026'
+					'Male and female <strong>Mallards</strong><br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d150,
+				caption: 'Male <strong>Mallard</strong> <br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		// COMMON MERGANSER
@@ -478,6 +495,42 @@
 		// WOOD DUCK
 		[
 			{
+				image: d146,
+				caption:
+					'Female(L) and male(R) <strong>Wood Ducks</strong>. <br/>Inglewood Bird Sanctuary, Calgary. October, 2026'
+			},
+			{
+				image: d147,
+				caption:
+					'Male and female <strong>Wood Ducks</strong>. <br/>Inglewood Bird Sanctuary, Calgary. October, 2026'
+			},
+			{
+				image: d148,
+				caption:
+					'Male and female <strong>Wood Ducks</strong>. <br/>Inglewood Bird Sanctuary, Calgary. October, 2026'
+			},
+			{
+				image: d142,
+				caption:
+					'Female <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. October, 2026'
+			},
+			{
+				image: d143,
+				caption:
+					'A male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. October, 2026'
+			},
+			{
+				image: d144,
+				caption:
+					'A male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. October, 2026'
+			},
+			{
+				image: d145,
+				caption:
+					'A male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. October, 2026'
+			},
+
+			{
 				image: d06,
 				caption:
 					'An eclipse male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
@@ -488,7 +541,8 @@
 					'An eclipse male <strong>Wood Duck</strong>. <br/>Inglewood Bird Sanctuary, Calgary. July, 2026'
 			}
 		],
-		// SWANS
+
+		// SWANS //////////////////////////////////////////////////////////////////////////////////////////
 
 		// TRUMPETER SWAN
 		[
