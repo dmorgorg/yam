@@ -150,6 +150,15 @@
 	import d148 from '$lib/images/birds/2026/10/2026-10-26-152301.jpg?enhanced';
 	import d149 from '$lib/images/birds/2026/10/2026-10-25-131139.jpg?enhanced';
 	import d150 from '$lib/images/birds/2026/10/2026-10-26-163026.jpg?enhanced';
+	import d151 from '$lib/images/birds/2026/10/2026-10-27-145239.jpg?enhanced';
+	import d152 from '$lib/images/birds/2026/10/2026-10-27-145244.jpg?enhanced';
+	import d153 from '$lib/images/birds/2026/10/2026-10-27-153310.jpg?enhanced';
+	import d154 from '$lib/images/birds/2026/10/2026-10-27-153344.jpg?enhanced';
+	import d155 from '$lib/images/birds/2026/10/2026-10-28-160808.jpg?enhanced';
+	import d156 from '$lib/images/birds/2026/10/2026-10-28-161101.jpg?enhanced';
+	import d157 from '$lib/images/birds/2026/10/2026-10-28-161237.jpg?enhanced';
+	import d158 from '$lib/images/birds/2026/10/2026-10-28-161242.jpg?enhanced';
+	import d159 from '$lib/images/birds/2026/10/2026-10-28-161244.jpg?enhanced';
 
 	export const imagesArray = [
 		// DUCKS
@@ -171,6 +180,10 @@
 			{
 				image: d149,
 				caption: '<strong>Buffleheads</strong> <br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d155,
+				caption: 'Immature <strong>Buffleheads</strong> <br/>Newell County, Alberta. October, 2026'
 			}
 		],
 		// CANVASBACK
@@ -328,6 +341,24 @@
 					'<strong>Common Merganser</strong>s <br/>Lafarge Meadows, Calgary, Alberta. August, 2026'
 			}
 		],
+		// RED-BREASTED MERGANSER
+		[
+			{
+				image: d157,
+				caption:
+					'<strong>Red-breasted Merganser</strong> <br/>Kitsim Reservoir, Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d158,
+				caption:
+					'<strong>Red-breasted Merganser</strong> <br/>Kitsim Reservoir, Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d159,
+				caption:
+					'<strong>Red-breasted Merganser</strong> <br/>Kitsim Reservoir, Newell County, Alberta. October, 2026'
+			}
+		],
 		// NORTHERN PINTAIL
 		[
 			{
@@ -345,10 +376,18 @@
 				caption:
 					'Three <strong>Northern Pintails</strong>. <br/>Timko Lake (Bantry Reservoir), Alberta. October, 2026'
 			},
+			// {
+			// 	image: d130,
+			// 	caption:
+			// 		'<strong>Northern Pintails</strong> taking flight. <br/>Timko Lake (Bantry Reservoir), Alberta. October, 2026'
+			// },
 			{
-				image: d130,
-				caption:
-					'<strong>Northern Pintails</strong> taking flight. <br/>Timko Lake (Bantry Reservoir), Alberta. October, 2026'
+				image: d151,
+				caption: '<strong>Northern Pintail</strong>. <br/>Weed Lake, Alberta. October, 2026'
+			},
+			{
+				image: d152,
+				caption: '<strong>Northern Pintail</strong>. <br/>Weed Lake, Alberta. October, 2026'
 			}
 		],
 		// REDHEAD
@@ -398,6 +437,11 @@
 			{
 				image: d125,
 				caption: 'Male <strong>Ruddy Ducks</strong><br/>Newell County, Alberta. October, 2026'
+			},
+			{
+				image: d156,
+				caption:
+					'Female or immature <strong>Ruddy Duck</strong><br/>Kitsim Reservoir, Newell County, Alberta. October, 2026'
 			}
 		],
 		// LESSER SCAUP
@@ -483,6 +527,14 @@
 				image: d83,
 				caption:
 					'<strong>Green-winged Teal</strong> <br/>Kinbrook Provincial Park, Alberta. September 2026'
+			},
+			{
+				image: d153,
+				caption: '<strong>Green-winged Teal</strong> <br/>Weed Lake, Alberta. October 2026'
+			},
+			{
+				image: d154,
+				caption: '<strong>Green-winged Teals</strong> <br/>Weed Lake, Alberta. October 2026'
 			}
 		],
 		// AMERICAN WIGEON

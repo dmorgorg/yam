@@ -34,7 +34,6 @@
 		}
 		.dot {
 			color: gray;
-			// margin-block: 5%;
 		}
 		.dotCA {
 			margin-top: 0.25em;

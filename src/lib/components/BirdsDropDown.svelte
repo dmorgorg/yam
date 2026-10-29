@@ -149,8 +149,6 @@
 		text-align: right;
 		background: white;
 		z-index: 10;
-		// border: 1px solid gray;
-		// overflow-y: auto;
 	}
 
 	.title {

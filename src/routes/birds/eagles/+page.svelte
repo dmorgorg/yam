@@ -8,6 +8,7 @@
 	import h06 from '$lib/images/birds/2026/10/2026-10-04-143712.jpg?enhanced';
 	import h07 from '$lib/images/birds/2026/10/2026-10-04-143719.jpg?enhanced';
 	import h08 from '$lib/images/birds/2026/10/2026-10-05-153425.jpg?enhanced';
+	import h09 from '$lib/images/birds/2026/10/2026-10-28-154632.jpg?enhanced';
 
 	export const imagesArray = [
 		// BALD EAGLE
@@ -26,6 +27,14 @@
 			{
 				image: h08,
 				caption: '<strong>Northern Harrier</strong>. <br/>Newell County, Alberta. October, 2026.'
+			}
+		],
+		// ROUGH-LEGGED HAWK
+		[
+			{
+				image: h09,
+				caption:
+					'<strong>Rough-Legged Hawk</strong>. <br/>Kitsim Reservoir, Newell County, Alberta. October, 2026.'
 			}
 		],
 		// SWAINSON'S HAWK
