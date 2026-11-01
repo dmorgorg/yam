@@ -14,7 +14,7 @@
 			alt=""
 		/>
 		<div class="caption">
-			({vIndex + 1})
+			({vIndex + 1}/{imagesArray[0].length})
 			{@html imagesArray[Number(hIndex)][vIndex].caption}
 		</div>
 	</div>
