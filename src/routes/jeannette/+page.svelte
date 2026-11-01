@@ -210,7 +210,7 @@
 			{
 				image: jem040,
 				caption:
-					"Back row: Joe, Edna, Ren&eacute;, Gina and Frank <br/> Front Row: Bev, Sabrina, Dave, Nicolas, ?, Chris and Andrea.<br/>Gathered in Switzerland for Ren&eacute;'s retirement at 65. "
+					"Back row: Joe, Edna, Ren&eacute;, Jeannette and Frank <br/> Front Row: Bev, Sabrina, Dave, Nicolas, Marc, Chris and Andrea.<br/>Gathered in Switzerland for Ren&eacute;'s 65th birthday. "
 			},
 			{
 				image: jem041,
