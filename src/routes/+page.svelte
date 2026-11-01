@@ -1,5 +1,6 @@
 <script>
 	import HomeIcon from '$lib/components/HomeIcon.svelte';
+	import Spacer from '$lib/components/Spacer.svelte';
 	import favicon from '$lib/assets/camera.png';
 	import homeBird from '$lib/images/birds/2026/07/2026-07-31-182041-PR.jpg?enhanced';
 	import homeJeannette from '$lib/images/jeannette/1960.jpg?enhanced';
@@ -12,9 +13,14 @@
 
 <!-- <div class="outer"> -->
 <div class="container">
-	<header>
-		<HomeIcon />
-	</header>
+	<!-- <header>
+		<HomeIcon fontSize="3vw" />
+	</header> -->
+	<div class="top-matter">
+		<HomeIcon fontSize="3vw" />
+		<!-- <div class="bird-type">Birds...</div> -->
+		<!-- <Spacer fontSize="clamp(10px, 1.75vw, 20px)" /> -->
+	</div>
 	<div class="wrapper">
 		<div class="home-page-links-container">
 			<a href="/birds">
@@ -24,12 +30,12 @@
 				</div>
 			</a>
 
-			<!-- <a href="/jeannette">
-					<div class="photo-link">
-						<enhanced:img src={homeJeannette} alt="where are you" />
-						Jeannette Morgan (n&eacute;e&nbsp;Blanc)
-					</div>
-				</a> -->
+			<a href="/jeannette">
+				<div class="photo-link">
+					<enhanced:img src={homeJeannette} alt="where are you" />
+					Jeannette Elisabeth Morgan (n&eacute;e&nbsp;Blanc) 14th&nbsp;July,&nbsp;1932 &ndash; 13th&nbsp;November,&nbsp;2024
+				</div>
+			</a>
 		</div>
 	</div>
 </div>
@@ -81,7 +87,7 @@
 
 		.photo-link {
 			font-family: 'text';
-			font-size: 80%;
+			/* font-size: 80%; */
 			text-align: center;
 			width: 25vw;
 		}

@@ -270,7 +270,7 @@
 		background: white;
 		height: 100vh;
 		margin: 0;
-		overflow-y: auto;
+		/* overflow-y: auto; */
 		padding: 0;
 	}
 

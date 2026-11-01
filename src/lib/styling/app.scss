@@ -7,11 +7,13 @@ body {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	// font-size: 20px;
+	font-size: 60px;
 	// font-size: 1vw;
+	font-size: clamp(12px, 1.325vw, 30px);
 }
 
 html {
+	// if overflow is used above, then it reserves space for two scrollbars
 	overflow-y: auto;
 	scrollbar-gutter: stable;
 }
@@ -27,7 +29,7 @@ html {
 	font-family: cordelius;
 	font-size: 275%;
 	font-weight: bold;
-	height: 2em;
+	// height: 2em;
 	justify-content: space-between;
 	min-height: 2rem;
 	padding: 0.25em;
